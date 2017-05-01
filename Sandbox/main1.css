@@ -7,13 +7,15 @@ p {
     color: red;
 }
 
-img {
-    position: relative;
-    transition: top is steps(4, end);
-    top: 0;
-}
+
 
 p1 {
     text-decoration: underline;
     color:#e1f03c
+}
+
+h2 {
+    position: relative;
+    transition: top is steps(4, end);
+    top: 0;
 }
