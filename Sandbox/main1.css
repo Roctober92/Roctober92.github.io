@@ -5,6 +5,7 @@ main {
 
 p {
     color: red;
+    font-size: 11px;
 }
 
 
@@ -18,4 +19,5 @@ h2 {
     position: relative;
     transition: top is steps(4, end);
     top: 0;
+    color: cornflowerblue;
 }

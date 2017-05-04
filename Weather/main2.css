@@ -1,0 +1,32 @@
+
+h1 {
+    font-size: 13px;
+    color: cornflowerblue;
+}
+
+p {
+    font-size: 11px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 4 auto;
+
+}
+
+h2 {
+    font-size: 11px;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+ul {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+ol {
+    font-size: 11px;
+}
