@@ -2,21 +2,23 @@
 h1 {
     font-size: 13px;
     color: cornflowerblue;
+    padding-left: 6em;
 }
+
 
 p {
     font-size: 11px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 4 auto;
+    padding-left: 7em;
+    padding-right: 7em;
 
 }
 
 h2 {
     font-size: 11px;
-}
-
-h2 {
     color: cornflowerblue;
+    padding-left: 7em;
 }
 
 ul {
@@ -24,9 +26,15 @@ ul {
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
-    padding: 2em 2em 4em;
+    padding-left: 10em;
+}
+
+
+
+img {
+    padding-left: 7em;
 }
 
 ol {
-    font-size: 11px;
+    padding-left: 7em;
 }
