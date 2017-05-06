@@ -1,6 +1,7 @@
 
 main {
     color: rgb(34, 77, 120);
+    padding-left: 7em;
 }
 
 p {
@@ -23,3 +24,12 @@ h2 {
 }
 
 
+table th, td {
+    border: 1px solid black;
+    border-spacing: 45px;
+
+}
+
+main {
+
+}
