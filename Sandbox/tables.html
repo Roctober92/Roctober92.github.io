@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Example</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+        <header>
+            <h1>Table Example</h1>
+        </header>
+        <main>
+            <table style="width:70%">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <th>Another</th>
+                    <th>Another</th>
+                    <th>Another</th>
+                </tr>
+            </table>
+
+            <li><strong>Tr</strong> Table Row</li>
+            <li><strong>Th</strong> Table Header (column)</li>
+            <li><strong>Td</strong> Table Data (column)</li>
+
+
+            <table style="width:70%">
+                <tr>
+                    <th>Sequence</th>
+                    <th>Alias</th>
+                    <th>Market</th>
+                    <th>Store Type</th>
+                    <th>Second Canister</th>
+                    <th>Canister Serial</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>B04074</td>
+                    <td>Phoenix BO</td>
+                    <td colspan="2">Big o Tires</td>
+                    <td></td>
+                    <td>123464</td>
+                </tr>
+            </table>
+
+
+            <form>
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname">
+            </form>
+
+
+            <-- -->radio lets user choose from different choices</-->
+            <form>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other
+            </form>
+
+
+
+
+            <-->submitting</-->
+            <form action="/action_page.php">
+                First name:<br>
+                <input type="text" name="firstname" value="Mickey"><br>
+                Last name:<br>
+                <input type="text" name="lastname" value="Mouse"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+
+
+            <-->FIELDSET: grouping with a box with a label</-->
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Personal information:</legend>
+                    First name:<br>
+                    <input type="text" name="firstname" value="Mickey"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname" value="Mouse"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+
+
+        </main>
+
+
+
+    </body>
+
+
+
+
+</html>

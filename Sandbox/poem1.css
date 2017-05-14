@@ -13,7 +13,7 @@ p {
 
 p1 {
     text-decoration: underline;
-    color:#e1f03c
+    color:#e1f03c;
 }
 
 h2 {
@@ -33,3 +33,26 @@ table th, td {
 main {
 
 }
+
+p2 {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+p3 {
+    display: block;
+}
+
+h3 {
+    padding-bottom: 6em;
+    padding-top: 3em;
+    text-align: right;
+}
+
+div {
+    padding-top: 4em;
+}
+
+
