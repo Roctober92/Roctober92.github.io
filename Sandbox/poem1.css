@@ -43,6 +43,8 @@ p2 {
 
 p3 {
     display: block;
+    border: dashed 4px blue;
+    margin-right: auto;
 }
 
 h3 {
@@ -56,3 +58,14 @@ div {
 }
 
 
+
+img {
+    float: right;
+    width: 300px;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-between;
+}
