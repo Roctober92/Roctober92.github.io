@@ -1,0 +1,32 @@
+
+header {
+    color: crimson;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav {
+    color: crimson;
+    padding-bottom: 3em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+.green {
+    color: forestgreen;
+    padding-bottom: 5em;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Indie Flower', cursive;
+}
+
+.blue {
+    color: darkblue;
+    padding-top: 3em;
+}
+
+
+
+.center {
+    text-align: center;
+}
