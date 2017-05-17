@@ -7,3 +7,98 @@ h2 {
 body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
+main {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+
+ul {
+    display: flex;
+
+}
+
+.nav nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Main1 h1 {
+    text-align: center;
+    align-self: flex-start
+}
+
+.header h1 + h1 {
+    text-align: right;
+    margin-top: -.7em;
+}
+
+p {
+   text-align: center;
+    font-size: 50px;
+}
+
+.forecast {
+    margin-top: -2em;
+    display: flex;
+}
+
+.forecast p {
+    font-size: 20px;
+    padding-left: .5em;
+}
+
+.stuff {
+    display: flex;
+}
+
+.Cosas {
+    display: flex;
+}
+
+.stuff h1 {
+    padding-left: 2em;
+}
+
+.stuff p {
+    padding-left: 1em;
+    margin-top: .6em;
+    font-size: 35px;
+}
+
+.Cosas p {
+    padding-left: 1em;
+    margin-top: .7em;
+    font-size: 35px;
+}
+
+.Current {
+    margin-top: 4em;
+}
+
+.nav li {
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 100px;
+}
+
+.end nav {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -1.3em;
+}
+
+.end {
+font-size: 30px;
+}
+
+
+.forecast a {
+    padding-right: 3em;
+}
+

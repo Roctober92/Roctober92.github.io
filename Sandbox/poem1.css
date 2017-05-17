@@ -69,3 +69,39 @@ img {
     flex-flow: wrap;
     justify-content:space-between;
 }
+
+
+
+.=alpha {
+
+}
+
+
+
+.alpha {
+    width: 100px;
+    height: 100px;
+    background: rgb(34, 55, 88);
+    border: 2px dashed;
+    color: yellow;
+    font: 25px;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+   }
+.alpha:nth-child(3) {
+    flex-grow: 2;
+    flex-shrink: 0.25;
+    flex-basis: 200px;
+    order: -2;
+}
+
+
+.omega {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    border: 2px dashed;
+    justify-content: space-around;
+    min-height: 400px;
+}
