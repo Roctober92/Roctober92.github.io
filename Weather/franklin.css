@@ -81,10 +81,11 @@ p {
     margin-top: 4em;
 }
 
-.nav li {
+.nav ul {
     display: flex;
     justify-content: space-between;
     word-spacing: 100px;
+    list-style-type: none;
 }
 
 .end nav {
@@ -94,7 +95,7 @@ p {
 }
 
 .end {
-font-size: 30px;
+    font-size: 30px;
 }
 
 
@@ -102,3 +103,11 @@ font-size: 30px;
     padding-right: 3em;
 }
 
+
+.Main1 {
+    border: solid 6px grey;
+}
+
+footer {
+    padding-bottom: 2em;
+}

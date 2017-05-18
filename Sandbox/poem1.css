@@ -41,7 +41,7 @@ p2 {
     margin: 25px;
 }
 
-p3 {
+.display p {
     display: block;
     border: dashed 4px blue;
     margin-right: auto;
