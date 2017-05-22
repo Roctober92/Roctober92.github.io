@@ -1,11 +1,18 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+</style>
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+</style>
 
 h2 {
     font-size: 14px;
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -31,12 +38,16 @@ ul {
 
 .Main1 h1 {
     text-align: center;
-    align-self: flex-start
+    align-self: flex-start;
+    font-size: 25px;
 }
 
 .header h1 + h1 {
     text-align: right;
     margin-top: -.7em;
+    font-size: 25px;
+    font-weight: 100;
+    padding-right: 1em;
 }
 
 p {
@@ -68,13 +79,13 @@ p {
 
 .flex p {
     padding-left: 1em;
-    margin-top: .6em;
+    margin-top: .9em;
     font-size: 35px;
 }
 
 .Cosas p {
     padding-left: 1em;
-    margin-top: .7em;
+    margin-top: 1em;
     font-size: 35px;
 }
 
@@ -94,9 +105,10 @@ p {
 }
 
 .end nav {
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     margin-top: -1.3em;
+    padding-right: 3em;
 }
 
 .end {
@@ -108,12 +120,20 @@ p {
     padding-right: 3em;
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Sansita, "second choice", generic-family;
+}
 
 
 footer {
-    padding-bottom: 3em;
-    padding-top: 2em;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     background-color: lightgrey;
 }
 
