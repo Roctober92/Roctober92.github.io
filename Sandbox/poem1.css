@@ -83,6 +83,7 @@ img {
     height: 100px;
     background: rgb(34, 55, 88);
     border: 2px dashed;
+    border-radius: 30px;
     color: yellow;
     font: 25px;
     text-align: center;
@@ -105,3 +106,22 @@ img {
     justify-content: space-around;
     min-height: 400px;
 }
+
+
+
+.flex ul {
+    border: 3px dashed;
+    border border-radius: 15px;
+    background-color: fuchsia;
+    list-style-type: none;
+}
+
+.grid span {
+    border: 3px solid;
+    display: grid;
+    color: firebrick;
+    background-color: chartreuse;
+    width: 5em;
+}
+
+
