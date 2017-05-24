@@ -20,6 +20,97 @@ div {
 
 table th, td {
     border: 1px solid black;
-    border-spacing: 4
+    border-spacing: 4;
 }
 
+
+.el_primer_parte th {
+    height: 100px;
+}
+
+.el_segundo_parte ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: -3em;
+    list-style-type: none;
+}
+
+.el_segundo_parte img {
+    height: 125px;
+}
+
+.tercer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: -3em;
+    list-style-type: none;
+}
+
+.tercer img {
+    height: 125px;
+}
+
+.pro p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pro2 p {
+    text-align: center;
+}
+
+.el_primer_parte {
+    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20%;
+}
+
+header>img {
+    height: 125px;
+    display: block;
+    margin: auto;
+}
+
+
+
+nav > ul {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    list-style-type: none;
+}
+
+.pro ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.pro2 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.pro4 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.pro3 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
