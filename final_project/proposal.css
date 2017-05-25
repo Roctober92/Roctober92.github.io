@@ -36,3 +36,29 @@ nav. nav {
 .foot span:nth-of-type(odd){
     color:darkgoldenrod;
 }
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+nav > ul {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    list-style-type: none;
+}
+
+.blue h1 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+li {
+    list-style-type:square;
+    margin: auto;
+    text-align: left;
+}
