@@ -5,3 +5,33 @@ header {
     text-align: center;
     color: darkblue;
 }
+
+.all {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.mil {
+    border: 5px solid green;
+    width: 45%;
+    height: 400px;
+}
+
+.asado {
+    border: 5px solid green;
+    width: 45%;
+    height: 400px;
+}
+
+.Pasta {
+    border: 5px solid green;
+    width: 45%;
+    height: 400px;
+}
+
+.pizza {
+    border: 5px solid green;
+    width: 45%;
+    height: 400px;
+}
