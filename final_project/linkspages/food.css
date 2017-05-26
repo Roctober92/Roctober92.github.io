@@ -64,6 +64,7 @@ header {
 
 .rica p {
     color: gold;
+    background-color: blueviolet;
 }
 
 .mil h2 {
@@ -88,4 +89,8 @@ header {
     margin: auto;
     text-align: center;
     background-color: greenyellow;
+}
+
+.all ul {
+    color: yellow;
 }
