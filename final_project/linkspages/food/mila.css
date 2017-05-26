@@ -1,0 +1,189 @@
+
+header {
+    border: 3px solid blue;
+}
+
+.desc {
+    border: 4px solid blue;
+    margin: auto;
+    text-align: center;
+}
+
+
+.carne {
+    border: 3px solid green;
+    width: 19%;
+    height: 180px;
+}
+
+.cosa {
+    border: 3px solid green;
+    width: 19%;
+    height: 180px;
+}
+
+.estilo {
+    border: 3px solid green;
+    width: 19%;
+    height: 180px;
+}
+
+.Chicken {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/pmila.jpg");
+    background-size: contain;
+}
+
+.Beef {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/cmila.jpg");
+    background-size: contain;
+    background-size: 330px 200px;
+
+}
+
+.Fish {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/fmila.jpg");
+    background-size: contain;
+    background-size: 330px 200px;
+}
+
+.Potatoes {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/papas.jpg");
+    background-size: 330px 200px;
+}
+
+.Rice {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/rice.jpg");
+    background-size: 330px 200px;
+}
+
+.Salad {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/salad.jpg");
+    background-size: 330px 200px;
+}
+
+.Milanesa {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/sandwhich.JPG");
+    background-size: 330px 200px;
+}
+
+.Napolitana {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/nap.jpg");
+    background-size: 330px 200px;
+}
+
+.Plain {
+    border: 3px solid green;
+    width: 27%;
+    height: 180px;
+    background-color: yellow;
+}
+
+.meats {
+    display: flex;
+
+}
+
+.Sides {
+    display: flex;
+}
+
+.Styles {
+    display: flex;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+.Chicken p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.Beef p {
+    margin: auto;
+    text-align: center;
+    background-color: skyblue;
+    color: yellow;
+}
+
+.Fish p {
+    margin: auto;
+    text-align: center;
+    background-color: skyblue;
+    color: yellow;
+}
+
+.Potatoes p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.Rice p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.Salad p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.Milanesa p {
+    margin: auto;
+    text-align: center;
+    background-color: skyblue;
+    color: yellow;
+}
+
+.Napolitana p {
+    margin: auto;
+    text-align: center;
+    background-color: skyblue;
+    color: yellow;
+}
+
+.Plain p {
+    margin: auto;
+    text-align: center;
+    background-color: skyblue;
+    color: yellow;
+}
+
+.Plain h1 {
+    font-size: 20px;
+    text-align: center;
+}

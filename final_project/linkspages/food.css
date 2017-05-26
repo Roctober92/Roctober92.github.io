@@ -3,8 +3,10 @@ header {
     margin: auto;
     padding-bottom: 1em;
     text-align: center;
-    color: darkblue;
+    color: yellow;
     font-size: 30px;
+    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+    padding-top: 2em;
 }
 
 .all {
@@ -52,7 +54,7 @@ header {
     width: 45%;
     height: 400px;
     background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
-    background-size: 490px 380px;
+    background-size: 540px 380px;
     background-repeat: round;
     background-position: bottom;
     transform: rotate(-7deg);
