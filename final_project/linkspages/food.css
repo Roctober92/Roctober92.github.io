@@ -23,6 +23,7 @@ header {
     background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
     background-size: contain;
     background-position: bottom;
+    transform: rotate(7deg);
 }
 
 .asado {
@@ -32,6 +33,7 @@ header {
     background-image: url("/final_project/linkspages/photos/asado.JPG");
     background-size: contain;
     background-position: bottom;
+    transform: rotate(-7deg);
 }
 
 .Pasta {
@@ -39,8 +41,9 @@ header {
     width: 45%;
     height: 400px;
     background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
-    background-size: contain;
+    background-size: 600px 400px;
     background-position: bottom;
+    transform: rotate(7deg);
     margin-top: 2em;
 }
 
@@ -49,9 +52,10 @@ header {
     width: 45%;
     height: 400px;
     background-image: url("/final_project/linkspages/photos/empanadas.jpeg");
-    background-size: contain;
+    background-size: 540px 400px;
     background-repeat: round;
     background-position: bottom;
+    transform: rotate(-7deg);
     margin-top: 2em;
 }
 
