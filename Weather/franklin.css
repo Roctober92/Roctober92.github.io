@@ -43,6 +43,7 @@ ul {
     text-align: center;
     align-self: flex-start;
     font-size: 25px;
+    color: lightgreen;
 }
 
 .header h1 + h1 {
@@ -69,7 +70,7 @@ ul {
     font-size: 20px;
     padding-left: .5em;
     text-align: right;
-    margin-top: 7em;
+    margin-top: 6em;
 }
 
 .stuff {
@@ -162,7 +163,7 @@ footer {
     border: solid 4px grey;
     padding: .5em;
     height: 6em;
-    width: 9em;
+    color: lightgreen;
 }
 
 .header {

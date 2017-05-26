@@ -21,7 +21,7 @@ header {
     width: 45%;
     height: 400px;
     background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
-    background-size: contain;
+    background-size: 600px 400px;
     background-position: bottom;
     transform: rotate(7deg);
 }
@@ -31,7 +31,7 @@ header {
     width: 45%;
     height: 400px;
     background-image: url("/final_project/linkspages/photos/asado.JPG");
-    background-size: contain;
+    background-size: 600px 400px;
     background-position: bottom;
     transform: rotate(-7deg);
 }
