@@ -10,8 +10,8 @@ header {
     display:flex;
     flex-wrap:wrap;
     flex-direction: row;
-    color: yellow;
     justify-content: space-between;
+    background-color: darksalmon;
 }
 
 .mil {
@@ -64,4 +64,28 @@ header {
 
 .rica p {
     color: gold;
+}
+
+.mil h2 {
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.asado h2 {
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.Pasta h2 {
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.pizza h2 {
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
 }
