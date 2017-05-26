@@ -11,13 +11,14 @@ header {
     flex-wrap:wrap;
     flex-direction: row;
     color: yellow;
+    justify-content: space-between;
 }
 
 .mil {
     border: 2px solid green;
     width: 45%;
     height: 400px;
-    background-image: url("/final_project/linkspages/photos/DSCN1011.JPG");
+    background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
     background-size: contain;
     background-position: bottom;
 }
@@ -26,28 +27,30 @@ header {
     border: 2px solid green;
     width: 45%;
     height: 400px;
-    background-image: url("/final_project/linkspages/photos/DSCN1060.JPG");
+    background-image: url("/final_project/linkspages/photos/asado.JPG");
     background-size: contain;
-    ackground-position: bottom;
+    background-position: bottom;
 }
 
 .Pasta {
     border: 2px solid green;
     width: 45%;
     height: 400px;
-    background-image: url("/final_project/linkspages/photos/IMG-20161226-WA0010.jpeg");
+    background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
     background-size: contain;
-    ackground-position: bottom;
+    background-position: bottom;
+    margin-top: 2em;
 }
 
 .pizza {
     border: 2px solid green;
     width: 45%;
     height: 400px;
-    background-image: url("/final_project/linkspages/photos/IMG-20161220-WA0012.jpeg");
+    background-image: url("/final_project/linkspages/photos/empanadas.jpeg");
     background-size: contain;
     background-repeat: round;
-    ackground-position: bottom;
+    background-position: bottom;
+    margin-top: 2em;
 }
 
 

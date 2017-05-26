@@ -22,10 +22,6 @@ nav. nav {
 }
 
 
-
-
-
-
 .back {
     background-color: yellow;
 }
@@ -57,8 +53,3 @@ nav > ul {
     padding-bottom: 1em;
 }
 
-li {
-    list-style-type:square;
-    margin: auto;
-    text-align: left;
-}
