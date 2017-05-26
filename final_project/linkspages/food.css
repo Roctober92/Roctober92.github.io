@@ -1,9 +1,10 @@
 
 header {
     margin: auto;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     text-align: center;
     color: darkblue;
+    font-size: 30px;
 }
 
 .all {
@@ -11,7 +12,8 @@ header {
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-between;
-    background-color: darksalmon;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: contain;
 }
 
 .mil {
