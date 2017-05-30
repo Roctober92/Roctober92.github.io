@@ -1,10 +1,10 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Sansita');
-</style>
 
-<style>
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-</style>
+
 
 h2 {
     font-size: 14px;
@@ -199,6 +199,11 @@ footer {
         width: 18em;
     }
 
+    .fix{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .nav nav{
         position: static;
         bottom: 0;
@@ -219,12 +224,16 @@ footer {
         margin-left: .5em;
     }
 
-    .forecast1 ul {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+.forecast1 ul {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 13em;
+    overflow: auto;
+}
 
     main {
         flex-direction: row;
@@ -300,14 +309,15 @@ footer {
 
 
 
-.forecast1 ul {
-    list-style-type: none;
-    padding-left: 0;
-    max-height: 12em;
-    overflow: auto;
+
+
+
+
+
+
+
+.forecast1 li {
+    padding-bottom: .5em;
 }
-
-
-
 
 

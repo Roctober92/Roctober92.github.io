@@ -1,132 +1,44 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-</style>
 
-<style>
+
+
 @import url('https://fonts.googleapis.com/css?family=Righteous');
-</style>
 
-.sidebar {
-    border: 3px solid black;
-    width: 15%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 170px 200px;
-}
 
-.bar {
-    border: 3px solid black;
-    width: 15%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 170px 200px;
-}
 
-.When {
-    border: 3px solid black;
-    width: 33%;
-    height: 180px;
-}
 
-.Where {
-    border: 3px solid black;
-    width: 34%;
-    height: 180px;
-}
 
-.How {
-    border: 3px solid black;
-    width: 33%;
-    height: 180px;
-}
 
-.description {
-    display: flex;
-    padding-bottom: 3em;
 
-}
 
-.rusa {
-    border: 3px solid black;
-    width: 28%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
-    background-size: 330px 200px;
-}
 
-.frutas {
-    border: 3px solid black;
-    width: 29%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
-    background-size: 340px 200px;
-}
 
-.tomato {
-    border: 3px solid black;
-    width: 28%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
-    background-size: 330px 200px;
-}
 
-.sides {
-    display: flex;
-    padding-bottom: 3em;
-}
 
-.Beef {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/bife.jpg");
-    background-size: 230px 210px;
-}
 
-.Chicken {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
-    background-size: 230px 210px;
-}
 
-.Chorizo {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/chori.jpg");
-    background-size: 200px 210px;
-}
 
-.costillas {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
-    background-size: 300px 210px;
-}
 
-.morcilla {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/death.jpg");
-    background-size: 200px 210px;
-}
 
-.carne {
-    display: flex;
-    padding-bottom: 3em;
-}
 
-.sidebar p {
-    margin: auto;
-    text-align: center;
-    margin-top: 1.1em;
-    font-size: 25px;
-    font-family: 'Comfortaa', cursive;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bar p {
     margin: auto;
@@ -231,16 +143,13 @@ header {
     list-style-type: square;
 }
 
-.When li {
-    margin-bottom: 15px;
-    font-size: 20px
-}
+
 
 .Where ul {
     list-style-type: square;
 }
 
-.Where li {
+.When li {
     margin-bottom: 15px;
     font-size: 20px
 }
@@ -252,4 +161,180 @@ header {
 .How li {
     font-size: 20px;
     margin-bottom: 15px
+}
+
+
+.asadazo {
+    border: 3px solid black;
+    width: 40%;
+    height: 400px;
+    background-image: url("/final_project/linkspages/photos/gaucho.jpg");
+    background-size: 500px 400px;
+}
+
+.parrilla {
+    border: 3px solid black;
+    width: 40%;
+    height: 400px;
+    background-image: url("/final_project/linkspages/photos/parrilla.jpg");
+    background-size: 500px 400px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.asadazo h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: -1.2em;
+    background-color: black;
+    color: lightblue;
+}
+
+.parrilla h1 {
+    margin: auto;
+    text-align: center;
+    margin-top: -1.2em;
+    background-color: black;
+    color: lightblue;
+}
+
+footer {
+    padding-top: 4em;
+}
+
+.sidebar {
+    border: 3px solid black;
+    width: 15%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: 170px 200px;
+}
+
+.bar {
+    border: 3px solid black;
+    width: 15%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: 170px 200px;
+}
+
+.When {
+    border: 3px solid black;
+    width: 33%;
+    height: 180px;
+    background-color: yellow;
+}
+
+.Where {
+    border: 3px solid black;
+    width: 34%;
+    height: 180px;
+    background-color: lightblue;
+}
+
+.How {
+    border: 3px solid black;
+    width: 33%;
+    height: 180px;
+    background-color: yellow;
+}
+
+.description {
+    display: flex;
+    padding-bottom: 3em;
+
+}
+
+.rusa {
+    border: 3px solid black;
+    width: 28%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
+    background-size: 330px 200px;
+}
+
+.frutas {
+    border: 3px solid black;
+    width: 29%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
+    background-size: 340px 200px;
+}
+
+.tomato {
+    border: 3px solid black;
+    width: 28%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
+    background-size: 330px 200px;
+}
+
+.sides {
+    display: flex;
+    padding-bottom: 3em;
+}
+
+.Beef {
+    border: 3px solid black;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/bife.jpg");
+    background-size: 230px 210px;
+}
+
+.Chicken {
+    border: 3px solid black;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
+    background-size: 230px 210px;
+}
+
+.Chorizo {
+    border: 3px solid black;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/chori.jpg");
+    background-size: 200px 210px;
+}
+
+.costillas {
+    border: 3px solid black;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
+    background-size: 300px 210px;
+}
+
+.morcilla {
+    border: 3px solid black;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/death.jpg");
+    background-size: 200px 210px;
+}
+
+.carne {
+    display: flex;
+    padding-bottom: 3em;
+    justify-content: flex-end;
+}
+
+.sidebar p {
+    margin: auto;
+    text-align: center;
+    margin-top: .7em;
+    font-size: 23px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+.Where li {
+    margin-bottom: 15px;
+    font-size: 20px;
+
 }
