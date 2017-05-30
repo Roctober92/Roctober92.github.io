@@ -1,0 +1,225 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+</style>
+
+.sidebar {
+    border: 3px solid blue;
+    width: 15%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: 170px 200px;
+}
+
+.bar {
+    border: 3px solid blue;
+    width: 15%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: 170px 200px;
+}
+
+.When {
+    border: 3px solid blue;
+    width: 33%;
+    height: 180px;
+}
+
+.Where {
+    border: 3px solid blue;
+    width: 34%;
+    height: 180px;
+}
+
+.How {
+    border: 3px solid blue;
+    width: 33%;
+    height: 180px;
+}
+
+.description {
+    display: flex;
+
+}
+
+.rusa {
+    border: 3px solid blue;
+    width: 28%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
+    background-size: 330px 200px;
+}
+
+.frutas {
+    border: 3px solid blue;
+    width: 29%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
+    background-size: 340px 200px;
+}
+
+.tomato {
+    border: 3px solid blue;
+    width: 28%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
+    background-size: 330px 200px;
+}
+
+.sides {
+    display: flex;
+}
+
+.Beef {
+    border: 3px solid blue;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/bife.jpg");
+    background-size: 230px 210px;
+}
+
+.Chicken {
+    border: 3px solid blue;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
+    background-size: 230px 210px;
+}
+
+.Chorizo {
+    border: 3px solid blue;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/chori.jpg");
+    background-size: 200px 210px;
+}
+
+.costillas {
+    border: 3px solid blue;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
+    background-size: 300px 210px;
+}
+
+.morcilla {
+    border: 3px solid blue;
+    width: 17%;
+    height: 180px;
+    background-image: url("/final_project/linkspages/food/asado/death.jpg");
+    background-size: 200px 210px;
+}
+
+.carne {
+    display: flex;
+}
+
+.sidebar p {
+    margin: auto;
+    text-align: center;
+    margin-top: 1.1em;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.bar p {
+    margin: auto;
+    text-align: center;
+    margin-top: .7em;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.Beef p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.Chicken p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.Chorizo p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.costillas p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.morcilla p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    background-color: skyblue;
+}
+
+.rusa p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.frutas p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.tomato p {
+    color: black;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.desc {
+    border: 4px solid green;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+}
+
+.When p {
+    font-family: 'Righteous', monospace;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Where p {
+    font-family: 'Righteous', monospace;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.How p {
+    font-family: 'Righteous', monospace;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
