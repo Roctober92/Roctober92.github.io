@@ -183,3 +183,131 @@ footer {
 .align {
     margin-top: -2em;
 }
+
+@media screen and (max-width: 34em){
+    .forecast1 {
+        display: none;
+    }
+
+    .sunny {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 34em) {
+    .header h1 + h1 {
+        width: 18em;
+    }
+
+    .nav nav{
+        position: static;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #F07C6C;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        word-spacing: 100px;
+        list-style-type: none;
+        color: #47556F;
+    }
+
+    .forecast1 {
+        margin-left: .5em;
+    }
+
+    .forecast1 ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    main > section {
+        flex: 1 0 30%;
+    }
+
+    .end nav {
+        width: 12em;
+    }
+
+    body {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .Current {
+        margin-top: -.05em;
+        font-size: 12px;
+    }
+
+    .stuff {
+        font-size: 12px;
+        margin-top: 1em
+    }
+
+    .stuff h1{
+        margin-top: 1.7em
+    }
+
+    .flex p {
+        font-size: 12px;
+        margin-top: 3em
+    }
+
+    .Cosas p{
+        font-size: 12px;
+        margin-top: 4em;
+    }
+
+    .Cosas h1{
+        margin-top: 2.4em
+    }
+
+    .align {
+        text-align: center;
+    }
+
+    .border {
+        border: solid 4px grey;
+        padding: .8em;
+        height: 6em;
+        color: lightgreen;
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-top: 2em;
+        padding-bottom: 4em;
+    }
+
+    .forecast {
+        margin-top: 2em;
+    }
+
+    .sunny {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+
+
+.forecast1 ul {
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 12em;
+    overflow: auto;
+}
+
+
+
+
+
