@@ -206,6 +206,10 @@
         margin-top: .5em;
         font-family: 'Comfortaa', cursive;
     }
+
+    a:hover {
+        color:#C1C422
+    }
 }
 
 @media screen and (max-width: 30em) {
@@ -473,9 +477,13 @@
         flex-direction: column-reverse;
     }
 
+    a:hover {
+        color:#C1C422
+    }
 
-
-
+    .cabeza nav {
+        margin-top: 3e
+    }
 
 
 

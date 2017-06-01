@@ -56,7 +56,7 @@
         height: 400px;
         background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
         background-size: 540px 380px;
-        background-repeat: round;
+        background-repeat: no-repeat;
         background-position: bottom;
         transform: rotate(-7deg);
         margin-top: 2em;
@@ -102,6 +102,10 @@
 
     .all ul {
         color: yellow;
+    }
+
+    a:hover {
+        color:#C1C422
     }
 }
 
@@ -192,6 +196,9 @@
         margin-bottom: 3em;
     }
 
+    a:hover {
+        color:#C1C422
+    }
 
 }
 
