@@ -133,6 +133,7 @@
         background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
         background-size: 500px 300px;
         margin-bottom: 3em;
+        background-repeat: no-repeat;
     }
 
     .mil h2 {
@@ -148,6 +149,7 @@
         background-image: url("/final_project/linkspages/photos/asado.JPG");
         background-size: 450px 300px;
         margin-bottom: 3em;
+        background-repeat: no-repeat;
     }
 
     .asado h2 {
@@ -164,6 +166,7 @@
         background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
         background-size: 450px 300px;
         margin-bottom: 3em;
+        background-repeat: no-repeat;
     }
 
     .Pasta h2 {
@@ -179,6 +182,7 @@
         width: 100%;
         background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
         background-size: 450px 300px;
+        background-repeat: no-repeat;
     }
 
     .pizza h2 {
