@@ -210,6 +210,7 @@
     a:hover {
         color:#C1C422
     }
+
 }
 
 @media screen and (max-width: 30em) {
@@ -472,17 +473,12 @@
         background-color: lightblue;
     }
 
-    .order {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     a:hover {
-        color:#C1C422
+        color:#C1C422;
     }
 
     .cabeza nav {
-        margin-top: 3e
+        margin-top: 3em;
     }
 
 
