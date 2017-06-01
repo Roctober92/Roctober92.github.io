@@ -1,348 +1,577 @@
-
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Righteous');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bar p {
-    margin: auto;
-    text-align: center;
-    margin-top: .7em;
-    font-size: 24px;
-    font-family: 'Comfortaa', cursive;
-}
-
-.Beef p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.Chicken p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.Chorizo p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.costillas p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.morcilla p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.rusa p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.frutas p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.tomato p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.desc {
-    border: 4px solid green;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 1em;
-    background-color: white;
-}
-
-header {
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-}
-
-.When p {
-    font-family: 'Righteous', monospace;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-}
-
-.Where p {
-    font-family: 'Righteous', monospace;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-}
-
-.How p {
-    font-family: 'Righteous', monospace;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-}
-
-.When ul {
-    list-style-type: square;
-}
-
-
-
-.Where ul {
-    list-style-type: square;
-}
-
-.When li {
-    margin-bottom: 15px;
-    font-size: 20px
-}
-
-.How ul {
-   list-style-type: square;
-}
-
-.How li {
-    font-size: 20px;
-    margin-bottom: 15px
-}
-
-
-.asadazo {
-    border: 3px solid black;
-    width: 40%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/gaucho.jpg");
-    background-size: 500px 400px;
-}
-
-.parrilla {
-    border: 3px solid black;
-    width: 40%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/parrilla.jpg");
-    background-size: 500px 400px;
-}
-
-.bottom {
-    display: flex;
-    justify-content: space-around;
-}
-
-.asadazo h1 {
-    margin: auto;
-    text-align: center;
-    margin-top: -1.2em;
-    background-color: black;
-    color: lightblue;
-}
-
-.parrilla h1 {
-    margin: auto;
-    text-align: center;
-    margin-top: -1.2em;
-    background-color: black;
-    color: lightblue;
-}
-
-footer {
-    padding-top: 4em;
-}
-
-.sidebar {
-    border: 3px solid black;
-    width: 15%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 170px 200px;
-}
-
-.bar {
-    border: 3px solid black;
-    width: 15%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 170px 200px;
-}
-
-.When {
-    border: 3px solid black;
-    width: 33%;
-    height: 180px;
-    background-color: yellow;
-}
-
-.Where {
-    border: 3px solid black;
-    width: 34%;
-    height: 180px;
-    background-color: lightblue;
-}
-
-.How {
-    border: 3px solid black;
-    width: 33%;
-    height: 180px;
-    background-color: yellow;
-}
-
-.description {
-    display: flex;
-    padding-bottom: 3em;
-
-}
-
-.rusa {
-    border: 3px solid black;
-    width: 28%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
-    background-size: 330px 200px;
-}
-
-.frutas {
-    border: 3px solid black;
-    width: 29%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
-    background-size: 340px 200px;
-}
-
-.tomato {
-    border: 3px solid black;
-    width: 28%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
-    background-size: 330px 200px;
-}
-
-.sides {
-    display: flex;
-    padding-bottom: 3em;
-}
-
-.Beef {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/bife.jpg");
-    background-size: 230px 210px;
-}
-
-.Chicken {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
-    background-size: 230px 210px;
-}
-
-.Chorizo {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/chori.jpg");
-    background-size: 200px 210px;
-}
-
-.costillas {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
-    background-size: 300px 210px;
-}
-
-.morcilla {
-    border: 3px solid black;
-    width: 17%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/food/asado/death.jpg");
-    background-size: 200px 210px;
-}
-
-.carne {
-    display: flex;
-    padding-bottom: 3em;
-    justify-content: flex-end;
-}
-
-.sidebar p {
-    margin: auto;
-    text-align: center;
-    margin-top: .7em;
-    font-size: 23px;
-    font-family: 'Comfortaa', cursive;
+@media screen and (min-width: 30em) {
+    .bar p {
+        margin: auto;
+        text-align: center;
+        margin-top: .7em;
+        font-size: 24px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .Beef p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .Chicken p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .Chorizo p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .costillas p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .morcilla p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .rusa p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .frutas p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .tomato p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .desc {
+        border: 4px solid green;
+        margin: auto;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 1em;
+        background-color: white;
+    }
+    header {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+    }
+    .When p {
+        font-family: 'Righteous', monospace;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .Where p {
+        font-family: 'Righteous', monospace;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .How p {
+        font-family: 'Righteous', monospace;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .When ul {
+        list-style-type: square;
+    }
+    .Where ul {
+        list-style-type: square;
+    }
+    .When li {
+        margin-bottom: 15px;
+        font-size: 20px
+    }
+    .How ul {
+        list-style-type: square;
+    }
+    .How li {
+        font-size: 20px;
+        margin-bottom: 15px
+    }
+    .asadazo {
+        border: 3px solid black;
+        width: 40%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/gaucho.jpg");
+        background-size: 500px 400px;
+    }
+    .parrilla {
+        border: 3px solid black;
+        width: 40%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/parrilla.jpg");
+        background-size: 500px 400px;
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+    .asadazo h1 {
+        margin: auto;
+        text-align: center;
+        margin-top: -1.2em;
+        background-color: black;
+        color: lightblue;
+    }
+    .parrilla h1 {
+        margin: auto;
+        text-align: center;
+        margin-top: -1.2em;
+        background-color: black;
+        color: lightblue;
+    }
+    footer {
+        padding-top: 4em;
+    }
+    .sidebar {
+        border: 3px solid black;
+        width: 15%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 170px 200px;
+    }
+    .bar {
+        border: 3px solid black;
+        width: 15%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 170px 200px;
+    }
+    .When {
+        border: 3px solid black;
+        width: 33%;
+        height: 180px;
+        background-color: yellow;
+    }
+    .Where {
+        border: 3px solid black;
+        width: 34%;
+        height: 180px;
+        background-color: lightblue;
+    }
+    .How {
+        border: 3px solid black;
+        width: 33%;
+        height: 180px;
+        background-color: yellow;
+    }
+    .description {
+        display: flex;
+        padding-bottom: 3em;
+    }
+    .rusa {
+        border: 3px solid black;
+        width: 28%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
+        background-size: 330px 200px;
+    }
+    .frutas {
+        border: 3px solid black;
+        width: 29%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
+        background-size: 340px 200px;
+    }
+    .tomato {
+        border: 3px solid black;
+        width: 28%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
+        background-size: 330px 200px;
+    }
+    .sides {
+        display: flex;
+        padding-bottom: 3em;
+    }
+    .Beef {
+        border: 3px solid black;
+        width: 17%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/bife.jpg");
+        background-size: 230px 210px;
+    }
+    .Chicken {
+        border: 3px solid black;
+        width: 17%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
+        background-size: 230px 210px;
+    }
+    .Chorizo {
+        border: 3px solid black;
+        width: 17%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/chori.jpg");
+        background-size: 200px 210px;
+    }
+    .costillas {
+        border: 3px solid black;
+        width: 17%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
+        background-size: 300px 210px;
+    }
+    .morcilla {
+        border: 3px solid black;
+        width: 17%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/food/asado/death.jpg");
+        background-size: 200px 210px;
+    }
+    .carne {
+        display: flex;
+        padding-bottom: 3em;
+        justify-content: flex-end;
+    }
+    .sidebar p {
+        margin: auto;
+        text-align: center;
+        margin-top: .7em;
+        font-size: 23px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .Where li {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    main {
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: contain;
+    }
 }
 
 
+@media screen and (max-width: 30em){
 
-.Where li {
-    margin-bottom: 15px;
-    font-size: 20px;
+    header > h1 {
+        margin: auto;
+        text-align: center;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        padding-bottom: 1.4em;
+        padding-top: 1em;
+        font-size: 40px;
+        margin-bottom: .5em;
+    }
+
+    .desc {
+        margin: auto;
+        font-size: 17px;
+        text-align: center;
+        color: goldenrod;
+        background-color: black;
+        padding-top: .1em;
+        padding-bottom: .1em;
+        margin-bottom: 1em;
+    }
+
+    .sidebar {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .sidebar p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .Beef {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/bife.jpg");
+        background-size: 470px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Beef p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Chicken {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/pollo.jpg");
+        background-size: 470px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Chicken p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Chorizo {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/chori.jpg");
+        background-size: 470px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Chorizo p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .costillas {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/ribs.jpg");
+        background-size: 470px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .costillas p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .morcilla {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/death.jpg");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .morcilla p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .bar {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .bar p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .rusa {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .rusa p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .frutas {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .frutas p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .tomato {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
+        background-size: 470px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .tomato p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .When {
+        border: 3px solid black;
+        background-color: yellow;
+        height: 220px;
+        margin-bottom: 3em;
+    }
+
+    .When p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Righteous', monospace;
+    }
+
+    .When ul {
+        list-style-type: square;
+    }
+
+    .When li {
+        font-size: 25px;
+        padding-bottom: .7em;
+        padding-left: 1em;
+    }
+
+    .Where {
+        border: 3px solid black;
+        background-color: lightblue;
+        height: 220px;
+        margin-bottom: 3em;
+    }
+
+    .Where p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Righteous', monospace;
+    }
+
+    .Where ul {
+        list-style-type: square;
+    }
+
+    .Where li {
+        font-size: 25px;
+        padding-bottom: .7em;
+        padding-left: 1em;
+    }
+
+    .How {
+        border: 3px solid black;
+        background-color: yellow;
+        height: 220px;
+        margin-bottom: 3em;
+    }
+
+    .How p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Righteous', monospace;
+    }
+
+    .How ul {
+        list-style-type: square;
+    }
+
+    .How li {
+        font-size: 25px;
+        padding-bottom: .7em;
+        padding-left: 1em;
+    }
+
+    .asadazo {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/gaucho.jpg");
+        background-size: 470px 300px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .asadazo h1 {
+        margin: auto;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    .parrilla {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/parrilla.jpg");
+        background-size: 470px 300px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .parrilla h1 {
+        margin: auto;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+
+
+
 
 }
 
-main {
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: contain;
-}
 
