@@ -1,235 +1,471 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
-</style>
 
-header {
-    border: 3px solid blue;
+
+
+@media screen and (min-width: 30em) {
+    header {
+        border: 3px solid blue;
+    }
+    .desc {
+        border: 4px solid black;
+        margin: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    .carne {
+        border: 3px solid black;
+        width: 19%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 200px 200px;
+    }
+    .cosa {
+        border: 3px solid black;
+        width: 19%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 200px 200px;
+    }
+    .estilo {
+        border: 3px solid black;
+        width: 19%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 200px 200px;
+    }
+    .Chicken {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: 330px 200px;
+    }
+    .Beef {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/cmila.jpg");
+        background-size: contain;
+        background-size: 330px 200px;
+    }
+    .Fish {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/fmila.jpg");
+        background-size: contain;
+        background-size: 330px 200px;
+    }
+    .Potatoes {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/papas.jpg");
+        background-size: 330px 200px;
+    }
+    .Rice {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/rice.jpg");
+        background-size: 330px 200px;
+    }
+    .Salad {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/salad.jpg");
+        background-size: 330px 200px;
+    }
+    .Milanesa {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/sandwhich.JPG");
+        background-size: 330px 200px;
+    }
+    .Napolitana {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-image: url("/final_project/linkspages/photos/nap.jpg");
+        background-size: 330px 200px;
+    }
+    .Plain {
+        border: 3px solid black;
+        width: 27%;
+        height: 180px;
+        background-color: yellow;
+    }
+    .meats {
+        display: flex;
+        padding-bottom: 4em;
+    }
+    .Sides {
+        display: flex;
+        padding-bottom: 3em;
+    }
+    .Styles {
+        display: flex;
+        padding-bottom: 3em;
+    }
+    header {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+    }
+    .Chicken p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+    }
+    .Beef p {
+        margin: auto;
+        text-align: center;
+        background-color: skyblue;
+        color: yellow;
+    }
+    .Fish p {
+        margin: auto;
+        text-align: center;
+        background-color: skyblue;
+        color: yellow;
+    }
+    .Potatoes p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .Rice p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .Salad p {
+        color: black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+    }
+    .Milanesa p {
+        margin: auto;
+        text-align: center;
+        background-color: skyblue;
+        color: yellow;
+    }
+    .Napolitana p {
+        margin: auto;
+        text-align: center;
+        background-color: skyblue;
+        color: yellow;
+    }
+    .Plain p {
+        margin: auto;
+        text-align: center;
+        background-color: skyblue;
+        color: yellow;
+    }
+    .Plain h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .carne p {
+        color: black;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+    .cosa p {
+        color: black;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+    .estilo p {
+        color: black;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
 }
 
-.desc {
-    border: 4px solid black;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
+@media screen and (max-width: 30em) {
+    .cabeza {
+        margin: auto;
+        text-align: center;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        padding-bottom: 1.4em;
+        padding-top: 1em;
+        font-size: 30px;
+        margin-bottom: .5em;
+    }
+
+    .desc {
+        margin: auto;
+        font-size: 13px;
+        text-align: center;
+        color: goldenrod;
+        background-color: black;
+        padding-top: .1em;
+        padding-bottom: .1em;
+        margin-bottom: 1em;
+    }
+
+    .carne {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .carne p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .Chicken {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: 450px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Chicken p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Beef {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/cmila.jpg");
+        background-size: 450px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Beef p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Fish {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/fmila.jpg");
+        background-size: 450px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Fish p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .cosa {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .cosa p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .Potatoes {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/papas.jpg");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Potatoes p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .Rice {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/rice.jpg");
+        background-size: 600px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Rice p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .Salad {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/salad.jpg");
+        background-size: 400px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Salad p {
+        margin: auto;
+        text-align: center;
+        color: black;
+        background-color: yellow;
+        font-size: 25px;
+    }
+
+    .estilo {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .estilo p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: .5em;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .Milanesa {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/sandwhich.JPG");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Milanesa p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Napolitana {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/nap.JPG");
+        background-size: 400px 200px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Napolitana p {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        background-color: skyblue;
+        font-size: 25px;
+    }
+
+    .Plain {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-color: yellow;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .Plain h1{
+        margin: auto;
+        text-align: left;
+    }
+
+    .Plain h1+h1 {
+        margin: auto;
+        text-align: center;
+        margin-left: -4em;
+    }
+
+    .Plain h1+h1+h1 {
+        margin: auto;
+        text-align: center;
+        margin-right: -3em;
+    }
+
+    .Plain h1+h1+h1+h1 {
+        margin: auto;
+        text-align: right;
+        margin-right: 1em;
+    }
+
+    .Plain p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        color: yellow;
+        background-color: lightblue;
+    }
+
+
+
+
+
+
+
+
+
+
 }
-
-
-.carne {
-    border: 3px solid black;
-    width: 19%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 200px 200px;
-}
-
-.cosa {
-    border: 3px solid black;
-    width: 19%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 200px 200px;
-}
-
-.estilo {
-    border: 3px solid black;
-    width: 19%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: 200px 200px;
-}
-
-.Chicken {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/pmila.jpg");
-    background-size: 330px 200px;
-}
-
-.Beef {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/cmila.jpg");
-    background-size: contain;
-    background-size: 330px 200px;
-
-}
-
-.Fish {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/fmila.jpg");
-    background-size: contain;
-    background-size: 330px 200px;
-}
-
-.Potatoes {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/papas.jpg");
-    background-size: 330px 200px;
-}
-
-.Rice {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/rice.jpg");
-    background-size: 330px 200px;
-}
-
-.Salad {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/salad.jpg");
-    background-size: 330px 200px;
-}
-
-.Milanesa {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/sandwhich.JPG");
-    background-size: 330px 200px;
-}
-
-.Napolitana {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-image: url("/final_project/linkspages/photos/nap.jpg");
-    background-size: 330px 200px;
-}
-
-.Plain {
-    border: 3px solid black;
-    width: 27%;
-    height: 180px;
-    background-color: yellow;
-}
-
-.meats {
-    display: flex;
-    padding-bottom: 4em;
-
-}
-
-.Sides {
-    display: flex;
-    padding-bottom: 3em;
-}
-
-.Styles {
-    display: flex;
-    padding-bottom: 3em;
-}
-
-header {
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-}
-
-.Chicken p {
-    margin: auto;
-    text-align: center;
-    color: yellow;
-    background-color: skyblue;
-}
-
-.Beef p {
-    margin: auto;
-    text-align: center;
-    background-color: skyblue;
-    color: yellow;
-}
-
-.Fish p {
-    margin: auto;
-    text-align: center;
-    background-color: skyblue;
-    color: yellow;
-}
-
-.Potatoes p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.Rice p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.Salad p {
-    color: black;
-    background-color: yellow;
-    margin: auto;
-    text-align: center;
-}
-
-.Milanesa p {
-    margin: auto;
-    text-align: center;
-    background-color: skyblue;
-    color: yellow;
-}
-
-.Napolitana p {
-    margin: auto;
-    text-align: center;
-    background-color: skyblue;
-    color: yellow;
-}
-
-.Plain p {
-    margin: auto;
-    text-align: center;
-    background-color: skyblue;
-    color: yellow;
-}
-
-.Plain h1 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.carne p {
-    color: black;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    margin-top: .5em;
-    font-family: 'Comfortaa', cursive;
-}
-
-.cosa p {
-    color: black;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    margin-top: .5em;
-    font-family: 'Comfortaa', cursive;
-}
-
-.estilo p {
-    color: black;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    margin-top: .5em;
-    font-family: 'Comfortaa', cursive;
-}
-
-
-
-
