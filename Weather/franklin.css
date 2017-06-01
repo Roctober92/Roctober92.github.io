@@ -1,11 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css?family=Sansita');
-
-
-
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-
-
 h2 {
     font-size: 14px;
 }
@@ -14,16 +8,6 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
 }
-
-
-main {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-image: url("images/sunny-winter.jpg");
-        background-size: cover;
-    }
-
 
 ul {
     display: flex;
@@ -46,7 +30,7 @@ ul {
     color: lightgreen;
 }
 
-.header h1 + h1 {
+.header h1+h1 {
     text-align: right;
     margin-top: -1.5em;
     font-size: 25px;
@@ -55,7 +39,7 @@ ul {
 }
 
 .border p {
-   text-align: center;
+    text-align: center;
     font-size: 50px;
     margin-bottom: -2em;
     margin-top: -.1em
@@ -100,16 +84,6 @@ ul {
     font-size: 35px;
 }
 
-.Current {
-    margin-top: 4em;
-    border-radius: 20px;
-    border: solid 1px;
-    padding: 1em;
-    margin-bottom: 1em;
-    background-color: rgba(200,200,200,.6);
-    font-size: 17px;
-}
-
 .nav ul {
     display: flex;
     justify-content: space-between;
@@ -133,15 +107,14 @@ ul {
     font-size: 30px;
 }
 
-
 .forecast a {
     display: inline-block;
     margin-top: 5.5em;
     margin-left: -.5em;
 }
+
+
 }
-
-
 h1,
 h2,
 h3,
@@ -150,41 +123,31 @@ h5,
 h6 {
     font-family: Sansita, "second choice", generic-family;
 }
-
-
 footer {
     margin-bottom: 3em;
     padding-bottom: 1em;
     padding-top: 1em;
     background-color: lightgrey;
 }
-
 .border {
     border: solid 4px grey;
     padding: .5em;
     height: 6em;
     color: lightgreen;
+    margin-right: 6em;
+    margin-left: 3em
 }
-
 .header {
     background-color: lightgray;
 }
-
 .flex {
     display: flex;
     flex-direction: column;
 }
-
 .flex p+p {
     margin-top: -1em;
 }
-
-
-.align {
-    margin-top: -2em;
-}
-
-@media screen and (max-width: 34em){
+@media screen and (max-width: 34em) {
     .forecast1 {
         display: none;
     }
@@ -192,19 +155,50 @@ footer {
     .sunny {
         display: none;
     }
-}
 
+    .Current {
+        margin-top: 4em;
+        border-radius: 20px;
+        border: solid 1px;
+        padding: 2em;
+        margin-bottom: 2em;
+        background-color: rgba(200, 200, 200, .6);
+        font-size: 17px;
+    }
+
+    .align {
+        margin-top: -2em;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-image: url("images/sunny-winter.jpg");
+        background-size: cover;
+    }
+}
 @media screen and (min-width: 34em) {
-    .header h1 + h1 {
+    .Current {
+        padding-top: 1em;
+        padding-right: em;
+        padding-left: 5em
+    }
+
+    .Main1 {
+        background-image: url("/Weather/images/sunny-winter.jpg");
+    }
+
+    .header h1+h1 {
         width: 18em;
     }
 
-    .fix{
+    .fix {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    .nav nav{
+    .nav nav {
         position: static;
         bottom: 0;
         left: 0;
@@ -218,30 +212,36 @@ footer {
         word-spacing: 100px;
         list-style-type: none;
         color: #47556F;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-top: -1em;
+        margin-bottom: -1.2em;
     }
 
     .forecast1 {
         margin-left: .5em;
     }
 
-.forecast1 ul {
-    display: flex;
-    justify-content:space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
-    list-style-type: none;
-    padding-left: 0;
-    max-height: 13em;
-    overflow: auto;
-}
-
-    main {
-        flex-direction: row;
-        align-items: stretch;
+    .forecast1 ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 0;
+        max-height: 13em;
+        overflow: auto;
     }
 
-    main > section {
-        flex: 1 0 30%;
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        margin-bottom: -1.2em;
+    }
+
+    main>section {
+        flex: 1 0 0%;
     }
 
     .end nav {
@@ -261,29 +261,35 @@ footer {
 
     .stuff {
         font-size: 12px;
-        margin-top: 1em
     }
 
-    .stuff h1{
-        margin-top: 1.7em
+    .stuff h1 {
+        margin-top: 2em;
+        font-size: 25px;
+        margin-left: -2em
     }
 
     .flex p {
-        font-size: 12px;
-        margin-top: 3em
+        font-size: 20px;
+        margin-top: 2em;
     }
 
-    .Cosas p{
-        font-size: 12px;
-        margin-top: 4em;
+    .Cosas p {
+        font-size: 20px;
+        margin-top: 4.8em;
     }
 
-    .Cosas h1{
-        margin-top: 2.4em
+    .Cosas h1 {
+        margin-top: 3.7em;
+        font-size: 25px;
+        margin-left: -2em;
     }
 
     .align {
+        margin: auto;
         text-align: center;
+        font-size: 18px;
+        margin-left: -1em
     }
 
     .border {
@@ -305,19 +311,15 @@ footer {
         margin-top: 1em;
         margin-bottom: 1em;
     }
+
+    .Cosas {
+        margin-top: -7em;
+    }
 }
-
-
-
-
-
-
-
-
-
-
 .forecast1 li {
     padding-bottom: .5em;
 }
-
-
+.Main1 {
+    margin-right: 1em;
+    margin-left: 1em
+}

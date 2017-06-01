@@ -1,104 +1,209 @@
 
-header {
-    margin: auto;
-    padding-bottom: 1em;
-    text-align: center;
-    color: yellow;
-    font-size: 30px;
-    background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-    padding-top: 2em;
+@media screen and (min-width: 30em) {
+    header {
+        margin: auto;
+        padding-bottom: 1em;
+        text-align: center;
+        color: yellow;
+        font-size: 30px;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        padding-top: 2em;
+    }
+
+    .all {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url("/final_project/linkspages/photos/flag.png");
+        background-size: contain;
+    }
+
+    .mil {
+        border: 2px solid green;
+        width: 45%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
+        background-size: 600px 400px;
+        background-position: bottom;
+        transform: rotate(7deg);
+    }
+
+    .asado {
+        border: 2px solid green;
+        width: 45%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/asado.JPG");
+        background-size: 600px 400px;
+        background-position: bottom;
+        transform: rotate(-7deg);
+    }
+
+    .Pasta {
+        border: 2px solid green;
+        width: 45%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
+        background-size: 600px 400px;
+        background-position: bottom;
+        transform: rotate(7deg);
+        margin-top: 2em;
+    }
+
+    .pizza {
+        border: 2px solid green;
+        width: 45%;
+        height: 400px;
+        background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
+        background-size: 540px 380px;
+        background-repeat: round;
+        background-position: bottom;
+        transform: rotate(-7deg);
+        margin-top: 2em;
+    }
+
+
+
+    .rica {
+        margin: auto;
+        text-align: center;
+        color: firebrick;
+        padding-bottom: 1em;
+    }
+
+    .rica p {
+        color: gold;
+        background-color: blueviolet;
+    }
+
+    .mil h2 {
+        margin: auto;
+        text-align: center;
+        background-color: greenyellow;
+    }
+
+    .asado h2 {
+        margin: auto;
+        text-align: center;
+        background-color: greenyellow;
+    }
+
+    .Pasta h2 {
+        margin: auto;
+        text-align: center;
+        background-color: greenyellow;
+    }
+
+    .pizza h2 {
+        margin: auto;
+        text-align: center;
+        background-color: greenyellow;
+    }
+
+    .all ul {
+        color: yellow;
+    }
 }
 
-.all {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-image: url("/final_project/linkspages/photos/flag.png");
-    background-size: contain;
+@media screen and (max-width:30em){
+
+    header {
+        margin: auto;
+        text-align: center;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        padding-bottom: 2em;
+    }
+
+    header > h1 {
+        padding-top: 1em;
+        font-size: 60px
+    }
+
+    .rica {
+        margin: auto;
+        text-align: center;
+        color: goldenrod;
+        background-color: black;
+    }
+
+    .mil {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
+        background-size: 500px 300px;
+        margin-bottom: 3em;
+    }
+
+    .mil h2 {
+        margin: auto;
+        text-align: center;
+        background-color: yellow;
+    }
+
+    .asado {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/asado.JPG");
+        background-size: 450px 300px;
+        margin-bottom: 3em;
+    }
+
+    .asado h2 {
+        margin: auto;
+        text-align: center;
+        background-color: yellow;
+        margin-bottom: 3em;
+    }
+
+    .Pasta {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
+        background-size: 450px 300px;
+        margin-bottom: 3em;
+    }
+
+    .Pasta h2 {
+        margin: auto;
+        text-align: center;
+        background-color: yellow;
+        margin-bottom: 3em;
+    }
+
+    .pizza {
+        border: 3px solid black;
+        height: 300px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
+        background-size: 450px 300px;
+    }
+
+    .pizza h2 {
+        margin: auto;
+        text-align: center;
+        background-color: yellow;
+        margin-bottom: 3em;
+    }
+
+
 }
 
-.mil {
-    border: 2px solid green;
-    width: 45%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
-    background-size: 600px 400px;
-    background-position: bottom;
-    transform: rotate(7deg);
-}
-
-.asado {
-    border: 2px solid green;
-    width: 45%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/asado.JPG");
-    background-size: 600px 400px;
-    background-position: bottom;
-    transform: rotate(-7deg);
-}
-
-.Pasta {
-    border: 2px solid green;
-    width: 45%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
-    background-size: 600px 400px;
-    background-position: bottom;
-    transform: rotate(7deg);
-    margin-top: 2em;
-}
-
-.pizza {
-    border: 2px solid green;
-    width: 45%;
-    height: 400px;
-    background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
-    background-size: 540px 380px;
-    background-repeat: round;
-    background-position: bottom;
-    transform: rotate(-7deg);
-    margin-top: 2em;
-}
 
 
 
-.rica {
-    margin: auto;
-    text-align: center;
-    color: firebrick;
-    padding-bottom: 1em;
-}
 
-.rica p {
-    color: gold;
-    background-color: blueviolet;
-}
 
-.mil h2 {
-    margin: auto;
-    text-align: center;
-    background-color: greenyellow;
-}
 
-.asado h2 {
-    margin: auto;
-    text-align: center;
-    background-color: greenyellow;
-}
 
-.Pasta h2 {
-    margin: auto;
-    text-align: center;
-    background-color: greenyellow;
-}
 
-.pizza h2 {
-    margin: auto;
-    text-align: center;
-    background-color: greenyellow;
-}
 
-.all ul {
-    color: yellow;
-}
+
+
+
+
+
+
+

@@ -4,3 +4,11 @@ header {
     text-align: center;
     color: darkorange;
 }
+
+.flag {
+    border: 3px solid black;
+    height: 200px;
+    width: 40%;
+    background-image: url("/final_project/linkspages/photos/flag.png");
+    background-size: 400px 200px;
+}
