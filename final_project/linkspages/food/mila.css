@@ -120,54 +120,63 @@
         text-align: center;
         color: yellow;
         background-color: skyblue;
+        font-size: 25px;
     }
     .Beef p {
         margin: auto;
         text-align: center;
         background-color: skyblue;
         color: yellow;
+        font-size: 25px;
     }
     .Fish p {
         margin: auto;
         text-align: center;
         background-color: skyblue;
         color: yellow;
+        font-size: 25px;
     }
     .Potatoes p {
         color: black;
         background-color: yellow;
         margin: auto;
         text-align: center;
+        font-size: 25px;
     }
     .Rice p {
         color: black;
         background-color: yellow;
         margin: auto;
         text-align: center;
+        font-size: 25px;
     }
     .Salad p {
         color: black;
         background-color: yellow;
         margin: auto;
         text-align: center;
+        font-size: 25px;
     }
     .Milanesa p {
         margin: auto;
         text-align: center;
         background-color: skyblue;
         color: yellow;
+        font-size: 25px;
     }
     .Napolitana p {
         margin: auto;
         text-align: center;
         background-color: skyblue;
         color: yellow;
+        font-size: 25px;
     }
     .Plain p {
         margin: auto;
         text-align: center;
         background-color: skyblue;
         color: yellow;
+        font-size: 25px;
     }
     .Plain h1 {
         font-size: 20px;
@@ -226,7 +235,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -244,7 +253,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/pmila.jpg");
-        background-size: 450px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -262,7 +271,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/cmila.jpg");
-        background-size: 450px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -280,7 +289,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/fmila.jpg");
-        background-size: 450px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -298,7 +307,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -316,7 +325,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/papas.jpg");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -352,7 +361,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/salad.jpg");
-        background-size: 400px 270px;
+        background-size: 470px 270px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -370,7 +379,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -388,7 +397,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/sandwhich.JPG");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -406,7 +415,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/nap.JPG");
-        background-size: 400px 200px;
+        background-size: 470px 200px;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -459,8 +468,10 @@
         background-color: lightblue;
     }
 
-
-
+    .order {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
 
 
