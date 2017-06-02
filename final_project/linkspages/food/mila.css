@@ -211,6 +211,30 @@
         color:#C1C422
     }
 
+    .authorbox {
+        display: flex;
+    }
+
+    .author {
+        border: 3px solid black;
+        width: 20%;
+        background-color: yellow;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -1em;
+        margin-bottom: 2em;
+    }
+
+    .exp {
+        border: 3px solid black;
+        width: 80%;
+        background-color: lightblue;
+        margin-top: -1.5em;
+        margin-bottom: 3.1em;
+
+    }
+
+
 }
 
 @media screen and (max-width: 30em) {

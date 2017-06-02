@@ -114,7 +114,6 @@ ul {
 }
 
 
-}
 h1,
 h2,
 h3,
@@ -181,8 +180,7 @@ footer {
 @media screen and (min-width: 34em) {
     .Current {
         padding-top: 1em;
-        padding-right: em;
-        padding-left: 5em
+        padding-left: 5em;
     }
 
     .Main1 {
