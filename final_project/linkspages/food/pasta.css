@@ -39,14 +39,14 @@ header nav {
     margin: auto;
     text-align: center;
     background-color: yellow;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .ndesc {
     border: 3px solid black;
     width: 70%;
     height: 250px;
-    background-color: yellow;
+    background-color: lightblue;
 }
 
 .ndesc ul {
@@ -59,4 +59,114 @@ header nav {
 
 .ñoquis {
     display: flex;
+}
+
+.raviolis {
+    display: flex;
+    margin-top: 2em;
+}
+
+.rname {
+    border: 3px solid black;
+    width: 30%;
+    height: 250px;
+    background-image: url("/final_project/linkspages/food/pasta/rav.jpg");
+    background-size: 400px 300px;
+}
+
+.rname p {
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    font-size: 25px;
+}
+
+
+.rdesc {
+    border: 3px solid black;
+    width: 70%;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.rdesc ul {
+    list-style-type: square;
+}
+
+.rdesc li {
+    padding-bottom: 2em;
+}
+
+.añalotis {
+    display: flex;
+    margin-top: 2em;
+}
+
+.aname {
+    border: 3px solid black;
+    width: 30%;
+    height: 250px;
+    background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
+    background-size: 400px 250px;
+}
+
+.adesc {
+    border: 3px solid black;
+    width: 70%;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.aname p {
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    font-size: 25px;
+}
+
+.aname ul {
+    list-style-type: square;
+}
+
+.adesc li {
+    padding-bottom: 2em;
+}
+
+.tname {
+    border: 3px solid black;
+    width: 30%;
+    height: 250px;
+    background-image: url("/final_project/linkspages/food/pasta/locro.jpg");
+    background-size: 400px 250px;
+}
+
+.tuco {
+    display: flex;
+    margin-top: 2em;
+}
+
+.tdesc {
+    border: 3px solid black;
+    width: 70%;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.tname p {
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    font-size: 25px;
+}
+
+.tdesc ul {
+    list-style-type: square;
+}
+
+.tdesc li {
+    padding-bottom: 2em;
+}
+
+footer {
+    margin-top: 2em;
 }
