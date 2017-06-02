@@ -179,21 +179,21 @@
         width: 28%;
         height: 180px;
         background-image: url("/final_project/linkspages/food/asado/rusa.jpg");
-        background-size: 330px 200px;
+        background-size: 340px 200px;
     }
     .frutas {
         border: 3px solid black;
         width: 29%;
         height: 180px;
         background-image: url("/final_project/linkspages/food/asado/fruta.jpg");
-        background-size: 340px 200px;
+        background-size: 350px 200px;
     }
     .tomato {
         border: 3px solid black;
         width: 28%;
         height: 180px;
         background-image: url("/final_project/linkspages/food/asado/tomate.jpg");
-        background-size: 330px 200px;
+        background-size: 350px 200px;
     }
     .sides {
         display: flex;
