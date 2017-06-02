@@ -166,22 +166,89 @@
     .desc {
         border: 3px solid black;
         background-color: yellow;
+        margin-bottom: 2em
     }
 
     .desc p {
         text-align: center;
     }
 
+    .nname {
+        border: 3px solid black;
+        height: 250px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/pasta/noq.jpg");
+        background-size: 380px 250px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .nname p {
+        margin: auto;
+        text-align: center;
+        background-color: lightblue;
+        font-size: 25px;
+    }
+
+    .ndesc {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-color: yellow;
+        background-size: 380px 200px;
+        margin-bottom: 3em;
+    }
+
+    .ndesc ul {
+        list-style-type: square;
+    }
+    .ndesc li {
+        padding-bottom: 2em;
+    }
+
+    .rname {
+        border: 3px solid black;
+        height: 250px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/food/pasta/rav.jpg");
+        background-size: 380px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
+
+    .rname p{
+        margin: auto;
+        text-align: center;
+        background-color: lightblue;
+        font-size: 25px;
+    }
+
+    .rdesc {
+        border: 3px solid black;
+        height: 200px;
+        width: 100%;
+        background-color: yellow;
+        background-size: 380px 200px;
+        margin-bottom: 3em;
+    }
 
 
+    .rdesc ul {
+        list-style-type: square;
+    }
+    .rdesc li {
+        padding-bottom: 2em;
+    }
 
-
-
-
-
-
-
-
+    .aname {
+        border: 3px solid black;
+        height: 250px;
+        width: 100%;
+        background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
+        background-size: 380px 270px;
+        margin-bottom: 3em;
+        background-repeat: no-repeat;
+    }
 
 
 
