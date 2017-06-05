@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 @media screen and (min-width: 30em) {
     header {
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
@@ -115,48 +117,56 @@
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .napolitana p {
         margin: auto;
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .morron p {
         margin: auto;
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .jamon p {
         margin: auto;
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .carne p {
         margin: auto;
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .pollo p {
         margin: auto;
         text-align: center;
         margin-top: -1.5em;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .titleP p {
         margin: auto;
         text-align: center;
         font-size: 40px;
         color: blue;
+        font-family: 'Mogra', cursive;
     }
     .titleE p {
         margin: auto;
         text-align: center;
         font-size: 40px;
         color: blue;
+        font-family: 'Mogra', cursive;
     }
     .desc {
         margin-bottom: 4em;
