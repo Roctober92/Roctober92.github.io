@@ -20,7 +20,7 @@
     }
 
     .mil {
-        border: 2px solid green;
+        border: 0px solid green;
         width: 45%;
         height: 400px;
         background-image: url("/final_project/linkspages/photos/Milanesa.JPG");
@@ -30,7 +30,7 @@
     }
 
     .asado {
-        border: 2px solid green;
+        border: 0px solid green;
         width: 45%;
         height: 400px;
         background-image: url("/final_project/linkspages/photos/asado.JPG");
@@ -40,7 +40,7 @@
     }
 
     .Pasta {
-        border: 2px solid green;
+        border: 0px solid green;
         width: 45%;
         height: 400px;
         background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
@@ -51,11 +51,11 @@
     }
 
     .pizza {
-        border: 2px solid green;
+        border: 0px solid green;
         width: 45%;
         height: 400px;
         background-image: url("/final_project/linkspages/photos/empanadas1.jpg");
-        background-size: 540px 380px;
+        background-size: 560px 380px;
         background-repeat: no-repeat;
         background-position: bottom;
         transform: rotate(-7deg);
