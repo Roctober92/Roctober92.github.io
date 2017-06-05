@@ -3,6 +3,11 @@
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
         padding-top: 3em;
     }
+    header>nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
     header>h1 {
         margin: auto;
         padding-bottom: .5em;
@@ -34,7 +39,6 @@
         margin-left: 1em;
         margin-bottom: 4em;
         background-color: yellow;
-
     }
     .muzzarella {
         border: 1px solid black;
@@ -169,36 +173,35 @@
         font-size: 30px;
         margin-bottom: .5em;
     }
-
+    header>nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
     .desc {
         border: 2px solid yellow;
         background-color: yellow;
         margin-bottom: 2em;
     }
-
     .titleP {
         border: 3px solid lightblue;
         background-color: lightblue;
     }
-
     .titleP p {
         margin: auto;
         text-align: center;
         font-size: 30px;
     }
-
     .titleE {
         border: 3px solid lightblue;
         background-color: lightblue;
         margin-top: 7em;
     }
-
     .titleE p {
         margin: auto;
         text-align: center;
         font-size: 30px;
     }
-
     .muzzarella {
         border: 0px solid blue;
         background-image: url("pizza/muzza.jpg");
@@ -206,14 +209,12 @@
         background-size: cover;
         margin-top: 2em;
     }
-
     .muzzarella p {
         margin: auto;
         text-align: center;
         background-color: yellow;
         font-size: 25px;
     }
-
     .napolitana {
         border: 0px solid blue;
         background-image: url("pizza/muzza.jpg");
@@ -222,14 +223,12 @@
         background-image: url("pizza/napo.jpg");
         margin-top: 1em;
     }
-
     .napolitana p {
         margin: auto;
         text-align: center;
         background-color: yellow;
         font-size: 25px;
     }
-
     .morron {
         border: 0px solid blue;
         background-image: url("pizza/morron.jpg");
@@ -237,14 +236,12 @@
         background-size: cover;
         margin-top: 1em;
     }
-
     .morron p {
         margin: auto;
         text-align: center;
         background-color: yellow;
         font-size: 25px;
     }
-
     .carne {
         border: 0px solid blue;
         background-image: url("pizza/emp.jpg");
@@ -252,14 +249,12 @@
         background-size: cover;
         margin-top: 2em;
     }
-
     .carne p {
         margin: auto;
         text-align: center;
         background-color: yellow;
         font-size: 25px;
     }
-
     .jamon {
         border: 0px solid blue;
         background-image: url("pizza/ham.jpg");
@@ -267,14 +262,12 @@
         background-size: cover;
         margin-top: 2em;
     }
-
     .jamon p {
         margin: auto;
         text-align: center;
         background-color: yellow;
         font-size: 25px;
     }
-
     .pollo {
         border: 0px solid blue;
         background-image: url("pizza/chick.jpg");
@@ -282,7 +275,6 @@
         background-size: cover;
         margin-top: 2em;
     }
-
     .pollo p {
         margin: auto;
         text-align: center;
