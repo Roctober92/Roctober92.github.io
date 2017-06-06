@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 @media screen and (min-width: 30em) {
     header {
         border: 3px solid blue;
@@ -217,6 +218,9 @@
         text-align: center;
         margin-top: -1em;
         margin-bottom: 2em;
+    }
+    .author p {
+        font-family: 'Architects Daughter', cursive;
     }
     .exp {
         border: 3px solid black;
@@ -462,5 +466,14 @@
     }
     .cabeza nav {
         margin-top: 3em;
+    }
+    .author p {
+        border: 3px solid black;
+        background-color: yellow;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Passion One', cursive;
+
     }
 }

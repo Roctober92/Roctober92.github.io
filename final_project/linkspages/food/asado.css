@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
 @media screen and (min-width: 30em) {
     .bar p {
         margin: auto;
@@ -136,12 +137,14 @@
         text-align: center;
         background-color: black;
         color: lightblue;
+        font-family: 'Passion One', cursive;
     }
     .parrilla h1 {
         margin: auto;
         text-align: center;
         background-color: black;
         color: lightblue;
+        font-family: 'Passion One', cursive;
     }
     footer {
         padding-top: 4em;
@@ -560,6 +563,7 @@
         text-align: center;
         background-color: black;
         color: white;
+        font-family: 'Passion One', cursive;
     }
 
     .parrilla {
@@ -577,6 +581,7 @@
         text-align: center;
         background-color: black;
         color: white;
+        font-family: 'Passion One', cursive;
     }
 
     header > nav {

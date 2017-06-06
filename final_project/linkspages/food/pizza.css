@@ -201,6 +201,7 @@
         margin: auto;
         text-align: center;
         font-size: 30px;
+        font-family: 'Mogra', cursive;
     }
     .titleE {
         border: 3px solid lightblue;
@@ -211,6 +212,7 @@
         margin: auto;
         text-align: center;
         font-size: 30px;
+        font-family: 'Mogra', cursive;
     }
     .muzzarella {
         border: 0px solid blue;
@@ -224,6 +226,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .napolitana {
         border: 0px solid blue;
@@ -238,6 +241,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .morron {
         border: 0px solid blue;
@@ -251,6 +255,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .carne {
         border: 0px solid blue;
@@ -264,6 +269,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .jamon {
         border: 0px solid blue;
@@ -277,6 +283,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     .pollo {
         border: 0px solid blue;
@@ -290,6 +297,7 @@
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Anton', sans-serif;
     }
     footer {
         margin-top: 2em;

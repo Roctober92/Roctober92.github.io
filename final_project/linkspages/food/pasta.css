@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 a:hover {
     color:#C1C422
 }
@@ -39,6 +40,7 @@ a:hover {
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Lobster', cursive;
     }
     .ndesc {
         border: 3px solid black;
@@ -72,6 +74,7 @@ a:hover {
         text-align: center;
         background-color: yellow;
         font-size: 25px;
+        font-family: 'Lobster', cursive;
     }
     .rdesc {
         border: 3px solid black;
@@ -96,6 +99,7 @@ a:hover {
         height: 250px;
         background-image: url("/final_project/linkspages/photos/a%C3%B1alotis.jpeg");
         background-size: 400px 250px;
+        font-family: 'Lobster', cursive;
     }
     .adesc {
         border: 3px solid black;
@@ -122,6 +126,7 @@ a:hover {
         height: 250px;
         background-image: url("/final_project/linkspages/food/pasta/locro.jpg");
         background-size: 400px 250px;
+        font-family: 'Lobster', cursive;
     }
     .tuco {
         display: flex;
@@ -195,6 +200,7 @@ a:hover {
         text-align: center;
         background-color: lightblue;
         font-size: 25px;
+        font-family: 'Lobster', cursive;
     }
 
     .ndesc {
@@ -221,6 +227,7 @@ a:hover {
         background-size: cover;
         margin-bottom: 3em;
         background-repeat: no-repeat;
+        font-family: 'Lobster', cursive;
     }
 
     .rname p{
@@ -262,6 +269,7 @@ a:hover {
         text-align: center;
         background-color: lightblue;
         font-size: 25px;
+        font-family: 'Lobster', cursive;
     }
 
     .adesc {
@@ -296,6 +304,7 @@ a:hover {
         text-align: center;
         background-color: lightblue;
         font-size: 25px;
+        font-family: 'Lobster', cursive;
     }
 
     .tdesc {
