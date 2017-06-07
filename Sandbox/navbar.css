@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.topnav p a:hover:not(.active) {
+    background-color: #111;
+}
+
+.topnav p {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: .5em
+}
+
+.topnav p {
+    background-color: #4CAF50;
+}
+
+.topnav p+p {
+    background-color: #111;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.topnav p a.active {
+    background-color: #4CAF50;
+}
+
+header p {
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .topnav p+p {
+        background-color: #111;
+    }
+    .topnav p {
+        background-color: #4CAF50;
+    }
+    .topnav p {
+        padding-bottom: .5em;
+        padding-top: .5em;
+        width: 10%;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: row;
+    }
+    .topnav a {
+        color: white;
+        text-decoration: none;
+        padding-left: .8em;
+    }
+    .topnav p+p+p+p {
+        width: 70%;
+    }
+    .topnav p.right {
+        margin: auto;
+        text-align: right;
+        padding-right: 1em
+    }
+}
