@@ -1,13 +1,41 @@
-
-header {
-    margin: auto;
-    text-align: center;
-    color: darkmagenta;
-    padding-bottom: 3em;
+@media screen and (min-width: 30em) {
+    #img {
+        max-width: 100%;
+    }
+    header {
+        border: 0px solid black;
+        height: 100px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        color: darkmagenta;
+        padding-bottom: 3em;
+    }
+    main {
+        padding-bottom: 3em;
+    }
+    .links {
+        border: 0px solid blue;
+        height: 200px;
+        background-color: #74acdf;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .links p {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .cup {
+        border: 1px solid black;
+        height: 200px;
+    }
+    .pics {
+        display: flex;
+    }
+    .yerba {
+        border: 1px solid black;
+        height: 300px;
+    }
 }
-
-main {
-    padding-bottom: 3em;
-}
-
-
