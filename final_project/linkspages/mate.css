@@ -228,7 +228,52 @@
         padding-top: .3em;
         padding-bottom: .3em;
     }
-
+    .what {
+        border: 2px solid black;
+        background-color: deepskyblue;
+        margin-top: 3em;
+    }
+    .what p {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        background-color: yellow;
+    }
+    .what ul {
+        margin-top: 2em;
+        list-style-type: square;
+    }
+    .what li {
+        margin-bottom: 2em;
+        font-size: 20px;
+    }
+    .bomb {
+        height: 400px;
+        width: 350px;
+        margin: auto;
+        display: block;
+        margin-top: 2em;
+    }
+    .how {
+        border: 2px solid black;
+        background-color: deepskyblue;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .how p {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        background-color: yellow;
+    }
+    .how ul {
+        margin-top: 2em;
+        list-style-type: square;
+    }
+    .how li {
+        margin-bottom: 2em;
+        font-size: 20px;
+    }
 
 
 
