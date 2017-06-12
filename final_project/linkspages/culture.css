@@ -1,7 +1,159 @@
+@media screen and (min-width: 30em) {
+    header {
+        border: 0px solid black;
+        height: 250px;
+        background-image: url(photos/BA.jpg);
+        background-size: 600px 250px;
+    }
+    header>h1 {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        text-shadow: 6px 4px black;
+        padding-top: 1em;
+    }
+    .md {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3em;
+        margin-bottom: 8em;
+    }
+    .yerba {
+        width: 40%;
+    }
+    .bailar {
+        width: 40%;
+    }
+    .mate {
+        border: 0px solid black;
+        height 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .mate h2 {
+        margin: auto;
+        text-align: center;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        font-size: 40px;
+    }
+    .mate_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url("photos/tomar.jpg");
+        background-size: cover;
+    }
+    .dance_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url("photos/tango.jpg");
+        background-size: cover;
+    }
+    .mate_desc {
+        border: 0px solid black;
+        height: 300px;
+        width: 100%;
+        margin-top: 2em;
+        background-color: yellow;
 
-header {
-    margin: auto;
-    padding-bottom: 3em;
-    text-align: center;
-    color: chocolate;
+    }
+    .mate1 h2 {
+        margin: auto;
+        text-align: center;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        font-size: 40px;
+    }
+    .mate1 {
+        border: 0px solid black;
+        height 100px;
+        width: 100%;
+        background-color: deepskyblue;
+        color: black;
+    }
+    .clap_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url(photos/Casa.png);
+        background-size: cover;
+    }
+    .xmas_image{
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url(photos/xmas.jpg);
+        background-size: cover;
+    }
+    .mate2 {
+        border: 0px solid black;
+        height 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .mate2 h2 {
+        margin: auto;
+        text-align: center;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        font-size: 40px;
+    }
+    .food_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url(photos/alfajor.jpg);
+        background-size: cover;
+    }
+    .clean_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url("photos/mop.jpg");
+        background-size: cover;
+    }
+    .mate3 {
+        border: 0px solid black;
+        height 100px;
+        width: 100%;
+        background-color: deepskyblue;
+        color: black;
+    }
+    .mate3 h2 {
+        margin: auto;
+        text-align: center;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        font-size: 40px;
+    }
+    .soccer_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url(photos/soccer.jpg);
+        background-size: cover;
+    }
+    .night_image {
+        border: 0px solid black;
+        height: 400px;
+        width: 100%;
+        margin-top: 2em;
+        background-image: url(photos/night.jpg);
+        background-size: cover;
+    }
+
+
 }
