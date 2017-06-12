@@ -173,7 +173,12 @@
         background-color: forestgreen;
         color: white;
     }
+    .homepage {
+        margin: auto;
+        text-align: center;
+    }
 }
+
 @media screen and (max-width: 30em) {
     header h1 {
         margin: auto;
@@ -274,25 +279,8 @@
         margin-bottom: 2em;
         font-size: 20px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .homepage {
+        margin: auto;
+        text-align: center;
+    }
 }
