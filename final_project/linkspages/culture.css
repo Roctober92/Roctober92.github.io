@@ -33,7 +33,6 @@
     }
     .mate {
         border: 3px solid deepskyblue;
-        height 100px;
         width: 100%;
         color: black;
         text-shadow: 3px 3px deepskyblue;
@@ -79,7 +78,6 @@
     }
     .mate1 {
         border: 3px solid black;
-        height 100px;
         width: 100%;
         color: deepskyblue;
         text-shadow: 3px 3px black;
@@ -102,7 +100,6 @@
     }
     .mate2 {
         border: 3px solid deepskyblue;
-        height 100px;
         width: 100%;
         color: black;
         text-shadow: 3px 3px deepskyblue;
@@ -133,7 +130,6 @@
     }
     .mate3 {
         border: 3px solid black;
-        height 100px;
         width: 100%;
         color: deepskyblue;
         text-shadow: 3px 3px black;
@@ -239,6 +235,13 @@
         font-size: 23px;
         font-family: 'Mogra', cursive;
         text-shadow: 3px 3px deepskyblue;
+    }
+    .mate_desc p {
+        border: 2px solid yellow;
+    }
+    .mate_desc ul {
+        border: 2px solid deepskyblue;
+        font-family: 'Dosis', sans-serif;
     }
 
 
