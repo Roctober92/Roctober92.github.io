@@ -186,3 +186,74 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 30em) {
+
+    header {
+        margin: auto;
+        text-align: center;
+        background-image: url("/final_project/linkspages/photos/9dj.jpg");
+        padding-bottom: 1.4em;
+        padding-top: 1em;
+        font-size: 30px;
+        margin-bottom: .5em;
+        color: white;
+    }
+    header a {
+        color: blue;
+    }
+    header h1 {
+        text-shadow: 4px 4px black;
+    }
+    .mate {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Mogra', cursive;
+        text-shadow: 3px 3px deepskyblue;
+    }
+    .mate1 {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Mogra', cursive;
+        text-shadow: 3px 3px deepskyblue;
+    }
+    .mate2 {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Mogra', cursive;
+        text-shadow: 3px 3px deepskyblue;
+    }
+    .mate3 {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Mogra', cursive;
+        text-shadow: 3px 3px deepskyblue;
+    }
+    .mate4 {
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Mogra', cursive;
+        text-shadow: 3px 3px deepskyblue;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
