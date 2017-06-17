@@ -5,6 +5,8 @@
         text-align: center;
         font-size: 70px;
         font-family: 'Peralta', cursive;
+        letter-spacing: 20px;
+        margin-top: -.3em;
     }
     header {
         padding-top: 4em;
@@ -23,11 +25,12 @@
     .tranlabel {
         border: 3px solid black;
         height: 100px;
-        width: 35%;
+        width: 100%;
         margin: auto;
         text-align: center;
         margin-bottom: 2em;
         font-size: 20px;
+        background-image: url(photos/flag.png);
     }
 
     .transportation {
@@ -89,11 +92,12 @@
     .barriolabel {
         border: 3px solid black;
         height: 100px;
-        width: 35%;
+        width: 100%;
         margin: auto;
         text-align: center;
         margin-bottom: 2em;
         font-size: 20px;
+        background-color: #da9616;
     }
     .citypic {
         border: 0px solid black;
@@ -126,11 +130,12 @@
     .shoppinglabel {
         border: 3px solid black;
         height: 100px;
-        width: 35%;
+        width: 100%;
         margin: auto;
         text-align: center;
         margin-bottom: 2em;
         font-size: 20px;
+        background-image: url(photos/flag.png);
     }
     .bakerypic {
         border: 0px solid black;
