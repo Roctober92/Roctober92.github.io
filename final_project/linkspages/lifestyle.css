@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Peralta');
 @media screen and (min-width: 30em) {
     header h1 {
         margin: auto;
         text-align: center;
         font-size: 70px;
+        font-family: 'Peralta', cursive;
     }
     header {
         padding-top: 4em;
         padding-bottom: 4em;
-        background-color: deepskyblue;
+        background-image: url(culture/temple.JPG);
+        background-size: cover;
         margin-bottom: 2em;
     }
 
