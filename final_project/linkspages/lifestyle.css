@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Peralta');
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @media screen and (min-width: 30em) {
     header h1 {
         margin: auto;
@@ -31,6 +33,7 @@
         margin-bottom: 2em;
         font-size: 20px;
         background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
     }
 
     .transportation {
@@ -39,16 +42,15 @@
         margin-bottom: 5em;
     }
     .title {
-        border: 2px solid black;
-        height: 40px;
-        width: 35%;
         margin: auto;
         text-align: center;
         margin-bottom: 2em;
+        background-color: #da9616;
     }
     .title p {
         font-size: 35px;
         margin-top: -.1em;
+        font-family: 'Open Sans Condensed', sans-serif;
     }
     .buspic {
         border: 0px solid black;
@@ -97,7 +99,8 @@
         text-align: center;
         margin-bottom: 2em;
         font-size: 20px;
-        background-color: #da9616;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
     }
     .citypic {
         border: 0px solid black;
@@ -136,6 +139,7 @@
         margin-bottom: 2em;
         font-size: 20px;
         background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
     }
     .bakerypic {
         border: 0px solid black;
