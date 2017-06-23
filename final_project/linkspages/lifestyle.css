@@ -183,7 +183,10 @@
         background-image: url("culture/bookstore.jpg");
         background-size: cover;
     }
-
+    .note {
+        margin: auto;
+        text-align: center;
+    }
 
 
 
