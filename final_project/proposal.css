@@ -1,57 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+@media screen and (min-width: 30em) {
+    .header span:nth-of-type(even) {
+        color: deepskyblue;
+    }
+    .header span:nth-of-type(odd) {
+        color: #da9616;
+    }
+    .header {
+        margin: auto;
+        text-align: center;
+        font-size: 100px;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    .header span {
+        letter-spacing: 40px;
+    }
+    .lema {
+        margin: auto;
+        text-align: center;
+    }
+    .lema p {
+        font-size: 30px;
+        font-family: 'Mogra', cursive;
+    }
+    .purpose {
+        border: 0px solid black;
+        width: 100%;
+        height: 100px;
+        background-color: deepskyblue;
+        margin-bottom: 4em;
+    }
+    .purpose p {
+        margin: auto;text-align: center;
+        font-size: 80px;
+        letter-spacing: 60px;
+    }
+    .purpose a {
+        text-decoration: none;
+        color: black;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+        flex-wrap: wrap;
+        margin-bottom: 5em;
+    }
+    .argpic1 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/teamarg.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
 
-header {
-    color: crimson;
-    font-family: 'Abril Fatface', cursive;
+    }
+    .argpic2 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/BA.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic3 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/bariloche.jpg");
+        background-size: cover;
+    }
+    .argpic4 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/lujan.jpg");
+        background-size: cover;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    .foot span:nth-of-type(even) {
+        color: fuchsia;
+    }
+    .foot span:nth-of-type(odd) {
+        color: darkgoldenrod;
+    }
 }
-
-nav. nav {
-    color: crimson;
-    padding-bottom: 3em;
-    font-family: 'Abril Fatface', cursive;
-}
-
-.green {
-    color: forestgreen;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-
-.blue {
-    color: darkblue;
-    padding-top: 3em;
-}
-
-
-.back {
-    background-color: yellow;
-}
-
-.foot span:nth-of-type(even){
-    color:fuchsia;
-}
-.foot span:nth-of-type(odd){
-    color:darkgoldenrod;
-}
-
-header {
-    text-align: center;
-    margin: auto;
-}
-
-nav > ul {
-    margin: auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2em;
-    list-style-type: none;
-}
-
-
-
-
-
 
 a:hover {
-    color:#C1C422
+    color: #C1C422
 }
