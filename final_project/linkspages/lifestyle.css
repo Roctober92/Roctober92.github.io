@@ -187,17 +187,166 @@
         margin: auto;
         text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+@media screen and (max-width: 30em) {
+    header {
+        border: 0px solid black;
+        height: 200px;
+        background-image: url("culture/temple.JPG");
+        background-size: cover;
+    }
+    header h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Peralta', cursive;
+    }
+    header nav {
+        margin: auto;
+        text-align: center;
+        margin-top: 9em;
+    }
+    .tranlabel {
+        border: 3px solid black;
+        margin-top: 3em;
+        background-image: url("culture/temple.JPG");
+        margin-bottom: 3em;
+    }
+    .tranlabel h1 {
+        margin: auto;
+        text-align: center;
+        height: 50px;
+        margin-top: .5em;
+        font-family: 'Mogra', cursive;
+    }
+    .title p {
+        margin: auto;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        background-color: #da9616;
+        font-size: 30px;
+    }
+    .barriolabel {
+        border: 3px solid black;
+        margin-top: 3em;
+        background-image: url("culture/temple.JPG");
+        margin-bottom: 3em;
+    }
+    .barriolabel h1 {
+        margin: auto;
+        text-align: center;
+        height: 50px;
+        margin-top: .5em;
+        font-family: 'Mogra', cursive;
+    }
+    .shoppinglabel {
+        border: 3px solid black;
+        margin-top: 3em;
+        background-image: url("culture/temple.JPG");
+        margin-bottom: 3em;
+    }
+    .shoppinglabel h1 {
+        margin: auto;
+        text-align: center;
+        height: 50px;
+        margin-top: .5em;
+        font-family: 'Mogra', cursive;
+    }
+    .buspic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/bus.jpg");
+        background-size: cover;
+    }
+    .trenpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/tren.jpg");
+        background-size: cover;
+    }
+    .remispic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url(culture/car.jpg);
+        background-size: cover;
+    }
+    .streetpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/street.jpg");
+        background-size: cover;
+    }
+    .citypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/city.jpg");
+        background-size: cover;
+    }
+    .suburbpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/suburb.jpg");
+        background-size: cover;
+    }
+    .farmpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/farm.jpg");
+        background-size: cover;
+    }
+    .villapic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/villa.jpg");
+        background-size: cover;
+    }
+    .bakerypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url(culture/pan.jpg);
+        background-size: cover;
+    }
+    .fruitpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/fruit.jpg");
+        background-size: cover;
+    }
+    .butcherpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/carne.jpg");
+        background-size: cover;
+    }
+    .storepic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/chino.jpg");
+        background-size: cover;
+    }
+    .kioskpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/kiosko.jpg");
+        background-size: cover;
+    }
+    .bookpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 100%;
+        background-image: url("culture/bookstore.jpg");
+        background-size: cover;
 }

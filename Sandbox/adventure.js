@@ -3,46 +3,68 @@ var instructions = [
         "id": 1,
         "choices": {
             "first": 2,
-            "second": 3
+            "second": 3,
+            "third": 4,
         },
         "choiceText": "choose 1",
-        "title": "The Adventure Begins",
-        "description": "This is where you setup your initial story"
+        "title": "The Argentine Villa",
+        "description": "You are a missionary serving in Argentina. You are looking for a less active member that lives in a villa, or shanti-town ghetto. This is where your story begins..."
     },
     {
         "id": 2,
         "choices": {
-            "first": 4,
-            "second": 5
+            "first": 5,
+            "second": 6,
+            "third": 4,
         },
-        "choiceText": "Go Left",
-        "title": "The long hallway",
-        "description": "Describe the current setting"
+        "choiceText": "Go Left (choice 1)",
+        "title": "The Long Passageway",
+        "description": "You find yourself looking at slightly bending passageway, about as wide as 1.5 people. It's dark, silent, and dirty."
     },
     {
         "id": 3,
         "choices": {
-            "first": 6,
-            "second": 7
+            "first": 7,
+            "second": 8,
+            "third": 4,
         },
-        "choiceText": "Go Right",
-        "title": "The hungry beast",
-        "description": "This is probably not going to end well."
+        "choiceText": "Go Right (choice 2)",
+        "title": "The Fork in the road",
+        "description": "Do you go right, or left? Both seems to wind around. Also, the furthur you go, the more you get lost, and the further from the safe entrance you are."
+    },
+    {
+        "id": 5,
+        "choices": {
+            "first": 9,
+            "second": 10,
+            "third": 4,
+        },
+        "choiceText": "Go Back (Choice 1)",
+        "title": "The Drug Lord",
+        "description": "The drug lord followed you in, and now has you prisoner. GAME OVER"
+
+    },
+    {
+        "id": 6,
+        "choices": {
+            "first": 4,
+            "second": 4,
+            "third": 4,
+        },
+        "choiceText": "Go Forward (Choice 2)",
+        "title": "The Less Actve Member!",
+        "description": "You have found the less active member sweeping the passageway a couple of meters ahead! You win!"
+
     }];
 
 
-function updateElement(part, instruction) {
-    part.setAttribute("id", instruction);
-}
 
+
+// return whole section for certain id
 function getItem(instructions, id) {
-for (i=0; i=2; i++)
-    if (instructions[i(0)] == id){
-        return instructions[i(0)]}
-}
-
-function updateButton(button, choice) {
-    button.setAttribute("id", choice);
+for (var i=0; i < instructions.length; i++)
+    if (instructions[i].id == id){
+        return instructions[i]}
 }
 
 //requires the id of the new set of instructions
@@ -57,6 +79,7 @@ function nextStep(id) {
     //then get the items for choice1 and 2 from the list
     var choice1 = getItem(instructions, instruction.choices.first);
     var choice2 = getItem(instructions, instruction.choices.second);
+    var choice3 = getItem(instructions, instruction.choices.third);
 
     //check to see if they are endpoints
 
@@ -64,10 +87,19 @@ function nextStep(id) {
 
 
     //if not update those sections on the screen with the choiceText
+    function updateElement(part, instruction) {
+        var part1 = document.getElementById(part);
+        part1.innerHTML=instruction;
+    }
+
+    // displays 'Go Left', 'Go Right'
     updateElement('choiceOne', choice1.choiceText);
     updateElement('choiceTwo', choice2.choiceText);
+
+    // makes nextStep(choice.id)
     updateButton('buttonOne', choice1.id);
     updateButton('buttonTwo', choice2.id);
+    updateButton('restart', choice3.id);
 }
 
 //1. create the getItem, updateElement, and updateButton functions
@@ -79,6 +111,17 @@ function nextStep(id) {
 //requires the id of the div to update, and the new contents.
 
 //updateButton: sets the onclick event for a button with the id of the item it chooses
+
+function updateButton(button, choice) {
+    var button = document.getElementById(button);
+    if (choice != 4) {
+        button.setAttribute('onclick', "nextStep(" + choice + ")");}
+    else {
+        button.setAttribute('onclick', "nextStep(" + 1 + ")");
+    }
+}
+
+
 nextStep(1);
 //2. then create and use a function to initialize the game to step 1
 
