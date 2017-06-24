@@ -69,8 +69,9 @@
         border: 0px solid black;
         width: 45%;
         height: 350px;
-        background-image: url("proposalpic/bariloche.jpg");
+        background-image: url("proposalpic/asado.jpg");
         background-size: cover;
+        margin-bottom: 3em;
     }
     .argpic4 {
         border: 0px solid black;
@@ -78,15 +79,25 @@
         height: 350px;
         background-image: url("proposalpic/lujan.jpg");
         background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic5 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/villa.jpg");
+        background-size: cover;
+    }
+    .argpic6 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/eva.jpg");
+        background-size: cover;
     }
 
 
-    body {
-        background-image: url("proposalpic/sol.jpg");
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-attachment: fixed;
-    }
+
 
     .foot span:nth-of-type(even) {
         color: fuchsia;
@@ -94,6 +105,73 @@
     .foot span:nth-of-type(odd) {
         color: darkgoldenrod;
     }
+}
+@media screen and (max-width: 30em) {
+
+    .header span:nth-of-type(even) {
+        color: deepskyblue;
+    }
+    .header span:nth-of-type(odd) {
+        color: #da9616;
+    }
+    .header {
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    .lema {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    .lema p {
+        font-size: 20px;
+        font-family: 'Mogra', cursive;
+    }
+    .purpose {
+        border: 0px solid black;
+        width: 100%;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .purpose p {
+        margin: auto;text-align: center;
+        font-size: 30px;
+        letter-spacing: 20px;
+    }
+    .purpose a {
+        text-decoration: none;
+        color: black;
+    }
+    .argpic2 {
+        border: 0px solid black;
+        width: 100%;
+        height: 200px;
+        background-image: url("proposalpic/BA.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 a:hover {
