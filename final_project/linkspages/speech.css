@@ -1,7 +1,67 @@
+@media screen and (min-width: 30em) {
+    header {
+        border: 0px solid black;
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+    .whatiscast {
+        border: 0px solid black;
+        height: 80px;
+        background-color: deepskyblue;
+    }
+    .whatiscast h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+    }
+    .desc {
+        border: 0px solid black;
+        height: 150px;
+        background-color: gold;
+    }
+    .desc p {
+        font-size: 20px;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5em;
+    }
+    .title {
+        border: 4px solid black;
+        height: 80px;
+        width: 35%;
+    }
+    .title h1 {
+        margin: auto;
+        text-align: center;
+    }
+    .titles {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7em;
+    }
+    .words {
+        border: 2px solid black;
+        width: 35%;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .phrases {
+        border: 2px solid black;
+        width: 35%;
+        height: 700px;
+    }
+    .lists {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1em;
+    }
 
-header {
-    text-align: center;
-    margin: auto;
-    color:rgba( 18, 226, 98, 0.547 );
-    padding-bottom: 3em;
+
+
+
+
 }

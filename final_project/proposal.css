@@ -33,7 +33,8 @@
         margin-bottom: 1em;
     }
     .purpose p {
-        margin: auto;text-align: center;
+        margin: auto;
+        text-align: center;
         font-size: 30px;
         letter-spacing: 40px;
     }
@@ -55,7 +56,6 @@
         background-image: url("proposalpic/teamarg.jpg");
         background-size: cover;
         margin-bottom: 3em;
-
     }
     .argpic2 {
         border: 0px solid black;
@@ -95,10 +95,6 @@
         background-image: url("proposalpic/eva.jpg");
         background-size: cover;
     }
-
-
-
-
     .foot span:nth-of-type(even) {
         color: fuchsia;
     }
@@ -106,8 +102,8 @@
         color: darkgoldenrod;
     }
 }
-@media screen and (max-width: 30em) {
 
+@media screen and (max-width: 30em) {
     .header span:nth-of-type(even) {
         color: deepskyblue;
     }
@@ -124,7 +120,7 @@
     .lema {
         margin: auto;
         text-align: center;
-        margin-bottom: 4em;
+        margin-bottom: 2em;
     }
     .lema p {
         font-size: 20px;
@@ -138,7 +134,8 @@
         margin-bottom: 1em;
     }
     .purpose p {
-        margin: auto;text-align: center;
+        margin: auto;
+        text-align: center;
         font-size: 30px;
         letter-spacing: 20px;
     }
@@ -154,6 +151,110 @@
         background-size: cover;
         margin-bottom: 3em;
     }
+}
+@media screen and (min-width: 30em) and (max-width: 75em) {
+    .header span:nth-of-type(even) {
+        color: deepskyblue;
+    }
+    .header span:nth-of-type(odd) {
+        color: #da9616;
+    }
+    .header {
+        margin: auto;
+        text-align: center;
+        font-size: 80px;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    .header span {
+        letter-spacing: 5px;
+    }
+    .lema {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    .lema p {
+        font-size: 30px;
+        font-family: 'Mogra', cursive;
+    }
+    .purpose {
+        border: 0px solid black;
+        width: 100%;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .purpose p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 40px;
+    }
+    .purpose a {
+        text-decoration: none;
+        color: black;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+        flex-wrap: wrap;
+        margin-bottom: 5em;
+    }
+    .argpic1 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/teamarg.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic2 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/BA.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic3 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/asado.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic4 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/lujan.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
+    }
+    .argpic5 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/villa.jpg");
+        background-size: cover;
+    }
+    .argpic6 {
+        border: 0px solid black;
+        width: 45%;
+        height: 350px;
+        background-image: url("proposalpic/eva.jpg");
+        background-size: cover;
+    }
+    .foot span:nth-of-type(even) {
+        color: fuchsia;
+    }
+    .foot span:nth-of-type(odd) {
+        color: darkgoldenrod;
+    }
+
 
 }
 
