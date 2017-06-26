@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @media screen and (min-width: 30em) {
     body {
@@ -13,6 +15,7 @@
         font-family: 'Abril Fatface', cursive;
         background-image: url("/final_project/proposalpic/yellow.jpg");
         background-size: cover;
+        font-family: 'Signika', sans-serif;
     }
     header h1 {
         margin: auto;
@@ -46,15 +49,12 @@
         width: 30%;
         background-color: white;
     }
-    .titlemid {
-        border: 0px solid black;
-        height: 100px;
-        width: 30%;
-        background-color: white;
-    }
     .title h1 {
         margin: auto;
         text-align: center;
+        font-size: 50px;
+        font-family: 'Roboto Mono', monospace;
+        padding-top: .3em;
     }
     .titles {
         display: flex;
@@ -63,21 +63,20 @@
     .words {
         border: 0px solid black;
         width: 30%;
-        height: 700px;
+        height: 750px;
         display: flex;
-        justify-content: space-around;
-        background-color: white;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .phrases {
         border: 0px solid black;
         width: 30%;
-        height: 700px;
-        background-color: white;
+        height: 750px;
     }
     .description {
         border: 0px solid black;
         width: 30%;
-        height: 700px;
+        height: 750px;
         background-color: white;
     }
     .lists {
@@ -85,6 +84,63 @@
         justify-content: space-around;
         margin-top: 1em;
     }
+    .cast {
+        border: 0px solid gold;
+        height: 80px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast1 {
+        border: 0px solid gold;
+        height: 80px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast2 {
+        border: 0px solid gold;
+        height: 80px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast3 {
+        border: 0px solid dark;
+        height: 80px;
+        background-color: white;
+        margin-bottom: 1em;
+    }
+    .lang {
+        display: flex;
+        justify-content: space-between;
+    }
+    .lang p {
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+    .lang h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px
+    }
+    .c {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: deepskyblue;
+    }
+    .e {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgoldenrod;
+    }
+    .s {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+
 
 
 
