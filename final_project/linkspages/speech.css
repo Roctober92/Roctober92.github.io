@@ -6,12 +6,13 @@
     }
     header {
         border: 3px solid black;
-        width: 80%;
+        width: 100%;
         height: 230px;
         margin: auto;
         margin-bottom: 8em;
         font-family: 'Abril Fatface', cursive;
         background-image: url("/final_project/proposalpic/yellow.jpg");
+        background-size: cover;
     }
     header h1 {
         margin: auto;
@@ -44,7 +45,8 @@
     .desc {
         border: 0px solid black;
         height: 150px;
-        background-color: gold;
+        background-image: url("/final_project/proposalpic/yellow.jpg");
+        background-size: cover;
     }
     .desc p {
         font-size: 20px;
