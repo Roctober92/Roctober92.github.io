@@ -77,7 +77,6 @@
         border: 0px solid black;
         width: 30%;
         height: 770px;
-        background-color: white;
     }
     .lists {
         display: flex;
@@ -90,11 +89,25 @@
         background-color: darkgoldenrod;
         margin-bottom: 1em;
     }
+    .cast p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
     .cast1 {
         border: 0px solid gold;
         height: 40px;
         background-color: deepskyblue;
         margin-bottom: 1em;
+    }
+    .cast1 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
     }
     .cast2 {
         border: 0px solid gold;
@@ -102,11 +115,25 @@
         background-color: darkgreen;
         margin-bottom: 1em;
     }
+    .cast2 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
     .cast3 {
         border: 0px solid dark;
         height: 40px;
         background-color: darkgoldenrod;
         margin-bottom: 1em;
+    }
+    .cast3 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
     }
     .cast4 {
         border: 0px solid gold;
@@ -114,11 +141,32 @@
         background-color: deepskyblue;
         margin-bottom: 1em;
     }
+    .cast4 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
     .cast5 {
         border: 0px solid gold;
         height: 40px;
         background-color: darkgreen;
         margin-bottom: 1em;
+    }
+    .cast5 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast6 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
     }
     .cast6 {
         border: 0px solid dark;
@@ -160,7 +208,17 @@
         width: 30%;
         background-color: darkgreen;
     }
-
+    .s1 {
+        border: 0px solid black;
+        height: 70px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+    .list {
+        border: 0px solid black;
+        height: 300px;
+        background-color: white;
+    }
 
 
 
