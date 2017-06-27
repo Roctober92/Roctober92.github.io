@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 70em) {
+    .hide3 {
+        display: none;
+    }
+    .hide2 {
+        display: none;
+    }
+    .hide1 {
+        display: none;
+    }
     body {
         background-image: url("/final_project/proposalpic/back1.jpg");
         background-size: cover;
@@ -216,12 +225,545 @@
     }
     .list {
         border: 0px solid black;
-        height: 300px;
+        height: 350px;
         background-color: white;
     }
+    .list ul {
+        list-style-type: square;
+    }
+    .list li {
+        font-size: 30px;
+        margin-bottom: 1em;
+    }
+    .luke {
+        border:0px solid black;
+        height: 150px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .luke h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .luke p {
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1em;
+    }
+    .tn24 {
+        border:0px solid black;
+        height: 150px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .tn24 h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .tn24 p {
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1em;
+    }
 
+}
 
+@media screen and (min-width: 30em) and (max-width: 75em) {
+    .hide3 {
+        display: none;
+    }
+    .hide2 {
+        display: none;
+    }
+    .hide1 {
+        display: none;
+    }
+    body {
+        background-image: url("/final_project/proposalpic/back1.jpg");
+        background-size: cover;
+    }
+    header {
+        border: 0px solid black;
+        width: 100%;
+        height: 230px;
+        margin: auto;
+        margin-bottom: 4em;
+        font-family: 'Abril Fatface', cursive;
+        background-image: url("/final_project/proposalpic/yellow.jpg");
+        background-size: cover;
+        font-family: 'Signika', sans-serif;
+    }
+    header h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 90px;
+        letter-spacing: 40px;
+    }
+    header h1+h1 {
+        margin: auto;
+        text-align: center;
+        margin-top: -.1em;
+    }
 
+    .desc {
+        border: 0px solid black;
+        height: 150px;
+        background-image: url("/final_project/proposalpic/yellow.jpg");
+        background-size: cover;
+    }
+    .desc p {
+        font-size: 20px;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5em;
+    }
+    .title {
+        border: 0px solid black;
+        height: 100px;
+        width: 30%;
+        background-color: white;
+    }
+    .title h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Roboto Mono', monospace;
+        padding-top: .3em;
+    }
+    .titles {
+        display: flex;
+        justify-content: space-around;
+    }
+    .words {
+        border: 0px solid black;
+        width: 30%;
+        height: 770px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .phrases {
+        border: 0px solid black;
+        width: 30%;
+        height: 770px;
+    }
+    .description {
+        border: 0px solid black;
+        width: 30%;
+        height: 770px;
+    }
+    .lists {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1em;
+    }
+    .cast {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast1 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast1 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast2 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast2 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast3 {
+        border: 0px solid dark;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast3 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast4 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast4 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast5 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast5 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast6 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding-top: .2em;
+    }
+    .cast6 {
+        border: 0px solid dark;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .lang {
+        display: flex;
+        justify-content: space-between;
+    }
+    .lang p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size:17px;
+        padding-top: .4em
+    }
+    .lang h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 25px
+    }
+    .c {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: deepskyblue;
+    }
+    .e {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgoldenrod;
+    }
+    .s {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+    .s1 {
+        border: 0px solid black;
+        height: 70px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+    .list {
+        border: 0px solid black;
+        height: 350px;
+        background-color: white;
+    }
+    .list ul {
+        list-style-type: square;
+    }
+    .list li {
+        font-size: 23px;
+        margin-bottom: 1em;
+    }
+    .luke {
+        border:0px solid black;
+        height: 150px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .luke h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .luke p {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 1em;
+    }
+    .tn24 {
+        border:0px solid black;
+        height: 150px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .tn24 h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .tn24 p {
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 1em;
+    }
 
+}
 
+@media screen and (max-width: 30em) {
+    .list {
+        display: none;
+    }
+    .description {
+        display: none;
+    }
+    body {
+        background-image: url("/final_project/proposalpic/back1.jpg");
+        background-size: cover;
+    }
+    header {
+        border: 0px solid black;
+        height: 200px;
+        background-image: url(/final_project/proposalpic/yellow.jpg);
+    }
+    header h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: .4em;
+        font-family: 'Signika', sans-serif;
+    }
+    .titles {
+        display: none;
+    }
+    .hide1 {
+        border: 0px solid black;
+        height: 70px;
+        background-color: white;
+        margin-top: 3em;
+    }
+    .hide1 h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .hide2 {
+        border: 0px solid black;
+        height: 330px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .hide2 ul {
+        list-style-type: square;
+    }
+    .hide2 li {
+        font-size: 30px;
+        margin-bottom: .8em;
+    }
+    .hide3 {
+        border: 0px solid black;
+        height: 200px;
+        background-color: white;
+        margin-top: 2em;
+    }
+    .hide3 h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px
+    }
+    .hide3 p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1em;
+    }
+    .words {
+        border: 0px solid black;
+        width: 100%;
+        height: 770px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lang {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+    .lang p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .4em
+    }
+    .lang h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px
+    }
+    .c {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: deepskyblue;
+    }
+    .e {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgoldenrod;
+    }
+    .s {
+        border: 0px solid black;
+        height: 50px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+    .s1 {
+        border: 0px solid black;
+        height: 70px;
+        width: 30%;
+        background-color: darkgreen;
+    }
+    .cast {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast1 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast1 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast2 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast2 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast3 {
+        border: 0px solid dark;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast3 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast4 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast4 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast5 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast5 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast6 p {
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        padding-top: .2em;
+    }
+    .cast6 {
+        border: 0px solid dark;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .phrases {
+        margin-top: 1em;
+    }
+
+}
+footer {
+    color: white;
+}
+
+a:hover {
+    color: #C1C422
 }
