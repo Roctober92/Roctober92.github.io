@@ -63,7 +63,7 @@
     .words {
         border: 0px solid black;
         width: 30%;
-        height: 750px;
+        height: 770px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -71,12 +71,12 @@
     .phrases {
         border: 0px solid black;
         width: 30%;
-        height: 750px;
+        height: 770px;
     }
     .description {
         border: 0px solid black;
         width: 30%;
-        height: 750px;
+        height: 770px;
         background-color: white;
     }
     .lists {
@@ -86,26 +86,44 @@
     }
     .cast {
         border: 0px solid gold;
-        height: 80px;
+        height: 40px;
         background-color: darkgoldenrod;
         margin-bottom: 1em;
     }
     .cast1 {
         border: 0px solid gold;
-        height: 80px;
+        height: 40px;
         background-color: deepskyblue;
         margin-bottom: 1em;
     }
     .cast2 {
         border: 0px solid gold;
-        height: 80px;
+        height: 40px;
         background-color: darkgreen;
         margin-bottom: 1em;
     }
     .cast3 {
         border: 0px solid dark;
-        height: 80px;
-        background-color: white;
+        height: 40px;
+        background-color: darkgoldenrod;
+        margin-bottom: 1em;
+    }
+    .cast4 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .cast5 {
+        border: 0px solid gold;
+        height: 40px;
+        background-color: darkgreen;
+        margin-bottom: 1em;
+    }
+    .cast6 {
+        border: 0px solid dark;
+        height: 40px;
+        background-color: darkgoldenrod;
         margin-bottom: 1em;
     }
     .lang {
@@ -116,6 +134,8 @@
         margin: auto;
         text-align: center;
         color: white;
+        font-size: 25px;
+        padding-top: .4em
     }
     .lang h1 {
         margin: auto;
