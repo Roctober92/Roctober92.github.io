@@ -17,7 +17,6 @@
         background-size: cover;
         margin-bottom: 2em;
     }
-
     header nav {
         margin: auto;
         text-align: center;
@@ -35,7 +34,6 @@
         background-image: url(photos/flag.png);
         font-family: 'Mogra', cursive;
     }
-
     .transportation {
         display: flex;
         justify-content: space-around;
@@ -349,4 +347,4 @@
         width: 100%;
         background-image: url("culture/bookstore.jpg");
         background-size: cover;
-}
+    }
