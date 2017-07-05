@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+One');
 @import url('https://fonts.googleapis.com/css?family=Kurale');
 @media screen and (min-width: 30em) {
+    body {
+        background-image: url('/final_project/linkspages/photos/flag.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     .bar p {
         margin: auto;
         text-align: center;
@@ -77,9 +82,15 @@
     header {
         margin: auto;
         text-align: center;
-        font-size: 35px;
+        font-size: 55px;
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
         font-family: 'Kurale', serif;
+        letter-spacing: 20px;
+        margin-top: -1.4em
+    }
+    header nav {
+        font-size: 30px;
+        margin-top: -2em
     }
     .When p {
         font-family: 'Righteous', monospace;
@@ -262,10 +273,6 @@
     .Where li {
         margin-bottom: 15px;
         font-size: 20px;
-    }
-    main {
-        background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: contain;
     }
 
     a:hover {
