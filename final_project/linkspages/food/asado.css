@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
 @media screen and (min-width: 30em) {
     .bar p {
         margin: auto;
@@ -76,8 +77,9 @@
     header {
         margin: auto;
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        font-family: 'Kurale', serif;
     }
     .When p {
         font-family: 'Righteous', monospace;
