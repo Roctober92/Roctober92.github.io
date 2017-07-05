@@ -1,20 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @media screen and (min-width: 30em) {
+    body {
+        background-image: url('photos/flag.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     header {
         margin: auto;
-        padding-bottom: 1em;
         text-align: center;
         color: yellow;
-        font-size: 30px;
+        font-size: 45px;
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-        padding-top: 2em;
+        padding-top: .5em;
+        font-family: 'Libre Baskerville', serif;
+        letter-spacing: 15px;
+        margin-top: -2em;
+        padding-bottom: 2em
+    }
+    header nav {
+        margin-top: -1.4em;
+        font-size: 25px
     }
     .all {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: contain;
     }
     .mil {
         border: 0px solid green;
@@ -59,11 +70,8 @@
         margin: auto;
         text-align: center;
         color: firebrick;
-        padding-bottom: 1em;
-    }
-    .rica p {
-        color: gold;
-        background-color: blueviolet;
+        padding-bottom: 6em;
+        margin-top: -5em
     }
     .mil h2 {
         margin: auto;
