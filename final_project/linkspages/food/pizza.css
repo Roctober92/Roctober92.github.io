@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Mogra');
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
 @media screen and (min-width: 30em) {
     header {
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-        padding-top: 3em;
+        padding-top: 1em;
     }
     header>nav {
         margin: auto;
         text-align: center;
         font-size: 30px;
+        font-family: 'Kurale', serif;
+        letter-spacing: 10px;
     }
     header>h1 {
         margin: auto;
@@ -16,6 +19,7 @@
         text-align: center;
         color: yellow;
         font-size: 90px;
+        font-family: 'Kurale', serif;
     }
     .desc {
         border: 4px solid black;
@@ -302,4 +306,7 @@
     footer {
         margin-top: 2em;
     }
+}
+a:hover {
+    color: #C1C422
 }
