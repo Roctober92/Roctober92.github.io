@@ -3,6 +3,9 @@
 h2 {
     font-size: 14px;
 }
+a:link {
+    text-decoration: none;
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -178,6 +181,9 @@ footer {
     }
 }
 @media screen and (min-width: 34em) {
+    a:link {
+        text-decoration: none;
+    }
     .Current {
         padding-top: 1em;
         padding-left: 5em;
