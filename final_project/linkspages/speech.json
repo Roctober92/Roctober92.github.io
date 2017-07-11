@@ -1,0 +1,64 @@
+{
+
+    "Words": {
+        "Title": "Words",
+        "Desc":
+        [
+            {"cas": "CAS",
+            "esp": "ESP",
+            "eng": "ENG"}
+        ],
+        "Words":
+        [
+            {"cas" : "Piola",
+            "esp": "Genial",
+            "eng": "Awesome"},
+            {"cas" : "Copado",
+             "esp": "Chévere",
+             "eng": "Sweet"},
+            {"cas": "Laburar",
+            "esp": "Trabajar",
+            "eng": "To Work"},
+            {"cas": "Ché",
+            "esp": "Amigo",
+            "eng": "Dude"},
+            {"cas": "Kapo",
+            "esp": "Genio",
+            "eng": "Stud"},
+            {"cas": "Chocho",
+            "esp": "Contento",
+            "eng": "Happy"},
+            {"cas": "Gauchada",
+             "esp": "Favor",
+             "eng": "Favor"},
+            {"cas": "Cargar",
+             "esp": "Burlarse",
+             "eng": "Tease"},
+            {"cas": "Bondi",
+             "esp": "Bús",
+             "eng": "Bus"},
+            {"cas": "Pibe",
+             "esp": "Chico",
+             "eng": "Young Man"}
+        ]
+    },
+    "Phrases": {
+        "Title": "Phrases",
+        "Phrases": {
+            "1": "I'm extremely hungry",
+            "2": "Tengo una lija",
+            "3": "Of course!",
+            "4": "Mas Vale!",
+            "5": "A Smack in the face",
+            "6": "Una paliza en la cara",
+            "7": "To be in trouble",
+            "8": "Estar en el horno",
+            "9": "Make the effort",
+            "10": "Poner las pilas",
+            "11": "To be lazy",
+            "12": "Tener fiaca",
+            "13": "Finger-lickin good",
+            "14": "Re chupete"
+        }
+     }
+}

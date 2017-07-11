@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @media screen and (min-width: 70em) {
+    header nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1em;
+    }
+    header a {
+        color: deepskyblue;
+    }
     .hide3 {
         display: none;
     }
@@ -275,6 +284,15 @@
 }
 
 @media screen and (min-width: 30em) and (max-width: 75em) {
+    header nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1em;
+    }
+    header a {
+        color: deepskyblue;
+    }
     .hide3 {
         display: none;
     }
@@ -548,6 +566,15 @@
 }
 
 @media screen and (max-width: 30em) {
+    header nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-top: -.8em;
+    }
+    header a {
+        color: deepskyblue;
+    }
     .list {
         display: none;
     }
