@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 @import url('https://fonts.googleapis.com/css?family=Kurale');
 @media screen and (min-width: 30em) {
-
     header {
         border: 3px solid blue;
     }
@@ -249,10 +248,11 @@
         margin: auto;
         text-align: center;
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
-        padding-bottom: 1.4em;
+        padding-bottom: 1em;
         padding-top: 1em;
         font-size: 30px;
         margin-bottom: .5em;
+        font-family: 'Kurale', serif;
     }
     .desc {
         margin: auto;
@@ -269,7 +269,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 470px 200px;
+        background-size: cover;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -333,7 +333,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 470px 200px;
+        background-size: cover;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
@@ -397,7 +397,7 @@
         height: 200px;
         width: 100%;
         background-image: url("/final_project/linkspages/photos/flag.png");
-        background-size: 470px 200px;
+        background-size: cover;
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }

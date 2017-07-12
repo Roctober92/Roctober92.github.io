@@ -290,10 +290,13 @@
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
         padding-bottom: 1.4em;
         padding-top: 1em;
-        font-size: 40px;
+        font-size: 70px;
         margin-bottom: .5em;
+        font-family: 'Kurale', serif;
     }
-
+    header nav {
+        font-family: 'Kurale', serif;
+    }
     .desc {
         margin: auto;
         font-size: 17px;

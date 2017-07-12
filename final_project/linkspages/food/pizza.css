@@ -186,11 +186,13 @@
         padding-top: 1em;
         font-size: 30px;
         margin-bottom: .5em;
+        font-family: 'Kurale', serif;
     }
     header>nav {
         margin: auto;
         text-align: center;
         font-size: 30px;
+        font-family: 'Kurale', serif;
     }
     .desc {
         border: 2px solid yellow;
