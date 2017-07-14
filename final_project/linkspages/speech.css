@@ -794,3 +794,6 @@ footer {
 a:hover {
     color: #C1C422
 }
+.audience a {
+    color: white;
+}

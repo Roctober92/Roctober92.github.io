@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mogra');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @media screen and (min-width: 30em) {
     a:hover {
         color: #C1C422
@@ -191,15 +192,16 @@
         background-image: url("/final_project/linkspages/photos/9dj.jpg");
         padding-bottom: 1.4em;
         padding-top: 1em;
-        font-size: 30px;
+        font-size: 23px;
         margin-bottom: .5em;
         color: white;
     }
     header a {
-        color: blue;
+        color: white;
     }
     header h1 {
         text-shadow: 4px 4px black;
+        font-family: 'Libre Baskerville', serif;
     }
     .mate {
         margin: auto;
@@ -243,7 +245,9 @@
         border: 2px solid deepskyblue;
         font-family: 'Dosis', sans-serif;
     }
-
+    a:hover {
+        color: #C1C422
+    }
 
 
 
