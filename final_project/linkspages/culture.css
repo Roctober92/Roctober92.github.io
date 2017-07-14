@@ -306,7 +306,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url("photos/tomar.jpg");
-        background-size: cover;
+        background-size: 300px 400px;
     }
     .dance_image {
         border: 0px solid black;
@@ -344,7 +344,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/Casa.png);
-        background-size: cover;
+        background-size: 240px 400px;
     }
     .xmas_image{
         border: 0px solid black;
@@ -352,7 +352,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/xmas.jpg);
-        background-size: cover;
+        background-size: 240px 400px;
     }
     .mate2 {
         border: 3px solid deepskyblue;
@@ -375,7 +375,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/alfajor.jpg);
-        background-size: cover;
+        background-size: 240px 400px;
     }
     .clean_image {
         border: 0px solid black;
@@ -383,7 +383,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url("photos/mop.jpg");
-        background-size: cover;
+        background-size: 240px 400px;
     }
     .mate3 {
         border: 3px solid black;
@@ -406,7 +406,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/soccer.jpg);
-        background-size: cover;
+        background-size: 250px 400px;
     }
     .night_image {
         border: 0px solid black;
@@ -414,7 +414,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/night.jpg);
-        background-size: cover;
+        background-size: 250px 400px;
     }
     .mate_desc p {
         margin: auto;
@@ -496,7 +496,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url("photos/tomar.jpg");
-        background-size: cover;
+        background-size: 380px 400px;
     }
     .dance_image {
         border: 0px solid black;
@@ -565,7 +565,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/alfajor.jpg);
-        background-size: cover;
+        background-size: 370px 400px;
     }
     .clean_image {
         border: 0px solid black;
@@ -573,7 +573,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url("photos/mop.jpg");
-        background-size: cover;
+        background-size: 410px 400px;
     }
     .mate3 {
         border: 3px solid black;
@@ -596,7 +596,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/soccer.jpg);
-        background-size: cover;
+        background-size: 370px 400px;
     }
     .night_image {
         border: 0px solid black;
@@ -604,7 +604,7 @@
         width: 100%;
         margin-top: 2em;
         background-image: url(photos/night.jpg);
-        background-size: cover;
+        background-size: 370px 400px;
     }
     .mate_desc p {
         margin: auto;
