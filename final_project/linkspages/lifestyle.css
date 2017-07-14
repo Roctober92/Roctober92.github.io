@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Peralta');
 @import url('https://fonts.googleapis.com/css?family=Mogra');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 70em) {
     header h1 {
         margin: auto;
         text-align: center;
@@ -347,5 +347,379 @@
         width: 100%;
         background-image: url("culture/bookstore.jpg");
         background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 45em) and (max-width: 70em) {
+    header h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Peralta', cursive;
+        letter-spacing: 20px;
+        margin-top: -.3em;
+    }
+    header {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background-image: url(culture/temple.JPG);
+        background-size: cover;
+        margin-bottom: 2em;
+    }
+    header nav {
+        margin: auto;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 30px;
+    }
+    .tranlabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .transportation {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 13em;
+    }
+    .title {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        background-color: #da9616;
+    }
+    .title p {
+        font-size: 35px;
+        margin-top: -.1em;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .buspic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/bus.jpg");
+        background-size: cover;
+    }
+    .desc {
+        border: 0px solid black;
+        height: 200px;
+        width: 50%;
+    }
+    .desc ul {
+        list-style-type: square;
+    }
+    .desc li {
+        margin-bottom: 1.2em;
+    }
+    .trenpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/tren.jpg");
+        background-size: cover;
+    }
+    .remispic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url(culture/car.jpg);
+        background-size: cover;
+    }
+    .streetpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/street.jpg");
+        background-size: cover;
+    }
+    .barriolabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .citypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/city.jpg");
+        background-size: cover;
+    }
+    .suburbpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/suburb.jpg");
+        background-size: cover;
+    }
+    .farmpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/farm.jpg");
+        background-size: cover;
+    }
+    .villapic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/villa.jpg");
+        background-size: cover;
+    }
+    .shoppinglabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .bakerypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url(culture/pan.jpg);
+        background-size: cover;
+    }
+    .fruitpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/fruit.jpg");
+        background-size: cover;
+    }
+    .butcherpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/carne.jpg");
+        background-size: cover;
+    }
+    .storepic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/chino.jpg");
+        background-size: cover;
+    }
+    .kioskpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/kiosko.jpg");
+        background-size: cover;
+    }
+    .bookpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/bookstore.jpg");
+        background-size: cover;
+    }
+    .note {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 30em) and (max-width: 45em) {
+    header h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Peralta', cursive;
+        letter-spacing: 20px;
+        margin-top: -.3em;
+    }
+    header {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background-image: url(culture/temple.JPG);
+        background-size: cover;
+        margin-bottom: 2em;
+    }
+    header nav {
+        margin: auto;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 30px;
+    }
+    .tranlabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .transportation {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30em;
+    }
+    .title {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        background-color: #da9616;
+    }
+    .title p {
+        font-size: 35px;
+        margin-top: -.1em;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .buspic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/bus.jpg");
+        background-size: cover;
+    }
+    .desc {
+        border: 0px solid black;
+        height: 200px;
+        width: 50%;
+    }
+    .desc ul {
+        list-style-type: square;
+    }
+    .desc li {
+        margin-bottom: 1.2em;
+    }
+    .trenpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/tren.jpg");
+        background-size: cover;
+    }
+    .remispic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url(culture/car.jpg);
+        background-size: cover;
+    }
+    .streetpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/street.jpg");
+        background-size: cover;
+    }
+    .barriolabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .citypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/city.jpg");
+        background-size: cover;
+    }
+    .suburbpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/suburb.jpg");
+        background-size: cover;
+    }
+    .farmpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/farm.jpg");
+        background-size: cover;
+    }
+    .villapic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/villa.jpg");
+        background-size: cover;
+    }
+    .shoppinglabel {
+        border: 3px solid black;
+        height: 100px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+        font-size: 20px;
+        background-image: url(photos/flag.png);
+        font-family: 'Mogra', cursive;
+    }
+    .bakerypic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url(culture/pan.jpg);
+        background-size: cover;
+    }
+    .fruitpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/fruit.jpg");
+        background-size: cover;
+    }
+    .butcherpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/carne.jpg");
+        background-size: cover;
+    }
+    .storepic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/chino.jpg");
+        background-size: cover;
+    }
+    .kioskpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/kiosko.jpg");
+        background-size: cover;
+    }
+    .bookpic {
+        border: 0px solid black;
+        height: 200px;
+        width: 30%;
+        background-image: url("culture/bookstore.jpg");
+        background-size: cover;
+    }
+    .note {
+        margin: auto;
+        text-align: center;
     }
 }
