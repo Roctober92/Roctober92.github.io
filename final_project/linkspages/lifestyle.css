@@ -589,10 +589,10 @@
     }
     .buspic {
         border: 0px solid black;
-        height: 200px;
+        height: 300px;
         width: 30%;
         background-image: url("culture/bus.jpg");
-        background-size: cover;
+        background-size: 210px 300px;
     }
     .desc {
         border: 0px solid black;
