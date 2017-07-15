@@ -179,19 +179,19 @@
     .When {
         border: 3px solid black;
         width: 33%;
-        height: 180px;
+        height: 230px;
         background-color: yellow;
     }
     .Where {
         border: 3px solid black;
         width: 34%;
-        height: 180px;
+        height: 230px;
         background-color: lightblue;
     }
     .How {
         border: 3px solid black;
         width: 33%;
-        height: 180px;
+        height: 230px;
         background-color: yellow;
     }
     .description {
