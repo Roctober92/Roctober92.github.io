@@ -1,0 +1,6 @@
+.foot span:nth-of-type(even) {
+    color: deepskyblue;
+}
+.foot span:nth-of-type(odd) {
+    color: #da9616;
+}
