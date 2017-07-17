@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @media screen and (min-width: 30em) {
     body {
         background-image: url('photos/flag.png');
@@ -45,7 +46,7 @@
         background-position: bottom;
         transform: rotate(-7deg);
     }
-    .Pasta {
+    .pasta {
         border: 0px solid green;
         width: 45%;
         height: 400px;
@@ -77,21 +78,41 @@
         margin: auto;
         text-align: center;
         background-color: greenyellow;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 35px;
+    }
+    .mil a {
+        text-decoration: none;
     }
     .asado h2 {
         margin: auto;
         text-align: center;
         background-color: greenyellow;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 35px;
     }
-    .Pasta h2 {
+    .asado a {
+        text-decoration: none;
+    }
+    .pasta h2 {
         margin: auto;
         text-align: center;
         background-color: greenyellow;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 35px;
+    }
+    .pasta a {
+        text-decoration: none;
     }
     .pizza h2 {
         margin: auto;
         text-align: center;
         background-color: greenyellow;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 35px;
+    }
+    .pizza a {
+        text-decoration: none;
     }
     a:hover {
         color: #C1C422
@@ -145,7 +166,7 @@
         background-color: yellow;
         margin-bottom: 3em;
     }
-    .Pasta {
+    .pasta {
         border: 3px solid black;
         height: 300px;
         width: 100%;
@@ -154,7 +175,7 @@
         margin-bottom: 3em;
         background-repeat: no-repeat;
     }
-    .Pasta h2 {
+    .pasta h2 {
         margin: auto;
         text-align: center;
         background-color: yellow;
