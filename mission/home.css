@@ -19,9 +19,16 @@ header h1 {
 header p {
     margin: auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: .6em;
     color: deepskyblue;
+    margin-bottom: 1em;
+    letter-spacing: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 .overview {
@@ -43,7 +50,7 @@ header p {
 .nav {
     display: flex;
     justify-content: space-around;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 footer {
@@ -86,7 +93,28 @@ footer {
 }
 .merlo {
     background-image: url(mission_image/lg.jpg);
-    padding-bottom: .1em
+    margin-bottom: 8em;
+    background-size: cover;
+}
+.arco {
+    background-image: url(mission_image/g.jpg);
+    margin-bottom: 8em;
+    background-size: cover;
+}
+.sl {
+    background-image: url(mission_image/bl.jpg);
+    background-size: cover;
+    margin-bottom: 8em;
+}
+.it {
+    background-image: url(mission_image/red.jpg);
+    background-size: cover;
+    margin-bottom: 8em;
+}
+.lujan {
+    background-image: url(mission_image/orange.jpg);
+    background-size: cover;
+    margin-bottom: 8em;
 }
 #three {
     background-image: url(mission_image/fam.JPG);
@@ -94,5 +122,29 @@ footer {
 }
 #four {
     background-image: url(mission_image/poop.JPG);
+    background-size: cover;
+}
+#five {
+    background-image: url(mission_image/guad.jpg);
+    background-size: cover;
+}
+#six {
+    background-image: url(mission_image/sl.jpg);
+    background-size: cover;
+}
+#seven {
+background-image: url(mission_image/john.jpg);
+    background-size: cover;
+}
+#eight {
+background-image: url(mission_image/griselda.jpg);
+    background-size: cover;
+}
+#nine {
+    background-image: url(mission_image/pday.jpg);
+    background-size: cover;
+}
+#ten {
+    background-image: url(mission_image/lujan.jpg);
     background-size: cover;
 }
