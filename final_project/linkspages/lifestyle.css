@@ -37,7 +37,7 @@
     .transportation {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 5em;
+        margin-bottom: 6em;
     }
     .title {
         margin: auto;
