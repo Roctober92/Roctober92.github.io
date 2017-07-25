@@ -46,6 +46,10 @@ img {
     margin-top: .1em;
     font-family: 'Kurale', serif;
 }
+.overview a {
+    text-decoration: none;
+    color: black;
+}
 
 .nav {
     display: flex;
@@ -80,71 +84,7 @@ footer {
     width: 35%;
 }
 
-#one {
-    margin-top: -3em;
-    background-image: url(mission_image/bap.jpg);
-    background-size: cover;
+a:hover {
+    color: #C1C422
 }
 
-#two {
-    margin-top: -3em;
-    background-image: url(mission_image/dad.jpg);
-    background-size: cover;
-}
-.merlo {
-    background-image: url(mission_image/lg.jpg);
-    margin-bottom: 8em;
-    background-size: cover;
-}
-.arco {
-    background-image: url(mission_image/g.jpg);
-    margin-bottom: 8em;
-    background-size: cover;
-}
-.sl {
-    background-image: url(mission_image/bl.jpg);
-    background-size: cover;
-    margin-bottom: 8em;
-}
-.it {
-    background-image: url(mission_image/red.jpg);
-    background-size: cover;
-    margin-bottom: 8em;
-}
-.lujan {
-    background-image: url(mission_image/orange.jpg);
-    background-size: cover;
-    margin-bottom: 8em;
-}
-#three {
-    background-image: url(mission_image/fam.JPG);
-    background-size: cover;
-}
-#four {
-    background-image: url(mission_image/poop.JPG);
-    background-size: cover;
-}
-#five {
-    background-image: url(mission_image/guad.jpg);
-    background-size: cover;
-}
-#six {
-    background-image: url(mission_image/sl.jpg);
-    background-size: cover;
-}
-#seven {
-background-image: url(mission_image/john.jpg);
-    background-size: cover;
-}
-#eight {
-background-image: url(mission_image/griselda.jpg);
-    background-size: cover;
-}
-#nine {
-    background-image: url(mission_image/pday.jpg);
-    background-size: cover;
-}
-#ten {
-    background-image: url(mission_image/lujan.jpg);
-    background-size: cover;
-}

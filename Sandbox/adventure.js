@@ -4,7 +4,7 @@ var instructions = [
         "choices": {
             "first": 2,
             "second": 3,
-            "third": 4,
+            "third": 4
         },
         "choiceText": "choose 1",
         "title": "The Argentine Villa",
@@ -15,7 +15,7 @@ var instructions = [
         "choices": {
             "first": 5,
             "second": 6,
-            "third": 4,
+            "third": 4
         },
         "choiceText": "Go Left (choice 1)",
         "title": "The Long Passageway",
@@ -26,7 +26,7 @@ var instructions = [
         "choices": {
             "first": 7,
             "second": 8,
-            "third": 4,
+            "third": 4
         },
         "choiceText": "Go Right (choice 2)",
         "title": "The Fork in the road",
@@ -37,7 +37,7 @@ var instructions = [
         "choices": {
             "first": 9,
             "second": 10,
-            "third": 4,
+            "third": 4
         },
         "choiceText": "Go Back (Choice 1)",
         "title": "The Drug Lord",
@@ -49,7 +49,7 @@ var instructions = [
         "choices": {
             "first": 4,
             "second": 4,
-            "third": 4,
+            "third": 4
         },
         "choiceText": "Go Forward (Choice 2)",
         "title": "The Less Actve Member!",

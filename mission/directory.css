@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Kite+One');
+@import url('https://fonts.googleapis.com/css?family=Quando');
+header h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    font-family: 'Kite One', sans-serif;
+}
+
+header {
+    border: 0px solid black;
+    height: 180px;
+    background-color: maroon;
+    margin-bottom: 5em;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flag {
+    border: 0px solid black;
+    height: 140px;
+    width: 25%;
+    background-image: url(directory/flag.jpg);
+    background-size: cover;
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    background-color: deepskyblue;
+    font-size: 23px;
+    font-family: 'Quando', serif;
+}
+
+#area {
+    border: 8px solid black;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+#pic {
+    border: 3px solid black;
+    height: 280px;
+    width: 40%;
+    background-image: url(directory/flower.jpg);
+    background-size: cover;
+}
+
+#pic1 {
+    border: 3px solid black;
+    height: 280px;
+    width: 40%;
+    background-image: url(directory/abregu.jpeg);
+    background-size: 300px 280px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2em;
+}
+
+#topics {
+    border: 0px solid black;
+    width: 12%;
+}
+
+#topics ul {
+    list-style-type: none;
+}
+
+#topics li {
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+#topics li+li {
+    margin-left: 2.6em;
+}
+
+#topics li+li+li {
+    margin-left: -.1em;
+}
+
+#desc {
+    border: 0px solid black;
+    width: 80%;
+}
+
+#desc ul {
+    list-style-type: none;
+}
+
+#desc li {
+    font-size: 30px;
+    margin-bottom: .8em;
+}
+#desc1 {
+    border: 0px solid black;
+    width: 80%;
+}
+
+#desc1 ul {
+    list-style-type: none;
+}
+
+#desc1 li {
+    font-size: 30px;
+    margin-bottom: 1.4em;
+}
+
+#pic_mino {
+    border: 3px solid black;
+    height: 280px;
+    width: 40%;
+    background-image: url(directory/fam.JPG);
+    background-size: 240px 280px;
+}
+
+#pic_mino1 {
+    border: 3px solid black;
+    height: 280px;
+    width: 40%;
+    background-image: url(directory/bapcar.JPG);
+    background-size: 300px 280px;
+}

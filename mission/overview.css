@@ -1,0 +1,219 @@
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 6em;
+}
+
+#area {
+    border: 0px solid black;
+    height: 80px;
+    width: 22%;
+    margin-bottom: 2em;
+    border-radius: 40px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    letter-spacing: 20px;
+}
+
+.title h1 {
+    color: white;
+    font-size: 50px
+}
+
+.area {
+    background-color: skyblue;
+}
+
+.area1 {
+    background-color: goldenrod;
+}
+
+.area2 {
+    background-color: greenyellow;
+}
+
+.area3 {
+    background-color: red;
+}
+
+.area4 {
+    background-color: hotpink;
+}
+
+.area5 {
+    background-color: yellow;
+}
+
+.area6 {
+    background-color: orange;
+}
+
+.area7 {
+    background-color: lightseagreen;
+}
+
+#area p {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: .4em;
+}
+
+.outside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4.5em;
+    height: 80%;
+}
+
+.column1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4.5em;
+}
+
+.transfers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transfers p {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: .6em;
+}
+
+.transfers1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transfers1 p {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: .6em;
+}
+
+.topic_left {
+    border: 0px solid black;
+    height: 70px;
+    width: 90%;
+    background-color: black;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.topic_left p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 20px;
+    margin-top: .1em;
+}
+
+.one {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: deepskyblue;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.two {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: goldenrod;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.three {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: greenyellow;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.four {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: red;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.five {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: hotpink;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.six {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: yellow;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.seven {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: orange;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+.eight {
+    border: 0px solid black;
+    height: 70px;
+    width: 44%;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-right: .5em;
+}
+
+body {
+    background-image: url(directory/merlo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:hover {
+    color: #C1C422
+}
