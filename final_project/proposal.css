@@ -104,6 +104,16 @@
     .foot span:nth-of-type(odd) {
         color: darkgoldenrod;
     }
+    .audience {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        margin-top: -1em;
+    }
+    .audience a {
+        text-decoration: none;
+        color: black;
+    }
 }
 
 @media screen and (max-width: 30em) {
