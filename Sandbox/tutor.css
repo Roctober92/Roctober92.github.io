@@ -1,0 +1,51 @@
+.head span:nth-of-type(even) {
+    color: blue;
+}
+.head span:nth-of-type(odd) {
+    color: forestgreen;
+}
+
+.head {
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+    background-color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.info ul {
+    list-style-type: square;
+}
+
+.info li {
+    font-size: 25px;
+    margin-top: .3em;
+}
+
+.column {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    flex-direction: column;
+}
+
+.title {
+    border: 3px solid black;
+    height: 80px;
+    width: 80%;
+    background-color: greenyellow;
+}
+
+.title p {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    margin-top: .5em;
+}
+
+
