@@ -16,11 +16,11 @@
         font-family: 'Libre Baskerville', serif;
         letter-spacing: 15px;
         margin-top: -2em;
-        padding-bottom: 2em
+        padding-bottom: 2em;
     }
     header nav {
         margin-top: -1.4em;
-        font-size: 25px
+        font-size: 25px;
     }
     .all {
         display: flex;
@@ -72,7 +72,7 @@
         text-align: center;
         color: firebrick;
         padding-bottom: 6em;
-        margin-top: -5em
+        margin-top: -5em;
     }
     .mil h2 {
         margin: auto;
@@ -115,7 +115,7 @@
         text-decoration: none;
     }
     a:hover {
-        color: #C1C422
+        color: #C1C422;
     }
 }
 

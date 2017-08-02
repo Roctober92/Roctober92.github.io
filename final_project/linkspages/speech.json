@@ -16,9 +16,9 @@
             {"cas" : "Copado",
              "esp": "Chévere",
              "eng": "Sweet"},
-            {"cas": "Laburar",
-            "esp": "Trabajar",
-            "eng": "To Work"},
+            {"cas": "Flashero",
+            "esp": "Chévere",
+            "eng": "Cool"},
             {"cas": "Ché",
             "esp": "Amigo",
             "eng": "Dude"},
@@ -39,7 +39,13 @@
              "eng": "Bus"},
             {"cas": "Pibe",
              "esp": "Chico",
-             "eng": "Young Man"}
+             "eng": "Boy"},
+            {"cas": "Laburar",
+             "esp": "Trabajar",
+             "eng": "To Work"},
+            {"cas": "Facha",
+             "esp": "Carisma",
+             "eng": "Swag"}
         ]
     },
     "Phrases": {

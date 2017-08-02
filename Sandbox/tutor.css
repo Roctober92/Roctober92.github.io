@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 .head span:nth-of-type(even) {
     color: blue;
 }
@@ -10,6 +12,7 @@
     text-align: center;
     font-size: 80px;
     background-color: black;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .info {
@@ -25,6 +28,7 @@
 .info li {
     font-size: 25px;
     margin-top: .3em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .column {

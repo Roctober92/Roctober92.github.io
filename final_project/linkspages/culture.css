@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @media screen and (min-width: 60em) {
-    .audience {
-        padding-top: 8em;
-    }
     a:hover {
         color: #C1C422
     }
@@ -253,9 +250,6 @@
     }
 }
 @media screen and (min-width: 30em) and (max-width: 40em){
-    .audience {
-        padding-top: 45em;
-    }
     a:hover {
         color: #C1C422
     }
@@ -443,9 +437,6 @@
 
 }
 @media screen and (min-width: 40em) and (max-width: 60em){
-    .audience {
-        padding-top: 28em;
-    }
     a:hover {
         color: #C1C422
     }

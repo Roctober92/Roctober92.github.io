@@ -244,14 +244,27 @@
 }
 
 @media screen and (max-width: 30em) {
+    body {
+        overflow-x: hidden;
+    }
     .cabeza {
-        margin: auto;
-        text-align: center;
         background-image: url("/Sandbox/argentina/DSCN0996.JPG");
         padding-bottom: 1em;
         padding-top: 1em;
-        font-size: 30px;
         margin-bottom: .5em;
+    }
+
+    .cabeza h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Kurale', serif;
+    }
+
+    .cabeza nav {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
         font-family: 'Kurale', serif;
     }
     .desc {
@@ -492,6 +505,9 @@
 }
 
 @media screen and (min-width: 30em) and (max-width: 50em) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         border: 3px solid blue;
     }
@@ -733,3 +749,6 @@
     }
 }
 
+.cabeza a {
+    text-decoration: none;
+}

@@ -81,7 +81,7 @@
     .words {
         border: 0px solid black;
         width: 30%;
-        height: 770px;
+        height: 830px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -228,7 +228,7 @@
     }
     .s1 {
         border: 0px solid black;
-        height: 70px;
+        height: 50px;
         width: 30%;
         background-color: darkgreen;
     }
@@ -510,7 +510,7 @@
     }
     .s1 {
         border: 0px solid black;
-        height: 70px;
+        height: 50px;
         width: 30%;
         background-color: darkgreen;
     }
@@ -659,7 +659,7 @@
         margin: auto;
         text-align: center;
         color: white;
-        font-size: 25px;
+        font-size: 22px;
         padding-top: .4em
     }
     .lang h1 {
@@ -687,7 +687,7 @@
     }
     .s1 {
         border: 0px solid black;
-        height: 70px;
+        height: 50px;
         width: 30%;
         background-color: darkgreen;
     }
@@ -789,11 +789,10 @@
 }
 footer {
     color: white;
+    margin-top: 4em;
 }
 
 a:hover {
     color: #C1C422
 }
-.audience a {
-    color: white;
-}
+

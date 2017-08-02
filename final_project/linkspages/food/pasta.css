@@ -321,12 +321,6 @@ a:hover {
     footer {
         margin-top: 2em;
     }
-    .audience nav {
-        margin-top: 1em;
-    }
-    .audience a {
-        color: white;
-    }
 }
 
 @media screen and (max-width: 30em) {
