@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 50em) {
     img {
         transition: transform .5s;
     }
@@ -68,6 +68,74 @@
     }
 }
 
+@media screen and (min-width: 30em) and (max-width: 50em)
+{   img {
+    transition: transform .5s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+    body {
+        background-image: url('photos/flag.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    header {
+        margin: auto;
+        text-align: center;
+        color: yellow;
+        font-size: 30px;
+        background-image: url("/Sandbox/argentina/DSCN0996.JPG");
+        padding-top: .5em;
+        font-family: 'Libre Baskerville', serif;
+        letter-spacing: 15px;
+        margin-top: -2em;
+        padding-bottom: 2em;
+    }
+    header nav {
+        margin-top: -1.4em;
+        font-size: 20px;
+    }
+    .all {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .mil {
+        background-position: bottom;
+        transform: rotate(7deg);
+    }
+    .miltext {
+        border: 0px solid black;
+        height: 40px;
+        background-color: greenyellow;
+        font-family: 'Fjalla One', sans-serif;
+        padding-bottom: 1em;
+    }
+
+    .miltext p {
+        margin: auto;
+        text-align: center;
+        color: blue;
+        font-size: 25px;
+    }
+    .asado {
+        background-position: bottom;
+        transform: rotate(-7deg);
+        margin-bottom: 4em;
+    }
+    .rica {
+        margin: auto;
+        text-align: center;
+        color: firebrick;
+        padding-bottom: 6em;
+        margin-top: -4em;
+    }
+}
+
 @media screen and (max-width:30em) {
     picture {
         display: none;
@@ -127,4 +195,8 @@
 
 a:hover {
     color: #C1C422
+}
+
+a {
+    text-decoration: none;
 }
