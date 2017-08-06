@@ -11,6 +11,11 @@
     width: 22%;
     margin-bottom: 2em;
     border-radius: 40px;
+    transition: transform .5s;
+}
+
+#area:hover {
+    transform: scale(1.1);
 }
 
 .title {
