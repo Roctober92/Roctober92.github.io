@@ -33,8 +33,8 @@ img {
 
 .overview {
     border: 0px solid black;
-    height: 60px;
-    width: 20%;
+    height: 80px;
+    width: 30%;
     background-color: goldenrod;
     border-radius: 8px
 }
@@ -42,7 +42,7 @@ img {
 .overview p {
     margin: auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: .1em;
     font-family: 'Kurale', serif;
 }
@@ -54,7 +54,7 @@ img {
 .nav {
     display: flex;
     justify-content: space-around;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 footer {
