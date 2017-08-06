@@ -107,7 +107,98 @@ da.onclick = function () {
 
 var colt = document.getElementById('colt');
 colt.onclick = function () {
-    document.body.style.backgroundImage = "url('directory/colton.jpg')";
+    document.body.style.backgroundImage = "url('directory/smith.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var sj = document.getElementById('sj');
+sj.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/virhuez.JPG')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var bis = document.getElementById('bisp');
+bis.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/virgin.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var green = document.getElementById('green');
+green.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/green.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var dead = document.getElementById('dead');
+dead.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/dead.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var john = document.getElementById('john');
+john.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/john.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var wen = document.getElementById('wen');
+wen.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/wen.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var dye1 = document.getElementById('dye1');
+dye1.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/dye1.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var dye2 = document.getElementById('dye2');
+dye2.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/dye2.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var maimo = document.getElementById('maimo');
+maimo.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/maimo.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var mc = document.getElementById('mc');
+mc.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/mc.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var brock = document.getElementById('brock');
+brock.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/brock.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var red = document.getElementById('red');
+red.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/red.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var danny = document.getElementById('danny');
+danny.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/danny.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
 };
