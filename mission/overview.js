@@ -43,6 +43,12 @@ for (var i = 0; i < elements.length; i++) {
 };
 
 var caro = document.getElementById('caro');
+caro.style.transition = "transform .5s";
+$(caro).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 caro.onclick = function () {
     document.body.style.backgroundImage = "url('directory/carobap.JPG')";
     document.body.style.backgroundSize = "cover";
@@ -50,6 +56,12 @@ caro.onclick = function () {
 };
 
 var bar = document.getElementById('barrowes');
+bar.style.transition = "transform .5s";
+$(bar).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 bar.onclick = function () {
     document.body.style.backgroundImage = "url('directory/barrowes.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -57,6 +69,12 @@ bar.onclick = function () {
 };
 
 var os = document.getElementById('oscar');
+os.style.transition = "transform .5s";
+$(os).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 os.onclick = function () {
     document.body.style.backgroundImage = "url('directory/oscarbap.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -64,6 +82,12 @@ os.onclick = function () {
 };
 
 var m = document.getElementById('mtc');
+m.style.transition = "transform .5s";
+$(m).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 m.onclick = function () {
     document.body.style.backgroundImage = "url('directory/mtc.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -71,6 +95,12 @@ m.onclick = function () {
 };
 
 var d = document.getElementById('dad');
+d.style.transition = "transform .5s";
+$(d).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 d.onclick = function () {
     document.body.style.backgroundImage = "url('directory/dad.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -78,6 +108,12 @@ d.onclick = function () {
 };
 
 var mar = document.getElementById('maria');
+mar.style.transition = "transform .5s";
+$(mar).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 mar.onclick = function () {
     document.body.style.backgroundImage = "url('directory/maria.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -85,6 +121,12 @@ mar.onclick = function () {
 };
 
 var rom = document.getElementById('rom');
+rom.style.transition = "transform .5s";
+$(rom).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 rom.onclick = function () {
     document.body.style.backgroundImage = "url('directory/rom.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -92,6 +134,12 @@ rom.onclick = function () {
 };
 
 var hector = document.getElementById('hector');
+hector.style.transition = "transform .5s";
+$(hector).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 hector.onclick = function () {
     document.body.style.backgroundImage = "url('directory/oscar.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -99,6 +147,12 @@ hector.onclick = function () {
 };
 
 var da = document.getElementById('david');
+da.style.transition = "transform .5s";
+$(da).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 da.onclick = function () {
     document.body.style.backgroundImage = "url('directory/david.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -106,6 +160,12 @@ da.onclick = function () {
 };
 
 var colt = document.getElementById('colt');
+colt.style.transition = "transform .5s";
+$(colt).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 colt.onclick = function () {
     document.body.style.backgroundImage = "url('directory/smith.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -113,6 +173,12 @@ colt.onclick = function () {
 };
 
 var sj = document.getElementById('sj');
+sj.style.transition = "transform .5s";
+$(sj).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 sj.onclick = function () {
     document.body.style.backgroundImage = "url('directory/virhuez.JPG')";
     document.body.style.backgroundSize = "cover";
@@ -120,6 +186,12 @@ sj.onclick = function () {
 };
 
 var bis = document.getElementById('bisp');
+bis.style.transition = "transform .5s";
+$(bis).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 bis.onclick = function () {
     document.body.style.backgroundImage = "url('directory/virgin.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -127,6 +199,12 @@ bis.onclick = function () {
 };
 
 var green = document.getElementById('green');
+green.style.transition = "transform .5s";
+$(green).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 green.onclick = function () {
     document.body.style.backgroundImage = "url('directory/green.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -134,6 +212,12 @@ green.onclick = function () {
 };
 
 var dead = document.getElementById('dead');
+dead.style.transition = "transform .5s";
+$(dead).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 dead.onclick = function () {
     document.body.style.backgroundImage = "url('directory/dead.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -141,6 +225,12 @@ dead.onclick = function () {
 };
 
 var john = document.getElementById('john');
+john.style.transition = "transform .5s";
+$(john).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 john.onclick = function () {
     document.body.style.backgroundImage = "url('directory/john.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -148,6 +238,12 @@ john.onclick = function () {
 };
 
 var wen = document.getElementById('wen');
+wen.style.transition = "transform .5s";
+$(wen).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 wen.onclick = function () {
     document.body.style.backgroundImage = "url('directory/wen.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -155,6 +251,12 @@ wen.onclick = function () {
 };
 
 var dye1 = document.getElementById('dye1');
+dye1.style.transition = "transform .5s";
+$(dye1).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 dye1.onclick = function () {
     document.body.style.backgroundImage = "url('directory/dye1.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -162,6 +264,12 @@ dye1.onclick = function () {
 };
 
 var dye2 = document.getElementById('dye2');
+dye2.style.transition = "transform .5s";
+$(dye2).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 dye2.onclick = function () {
     document.body.style.backgroundImage = "url('directory/dye2.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -169,6 +277,12 @@ dye2.onclick = function () {
 };
 
 var maimo = document.getElementById('maimo');
+maimo.style.transition = "transform .5s";
+$(maimo).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 maimo.onclick = function () {
     document.body.style.backgroundImage = "url('directory/maimo.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -176,6 +290,12 @@ maimo.onclick = function () {
 };
 
 var mc = document.getElementById('mc');
+mc.style.transition = "transform .5s";
+$(mc).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 mc.onclick = function () {
     document.body.style.backgroundImage = "url('directory/mc.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -183,6 +303,12 @@ mc.onclick = function () {
 };
 
 var brock = document.getElementById('brock');
+brock.style.transition = "transform .5s";
+$(brock).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 brock.onclick = function () {
     document.body.style.backgroundImage = "url('directory/brock.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -190,6 +316,12 @@ brock.onclick = function () {
 };
 
 var red = document.getElementById('red');
+red.style.transition = "transform .5s";
+$(red).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 red.onclick = function () {
     document.body.style.backgroundImage = "url('directory/red.jpg')";
     document.body.style.backgroundSize = "cover";
@@ -197,6 +329,12 @@ red.onclick = function () {
 };
 
 var danny = document.getElementById('danny');
+danny.style.transition = "transform .5s";
+$(danny).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
 danny.onclick = function () {
     document.body.style.backgroundImage = "url('directory/danny.jpg')";
     document.body.style.backgroundSize = "cover";
