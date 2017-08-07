@@ -76,7 +76,7 @@ $(os).hover(function(){
     $(this).css({transform: 'scale(1)'});
 });
 os.onclick = function () {
-    document.body.style.backgroundImage = "url('directory/oscarbap.jpg')";
+    document.body.style.backgroundImage = "url('directory/oscarbap.JPG')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
 };
