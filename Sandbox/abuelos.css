@@ -1,0 +1,21 @@
+.whole {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+}
+
+.left_column {
+    grid-column: 2/3;
+}
+
+.right_column {
+    width: 100%;
+    height: 560px;
+    margin-right: 3em;
+}
