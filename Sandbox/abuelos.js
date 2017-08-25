@@ -1,14 +1,13 @@
 var first_left = ['Photo', 'Info', 'Question 1', 'Question 2', 'Question 3', 'Question 4', 'Question 5'];
-
-var names = ['Edith Holzhauser', 'Patricia Stofko Wolfe', 'Eugene Joseph Wolfe'];
+var classes = ['one', 'two', 'three', 'four'];
+var names = ['Edith Holzhauser', 'Patricia Stofko Wolfe', 'Eugene Joseph Wolfe', 'Richard Gale Bartholomew'];
 
 function display() {
     for (var y = 0; y < names.length; y++) {
         var rc = document.getElementById('firstR');
         var div1 = $("<div></div>");
         var div2 = $("<div></div>");
-        $(div1).attr('name', names[y]);
-        $(div2).attr('name', names[y] + " info");
+        div2.addClass(classes[y]);
         $(rc).append(div1);
         $(rc).append(div2);
         $(div1).css("border", "0px solid green");
@@ -42,7 +41,7 @@ function display() {
             div.style['margin-top'] = '3em';
             if (z == 6) {
                 div.style['margin-bottom'] = '10em';
-            }
+            };
             div.style['background-color'] = 'deepskyblue';
             div.style['grid-row'] = [z + 1] + '/' + [z + 2];
             div.style.transition = "transform .5s";
@@ -54,20 +53,29 @@ function display() {
             }, function () {
                 $(this).css({
                     transform: 'scale(1)'
-                })
+                });
             });
             if (y == 0 && z == 0) {
                 div.onclick = function() {
-                    $(div2).css("backgroundImage", "url('abuelos/oma.jpg')");
-                    $(div2).css("backgroundSize", "cover");
+                    $("." + classes[0]).css("backgroundImage", "url('abuelos/oma.jpg')");
+                    $("." + classes[0]).css("backgroundSize", "550px 500px");
                 }
-            };
-            if (y == 1 && z == 0) {
+            } else if (y == 1 && z == 0) {
                 div.onclick = function() {
-                    $(div2).css("backgroundImage", "url('abuelos/gma.jpg')");
-                    $(div2).css("backgroundSize", "cover");
+                    $("." + classes[1]).css("backgroundImage", "url('abuelos/gma.jpg')");
+                    $("." + classes[1]).css("backgroundSize", "cover");
                 }
-            }
+            } else if (y == 2 && z == 0) {
+                div.onclick = function() {
+                    $("." + classes[2]).css("backgroundImage", "url('abuelos/gpa.jpg')");
+                    $("." + classes[2]).css("backgroundSize", "cover");
+                }
+            } else if (y == 3 && z == 0) {
+                div.onclick = function() {
+                    $("." + classes[3]).css("backgroundImage", "url('abuelos/opa.jpg')");
+                    $("." + classes[3]).css("backgroundSize", "cover");
+                };
+            };
         }
     };
 };
