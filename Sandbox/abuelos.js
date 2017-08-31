@@ -57,23 +57,75 @@ function display() {
             });
             if (y == 0 && z == 0) {
                 div.onclick = function() {
+                    $("." + classes[0] + " ul").hide();
                     $("." + classes[0]).css("backgroundImage", "url('abuelos/oma.jpg')");
                     $("." + classes[0]).css("backgroundSize", "550px 500px");
                 }
+            } else if (y == 0 && z == 1) {
+                div.onclick = function() {
+                    $("." + classes[0] + " ul").hide();
+                    $("." + classes[0]).css("backgroundImage", "none");
+                    $("." + classes[0]).append('<ul></ul>');
+                    $("." + classes[0] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
+                    $("." + classes[0] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
+                    $("." + classes[0] + " ul").append('<li><strong>Death Date: </strong> None</li>');
+                    $("." + classes[0] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[0] + " ul li").css("margin-bottom", "2em");
+                    $("." + classes[0] + " ul li").css("font-size", "30px");
+                }
             } else if (y == 1 && z == 0) {
                 div.onclick = function() {
+                    $("." + classes[1] + " ul").hide();
                     $("." + classes[1]).css("backgroundImage", "url('abuelos/gma.jpg')");
                     $("." + classes[1]).css("backgroundSize", "cover");
                 }
+            } else if (y == 1 && z == 1) {
+                div.onclick = function() {
+                    $("." + classes[1] + " ul").hide();
+                    $("." + classes[1]).css("backgroundImage", "none");
+                    $("." + classes[1]).append('<ul></ul>');
+                    $("." + classes[1] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Death Date: </strong> None</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[1] + " ul li").css("margin-bottom", "2em");
+                    $("." + classes[1] + " ul li").css("font-size", "30px");
+                }
             } else if (y == 2 && z == 0) {
                 div.onclick = function() {
+                    $("." + classes[2] + " ul").hide();
                     $("." + classes[2]).css("backgroundImage", "url('abuelos/gpa.jpg')");
                     $("." + classes[2]).css("backgroundSize", "cover");
                 }
+            } else if (y == 2 && z == 1) {
+                div.onclick = function() {
+                    $("." + classes[2] + " ul").hide();
+                    $("." + classes[2]).css("backgroundImage", "none");
+                    $("." + classes[2]).append('<ul></ul>');
+                    $("." + classes[2] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Death Date: </strong> None</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[2] + " ul li").css("margin-bottom", "2em");
+                    $("." + classes[2] + " ul li").css("font-size", "30px");
+                }
             } else if (y == 3 && z == 0) {
                 div.onclick = function() {
+                    $("." + classes[3] + " ul").hide();
                     $("." + classes[3]).css("backgroundImage", "url('abuelos/opa.jpg')");
                     $("." + classes[3]).css("backgroundSize", "cover");
+                }
+            } else if (y == 3 && z == 1) {
+                div.onclick = function() {
+                    $("." + classes[3] + " ul").hide();
+                    $("." + classes[3]).css("backgroundImage", "none");
+                    $("." + classes[3]).append('<ul></ul>');
+                    $("." + classes[3] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Birth Date: </strong> 28 JAN 1935 , Mayfield, UT</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Death Date: </strong> 1 FEB 1998, Chatfield, CO</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[3] + " ul li").css("margin-bottom", "2em");
+                    $("." + classes[3] + " ul li").css("font-size", "30px");
                 };
             };
         }
