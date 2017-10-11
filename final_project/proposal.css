@@ -116,9 +116,10 @@
     .header {
         margin: auto;
         text-align: center;
-        font-size: 38px;
+        font-size: 48px;
         margin-top: .5em;
         margin-bottom: .5em;
+        letter-spacing: -.1em
     }
     .lema {
         margin: auto;
