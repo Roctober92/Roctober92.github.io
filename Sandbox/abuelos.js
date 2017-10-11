@@ -1,9 +1,11 @@
-var first_left = ['Photo', 'Info', 'Question 1', 'Question 2', 'Question 3', 'Question 4', 'Question 5'];
+var first_left = ['Photo', 'Info', 'Life Lesson', 'Childhood Memory', 'Marriage Advice', 'If 2nd life, what to do', 'Question 5'];
 var classes = ['one', 'two', 'three', 'four'];
-var names = ['Edith Holzhauser', 'Patricia Stofko Wolfe', 'Eugene Joseph Wolfe', 'Richard Gale Bartholomew'];
+var names = ['Edith Holzhauser', 'Patricia Stofko Wolfe', 'Eugene Joseph Wolfe', 'Richard Gail Bartholomew'];
 
 function display() {
     for (var y = 0; y < names.length; y++) {
+        // var localy = y;
+        // This frees up y for use
         var rc = document.getElementById('firstR');
         var div1 = $("<div></div>");
         var div2 = $("<div></div>");
@@ -16,7 +18,7 @@ function display() {
         $(div1).css("margin-top", "3em");
         $(div2).css("height", "380px");
         $(div2).css("margin-top", "3em");
-        $(div2).css("margin-bottom", "12em");
+        $(div2).css("margin-bottom", "21em");
         var h = $("<h1></h1>");
         $(h).html(names[y]);
         $(h).css("font-size", "60px");
@@ -36,8 +38,8 @@ function display() {
             p.style['font-size'] = '25px';
             p.style['text-align'] = 'center';
             div.style.border = '0px solid black';
-            div.style.height = '40px';
-            div.style.width = '120px';
+            div.style.height = '60px';
+            div.style.width = '140px';
             div.style['margin-top'] = '3em';
             if (z == 6) {
                 div.style['margin-bottom'] = '10em';
@@ -87,7 +89,7 @@ function display() {
                     $("." + classes[1] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
                     $("." + classes[1] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
                     $("." + classes[1] + " ul").append('<li><strong>Death Date: </strong> None</li>');
-                    $("." + classes[1] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Occupation: </strong> Housewife, Remmington, CPA</li>');
                     $("." + classes[1] + " ul li").css("margin-bottom", "2em");
                     $("." + classes[1] + " ul li").css("font-size", "30px");
                 }
@@ -102,10 +104,10 @@ function display() {
                     $("." + classes[2] + " ul").hide();
                     $("." + classes[2]).css("backgroundImage", "none");
                     $("." + classes[2]).append('<ul></ul>');
-                    $("." + classes[2] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
-                    $("." + classes[2] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Married: </strong> 20 Jan 1961, Denver CO</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Birth Date: </strong> 31 Mar 1939</li>');
                     $("." + classes[2] + " ul").append('<li><strong>Death Date: </strong> None</li>');
-                    $("." + classes[2] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[2] + " ul").append('<li><strong>Occupation: </strong> Switchman, Conductor</li>');
                     $("." + classes[2] + " ul li").css("margin-bottom", "2em");
                     $("." + classes[2] + " ul li").css("font-size", "30px");
                 }
@@ -121,9 +123,9 @@ function display() {
                     $("." + classes[3]).css("backgroundImage", "none");
                     $("." + classes[3]).append('<ul></ul>');
                     $("." + classes[3] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
-                    $("." + classes[3] + " ul").append('<li><strong>Birth Date: </strong> 28 JAN 1935 , Mayfield, UT</li>');
-                    $("." + classes[3] + " ul").append('<li><strong>Death Date: </strong> 1 FEB 1998, Chatfield, CO</li>');
-                    $("." + classes[3] + " ul").append('<li><strong>Occupation: </strong> Not sure</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Birth Date: </strong> 28 Jan 1935 , Mayfield, UT</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Death Date: </strong> 1 Feb 1998, Chatfield, CO</li>');
+                    $("." + classes[3] + " ul").append('<li><strong>Occupation: </strong> CPA, Computer Engineer, Air Force</li>');
                     $("." + classes[3] + " ul li").css("margin-bottom", "2em");
                     $("." + classes[3] + " ul li").css("font-size", "30px");
                 };

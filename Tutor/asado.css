@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.words {
+    border: 0px solid black;
+    background-color: goldenrod;
+    width: 33%;
+    height: 150px;
+}
+
+.words p {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    margin-top: .5em;
+}
+
+.image {
+    border: 0px solid black;
+    background-image: url(/final_project/linkspages/photos/flag.png);
+    background-size: 300px 150px;
+    width: 25%;
+    height: 150px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-top: 3em;
+}
+
+.maps {
+    border: 0px solid black;
+    background-image: url(/final_project/linkspages/photos/rox.png);
+    width: 40%;
+    background-size: 500px 320px;
+}
+
+.specifics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    width: 50%;
+}
+
+#one {
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+}
+
+.desc {
+    border: 0px solid black;
+    width: 100%;
+    height: 66px;
+    background-color: red;
+}
+
+.desc p {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: .5em
+}
+
+.desc1 {
+    border: 0px solid black;
+    width: 100%;
+    height: 66px;
+    background-color: cornflowerblue;
+}
+
+.desc1 p {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    margin-top: .4em
+}
+
+.desc2 {
+    border: 0px solid black;
+    width: 100%;
+    height: 66px;
+    background-color: goldenrod;
+}
+
+.desc2 p {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    margin-top: .4em
+}
+
+.desc3 {
+    border: 0px solid black;
+    width: 100%;
+    height: 66px;
+    background-color: cornflowerblue;
+}
+
+.desc3 p {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    margin-top: .4em;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.ph1 {
+    border: 0px solid black;
+    background-image: url(photos/arg.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 18%;
+}
+
+.ph2 {
+    border: 0px solid black;
+    background-image: url(photos/asados.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 18%;
+}
+
+.ph3 {
+    border: 0px solid black;
+    background-image: url(photos/emp.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 18%;
+}
+
+.ph4 {
+    border: 0px solid black;
+    background-image: url(photos/flag.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 18%;
+}
+
+.ph5 {
+    border: 0px solid black;
+    background-image: url(photos/roxb.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 18%;
+}
