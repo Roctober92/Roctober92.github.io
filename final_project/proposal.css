@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 @import url('https://fonts.googleapis.com/css?family=Mogra');
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 50em) {
     .header span:nth-of-type(even) {
         color: deepskyblue;
     }
@@ -39,7 +39,6 @@
         text-align: center;
         font-size: 30px;
         letter-spacing: 40px;
-        font-family: 'Bubbler One', sans-serif;
     }
     .purpose a {
         text-decoration: none;
@@ -209,7 +208,7 @@
         font-size: 20px
     }
 }
-@media screen and (min-width: 30em) and (max-width: 75em) {
+@media screen and (min-width: 50em) and (max-width: 75em) {
     .header span:nth-of-type(even) {
         color: deepskyblue;
     }
@@ -315,12 +314,52 @@ a:hover {
     color: #C1C422
 }
 
+.purpose p {
+    font-family: 'Bubbler One', sans-serif;
+}
+
 @media screen and (min-width: 30em) and (max-width: 50em) {
-    .header {
-        font-size: 50px
+    .header span:nth-of-type(even) {
+        color: deepskyblue;
     }
-    .foot {
-        flex-wrap: wrap;
+    .header span:nth-of-type(odd) {
+        color: #da9616;
+    }
+    .header {
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    .header span {
+        letter-spacing: 5px;
+    }
+    .lema {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    .lema p {
+        font-size: 30px;
+        font-family: 'Mogra', cursive;
+    }
+    .purpose {
+        border: 0px solid black;
+        width: 100%;
+        height: 40px;
+        background-color: deepskyblue;
+        margin-bottom: 1em;
+    }
+    .purpose p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 40px;
+    }
+    .purpose a {
+        text-decoration: none;
+        color: black;
     }
     .foot_box {
         border: 0px solid black;
@@ -328,5 +367,40 @@ a:hover {
     }
     .foot_box p {
         font-size: 19px
+    }
+    footer {
+        background-color: darkgrey;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 20px;
+    }
+    .bottom_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .bottom {
+        border: 0px black solid;
+        height: 50px;
+        width: 80%;
+        background-color: gold;
+    }
+    .bottom p {
+        margin: auto;
+        text-align: center;
+        font-size: 35px
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .argpic2 {
+        border: 0px solid black;
+        width: 100%;
+        height: 250px;
+        background-image: url("proposalpic/BA.jpg");
+        background-size: cover;
+        margin-bottom: 3em;
     }
 }
