@@ -98,11 +98,31 @@
         background-image: url("proposalpic/eva.jpg");
         background-size: cover;
     }
-    .foot span:nth-of-type(even) {
-        color: fuchsia;
+    footer {
+        background-color: darkgrey;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 20px;
     }
-    .foot span:nth-of-type(odd) {
-        color: darkgoldenrod;
+    .bottom_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .bottom {
+        border: 0px black solid;
+        height: 50px;
+        width: 80%;
+        background-color: gold;
+    }
+    .bottom p {
+        margin: auto;
+        text-align: center;
+        font-size: 35px
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
@@ -154,6 +174,39 @@
         background-image: url("proposalpic/BA.jpg");
         background-size: cover;
         margin-bottom: 3em;
+    }
+    footer {
+        background-color: darkgrey;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .bottom_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+        padding-top: 2em;
+    }
+    .bottom {
+        border: 0px black solid;
+        height: 50px;
+        width: 95%;
+        background-color: gold;
+    }
+    .bottom p {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .foot_box {
+        border: 0px solid black;
+        width: 90%;
+        margin-bottom: 1em;
+        margin-left: .8em;
+    }
+    .foot_box p {
+        margin: auto;
+        text-align: center;
+        font-size: 20px
     }
 }
 @media screen and (min-width: 30em) and (max-width: 75em) {
@@ -252,16 +305,28 @@
         background-image: url("proposalpic/eva.jpg");
         background-size: cover;
     }
-    .foot span:nth-of-type(even) {
-        color: fuchsia;
+    .bottom {
+        width: 80%;
     }
-    .foot span:nth-of-type(odd) {
-        color: darkgoldenrod;
-    }
-
 
 }
 
 a:hover {
     color: #C1C422
+}
+
+@media screen and (min-width: 30em) and (max-width: 50em) {
+    .header {
+        font-size: 50px
+    }
+    .foot {
+        flex-wrap: wrap;
+    }
+    .foot_box {
+        border: 0px solid black;
+        width: 40%;
+    }
+    .foot_box p {
+        font-size: 19px
+    }
 }
