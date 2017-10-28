@@ -1,0 +1,187 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+}
+.child1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url(caro/caro1.png);
+    background-size: cover;
+}
+.child2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 80px;
+    color: green;
+    margin: auto;
+    text-align: center;
+}
+.child3 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-size: 80px;
+    color: blue;
+    margin: auto;
+    text-align: center;
+}
+.child4 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    font-size: 80px;
+    color: darkgoldenrod;
+    margin: auto;
+    text-align: center;
+}
+.child5 {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    background-image: url(caro/caro2.png);
+    background-size: cover;
+}
+.child6 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 80px;
+    color: orangered;
+    margin: auto;
+    text-align: center;
+}
+.child7 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url(caro/caro3.png);
+    background-size: cover;
+}
+.child8 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    font-size: 80px;
+    color: rebeccapurple;
+    margin: auto;
+    text-align: center;
+}
+.child9 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+    background-image: url(caro/caro4.png);
+    background-size: 370px 200px;
+}
+.child10 {
+    grid-row: 2/3;
+    grid-column: 5/6;
+    font-size: 80px;
+    color: darkorange;
+    margin: auto;
+    text-align: center;
+}
+.child11 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 80px;
+    color: skyblue;
+    margin: auto;
+    text-align: center;
+}
+.child12 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 80px;
+    color: deeppink;
+    margin: auto;
+    text-align: center;
+}
+.child13 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    background-image: url(caro/caro5.png);
+    background-size: 380px 200px;
+}
+.child14 {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    font-size: 80px;
+    color: darkgreen;
+    margin: auto;
+    text-align: center;
+}
+.child15 {
+    grid-row: 3/4;
+    grid-column: 5/6;
+    font-size: 80px;
+    color: lawngreen;
+    margin: auto;
+    text-align: center;
+}
+.child16 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    font-size: 80px;
+    color: blueviolet;
+    margin: auto;
+    text-align: center;
+}
+.child17 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    background-image: url(caro/caro7.png);
+    background-size: cover;
+}
+.child18 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+    font-size: 80px;
+    color: mediumpurple;
+    margin: auto;
+    text-align: center;
+}
+.child19 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+    background-image: url(caro/caro6.png);
+    background-size: cover;
+}
+.child20 {
+    grid-row: 4/5;
+    grid-column: 5/6;
+    font-size: 80px;
+    color: olivedrab;
+    margin: auto;
+    text-align: center;
+}
+.child21 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    background-image: url(caro/caro8.png);
+    background-size: 380px 200px;
+}
+.child22 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    font-size: 80px;
+    color: royalblue;
+    margin: auto;
+    text-align: center;
+}
+.child23 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+    font-size: 80px;
+    color: deepskyblue;
+    margin: auto;
+    text-align: center;
+}
+.child24 {
+    grid-row: 5/6;
+    grid-column: 4/5;
+    font-size: 80px;
+    color: indianred;
+    margin: auto;
+    text-align: center;
+}
+.child25 {
+    grid-row: 5/6;
+    grid-column: 5/6;
+    background-image: url(caro/caro9.png);
+    background-size: cover;
+}
