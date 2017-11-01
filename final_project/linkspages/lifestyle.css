@@ -411,6 +411,7 @@
         border: 0px solid black;
         height: 200px;
         width: 50%;
+        margin-bottom: 2em
     }
     .desc ul {
         list-style-type: square;
@@ -571,11 +572,6 @@
         background-image: url(photos/flag.png);
         font-family: 'Mogra', cursive;
     }
-    .transportation {
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 30em;
-    }
     .title {
         margin: auto;
         text-align: center;
@@ -590,14 +586,15 @@
     .buspic {
         border: 0px solid black;
         height: 300px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/bus.jpg");
-        background-size: 210px 300px;
+        background-size: cover;
     }
     .desc {
         border: 0px solid black;
         height: 200px;
-        width: 50%;
+        width: 100%;
+        margin-bottom: 9em;
     }
     .desc ul {
         list-style-type: square;
@@ -608,21 +605,21 @@
     .trenpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/tren.jpg");
         background-size: cover;
     }
     .remispic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url(culture/car.jpg);
         background-size: cover;
     }
     .streetpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/street.jpg");
         background-size: cover;
     }
@@ -640,28 +637,28 @@
     .citypic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/city.jpg");
         background-size: cover;
     }
     .suburbpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/suburb.jpg");
         background-size: cover;
     }
     .farmpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/farm.jpg");
-        background-size: cover;
+        background-size: 700px 300px;
     }
     .villapic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/villa.jpg");
         background-size: cover;
     }
@@ -679,42 +676,42 @@
     .bakerypic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url(culture/pan.jpg);
         background-size: cover;
     }
     .fruitpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/fruit.jpg");
         background-size: cover;
     }
     .butcherpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/carne.jpg");
         background-size: cover;
     }
     .storepic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/chino.jpg");
         background-size: cover;
     }
     .kioskpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/kiosko.jpg");
         background-size: cover;
     }
     .bookpic {
         border: 0px solid black;
         height: 200px;
-        width: 30%;
+        width: 100%;
         background-image: url("culture/bookstore.jpg");
         background-size: cover;
     }
