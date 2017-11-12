@@ -117,7 +117,8 @@
     .bottom p {
         margin: auto;
         text-align: center;
-        font-size: 35px
+        font-size: 35px;
+        margin-top: .2em;
     }
     .foot {
         display: flex;
@@ -195,6 +196,7 @@
         margin: auto;
         text-align: center;
         font-size: 30px;
+        margin-top: .3em;
     }
     .foot_box {
         border: 0px solid black;
@@ -307,6 +309,9 @@
     .bottom {
         width: 80%;
     }
+    .bottom p {
+        margin-top: .1em;
+    }
 
 }
 
@@ -388,7 +393,8 @@ a:hover {
     .bottom p {
         margin: auto;
         text-align: center;
-        font-size: 35px
+        font-size: 35px;
+        margin-top: .1em;
     }
     .foot {
         display: flex;

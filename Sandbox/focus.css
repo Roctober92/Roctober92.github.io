@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px 180px;
+}
+.one {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: goldenrod;
+}
+.one p {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: .6em
+}
+.two {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    background-color: deepskyblue;
+}
+.two p {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: .6em
+}
+.three {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: goldenrod;
+}
+.three p {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: .6em
+}
+.four {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    background-color: deepskyblue;
+}
+.four p {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: .6em
+}
+.thank_pic{
+    background-image: url("caro/TEMPLO.JPG");
+    background-size: cover;
+}
+.good_pic {
+    background-image: url("caro/emp.jpg");
+    background-size: cover;
+}
+.serve_pic {
+    background-image: url("caro/tanner.png");
+    background-size: cover;
+}
+.help_pic {
+    background-image: url("caro/abel.png");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+"left" id="1">
+"left" id="2">
+"right" id="3"
+"right" id="4"
+"thank_pic"></
+"good_pic"></d
+"help_pic"></d
+"serve_pic"></*
