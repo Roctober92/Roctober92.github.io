@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+header {
+    border: 0px solid black;
+    height: 80px;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 80px;
+    letter-spacing: 30px;
+    font-family: 'Spectral SC', serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text1 {
+    border: 0px solid black;
+    height: 150px;
+    width: 75%;
+    background-color: deepskyblue;
+}
+
+.text1 li {
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text2 li {
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text2 {
+    border: 0px solid black;
+    height: 150px;
+    width: 75%;
+    background-color: lightgreen;
+}
+
+.img1 {
+    border:0px solid black;
+    height: 150px;
+    width: 25%;
+    background-image: url("wolfe.jpg");
+    background-size: cover;
+}
+
+.img2 {
+    border:0px solid black;
+    height: 150px;
+    width: 25%;
+    background-image: url("timber.jpg");
+    background-size: 330px 150px;
+}
+.img3 {
+    border:0px solid black;
+    height: 150px;
+    width: 25%;
+    background-image: url("snow.png");
+    background-size: cover;
+}
+
+.img4 {
+    border:0px solid black;
+    height: 150px;
+    width: 25%;
+    background-image: url("temple.png");
+    background-size: 330px 150px;
+}
+
