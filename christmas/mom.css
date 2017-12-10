@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 20px;
+    font-family: 'Anton', sans-serif;
+    color: red
+}
+
+header {
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.awesome {
+    width: 30%;
+}
+
+.middle {
+    width: 40%;
+}
+
+.title {
+    border: 2px solid black;
+    height: 40px;
+}
+
+.title p {
+    margin-top: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abel', sans-serif;
+    color: blue;
+}
+
+.title_mid {
+    border: 2px solid black;
+    height: 70px;
+}
+
+.title_mid p {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Shrikhand', cursive;
+    color: green;
+    letter-spacing: 10px;
+}
+
+.photo {
+    border: 0px solid black;
+    height: 300px;
+    background-image: url(pics/mom.png);
+    background-size: cover;
+}
+
+.list {
+    border: 2px solid black;
+    height: 570px;
+    background-color: lawngreen;
+}
+
+.verse {
+    border: 2px solid black;
+    height: 196px;
+    background-color: red;
+}
+
+#list_1 ul {
+    list-style-type: square;
+}
+
+#list_1 li {
+    margin-bottom: 2em;
+    font-size: 22px;
+}
+
+#list_2 ul {
+    list-style-type: square;
+}
+
+#list_2 li {
+    margin-bottom: 2em;
+    font-size: 19px;
+}
+
+.verse > p {
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+    margin-bottom: 1.5em;
+}
