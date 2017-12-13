@@ -86,7 +86,7 @@
     margin: auto;
     text-align: center;
     color: navy;
-    font-size: 35px;
+    font-size: 28px;
     letter-spacing: 20px;
     padding-top: .3em;
 }
@@ -102,6 +102,7 @@
 
 .tile2 a {
     color: darkgoldenrod;
+    text-decoration: none;
 }
 
 
@@ -110,4 +111,9 @@
 img {
     display: block;
     margin: auto;
+}
+
+
+a:hover {
+    color: aliceblue;
 }

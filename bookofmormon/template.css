@@ -1,0 +1,50 @@
+.top {
+    border: 0px solid black;
+    height: 100px;
+    background-color:cornsilk
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.middle {
+    border: 2px solid black;
+    height: 300px;
+    width: 30%;
+    background-color: aquamarine;
+}
+
+.head {
+    border: 1px solid black;
+    height: 40px;
+    background-color: blanchedalmond;
+}
+
+.head2 {
+    border: 1px solid black;
+    height: 40px;
+    background-color:aqua;
+}
+
+
+.personal {
+    border: 2px solid black;
+    height: 200px;
+    background-color: dimgray;
+    margin-top: 2em;
+}
+
+
