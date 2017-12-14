@@ -30,8 +30,6 @@ header h1 {
     background-color: aquamarine;
 }
 
-
-
 .head {
     border: 1px solid black;
     height: 40px;
@@ -45,37 +43,43 @@ header h1 {
 }
 
 
+
+
 .head p {
     margin: auto;
     text-align: center;
     font-size: 30px;
-    letter-spacing: 5px;
     margin-top: .1em;
     font-family: 'Supermercado One', cursive;
 }
-
 .head2 p {
     margin: auto;
     text-align: center;
     font-size: 30px;
-    letter-spacing: 5px;
     margin-top: .1em;
     font-family: 'Supermercado One', cursive;
-
 }
+
 
 
 
 #left {
-    font-size: 24px;
+    font-size: 19px;
 }
-#middle {
+#mid {
     font-size: 22px;
-    color: darkblue;
+    color: darkred;
 }
 #right {
-    font-size: 20px;
+    font-size: 19px;
 }
+
+#abajo {
+    color: white;
+    font-family: 'Supermercado One', cursive;
+}
+
+
 
 
 
@@ -84,12 +88,6 @@ header h1 {
     height: 200px;
     background-color: dimgray;
     margin-top: 2em;
-}
-
-#personal {
-    color: white;
-    font-size: 19px;
-    font-family: 'Supermercado One', cursive;
 }
 
 

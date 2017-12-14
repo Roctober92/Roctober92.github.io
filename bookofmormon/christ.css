@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
 .top {
     border: 0px solid black;
     height: 100px;
@@ -9,6 +11,7 @@ header h1 {
     text-align: center;
     font-size: 70px;
     letter-spacing: 20px;
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -49,6 +52,7 @@ header h1 {
     text-align: center;
     font-size: 30px;
     margin-top: .1em;
+    font-family: 'Supermercado One', cursive;
 }
 
 .head2 p {
@@ -56,6 +60,7 @@ header h1 {
     text-align: center;
     font-size: 30px;
     margin-top: .1em;
+    font-family: 'Supermercado One', cursive;
 }
 
 #left {
@@ -70,6 +75,7 @@ header h1 {
 }
 #abajo {
     color: white;
+    font-family: 'Supermercado One', cursive;
 }
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 .container {
     display: flex;
     flex-direction: row;
@@ -34,6 +36,7 @@
     font-size: 50px;
     color: darkblue;
     letter-spacing: 20px;
+    font-family: 'Lobster', cursive;
 }
 
 .right_column h2 {
@@ -42,6 +45,7 @@
     font-size: 50px;
     color: darkblue;
     letter-spacing: 20px;
+    font-family: 'Lobster', cursive;
 }
 
 
@@ -89,6 +93,7 @@
     font-size: 28px;
     letter-spacing: 20px;
     padding-top: .3em;
+    font-family: 'Poiret One', cursive;
 }
 
 .tile2 p {
@@ -98,6 +103,7 @@
     font-size: 30px;
     letter-spacing: 5px;
     padding-top: .4em;
+    font-family: 'Poiret One', cursive;
 }
 
 .tile2 a {
