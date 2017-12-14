@@ -1,7 +1,7 @@
 .top {
     border: 0px solid black;
     height: 100px;
-    background-color:cornsilk;
+    background-color:cornsilk
 }
 
 header h1 {
@@ -9,11 +9,7 @@ header h1 {
     text-align: center;
     font-size: 70px;
     letter-spacing: 20px;
-    color: black;
 }
-
-
-
 
 
 
@@ -28,10 +24,8 @@ header h1 {
     border: 2px solid black;
     height: 300px;
     width: 30%;
-    background-color: mediumpurple;
+    background-color: aquamarine;
 }
-
-
 
 
 
@@ -50,45 +44,33 @@ header h1 {
 
 
 
-
 .head p {
-    margin:auto;
+    margin: auto;
     text-align: center;
-    font-size: 25px;
-    letter-spacing: 7px;
-    margin-top: .2em;
+    font-size: 30px;
+    margin-top: .1em;
 }
 
 .head2 p {
-    margin:auto;
+    margin: auto;
     text-align: center;
-    font-size: 25px;
-    letter-spacing: 7px;
-    margin-top: .2em;
-    color: darkgoldenrod;
+    font-size: 30px;
+    margin-top: .1em;
 }
 
-
-
-.middle p:nth-child(2) {
-    color: palegoldenrod;
-    font-size: 22px;
+#left {
+    font-size: 24px;
 }
-
-#mid {
-    color: gold;
+#middle {
+    font-size: 20px;
+    color: navy;
 }
-
 #right {
-    color: lawngreen
+    font-size: 19px;
 }
-
-#bottom {
+#abajo {
     color: white;
-    font-size: 18px;
 }
-
-
 
 
 

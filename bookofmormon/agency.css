@@ -9,11 +9,7 @@ header h1 {
     text-align: center;
     font-size: 70px;
     letter-spacing: 20px;
-    color: black;
 }
-
-
-
 
 
 
@@ -28,13 +24,8 @@ header h1 {
     border: 2px solid black;
     height: 300px;
     width: 30%;
-    background-color: mediumpurple;
+    background-color: aquamarine;
 }
-
-
-
-
-
 
 .head {
     border: 1px solid black;
@@ -49,49 +40,6 @@ header h1 {
 }
 
 
-
-
-.head p {
-    margin:auto;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 7px;
-    margin-top: .2em;
-}
-
-.head2 p {
-    margin:auto;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 7px;
-    margin-top: .2em;
-    color: darkgoldenrod;
-}
-
-
-
-.middle p:nth-child(2) {
-    color: palegoldenrod;
-    font-size: 22px;
-}
-
-#mid {
-    color: gold;
-}
-
-#right {
-    color: lawngreen
-}
-
-#bottom {
-    color: white;
-    font-size: 18px;
-}
-
-
-
-
-
 .personal {
     border: 2px solid black;
     height: 200px;
@@ -100,3 +48,32 @@ header h1 {
 }
 
 
+
+.head p {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: .1em;
+}
+
+.personal p {
+    color: mintcream;
+    font-size: 20px;
+}
+
+
+
+#left {
+    font-size: 23px;
+}
+
+#middle {
+    font-size: 23px;
+    color: darkred;
+}
+
+#right {
+    font-size: 30px;
+    color: grey;
+}
