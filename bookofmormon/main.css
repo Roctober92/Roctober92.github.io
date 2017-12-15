@@ -89,7 +89,6 @@
 .tile p {
     margin: auto;
     text-align: center;
-    color: navy;
     font-size: 28px;
     letter-spacing: 19px;
     padding-top: .5em;
@@ -99,7 +98,6 @@
 .tile2 p {
     margin: auto;
     text-align: center;
-    color: goldenrod;
     font-size: 30px;
     letter-spacing: 5px;
     padding-top: .4em;
@@ -111,7 +109,8 @@
     text-decoration: none;
 }
 
-.left_column a {
+.tile a {
+    color: navy;
     text-decoration: none;
 }
 
