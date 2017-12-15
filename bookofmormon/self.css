@@ -31,7 +31,7 @@ header h1 {
     border: 2px solid black;
     height: 300px;
     width: 30%;
-    background-color: mediumpurple;
+    background-color: aquamarine;
 }
 
 
@@ -80,23 +80,28 @@ header h1 {
 
 
 
-.middle p:nth-child(2) {
-    color: palegoldenrod;
-    font-size: 22px;
-}
 
+
+#left {
+    font-size: 22px;
+    color: black;
+}
 #mid {
-    color: gold;
+    font-size: 22px;
+    color: brown;
 }
 
 #right {
-    color: lawngreen
+    font-size: 22px;
+    color: black;
 }
 
-#bottom {
+#bottom1 {
     color: white;
     font-size: 17px;
     font-family: 'Supermercado One', cursive;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
 

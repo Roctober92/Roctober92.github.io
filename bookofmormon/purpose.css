@@ -25,7 +25,7 @@ header h1 {
 
 .middle {
     border: 2px solid black;
-    height: 300px;
+    height: 330px;
     width: 30%;
     background-color: aquamarine;
 }
@@ -85,6 +85,8 @@ header h1 {
     font-size: 19px;
     color: white;
     font-family: 'Supermercado One', cursive;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
 
