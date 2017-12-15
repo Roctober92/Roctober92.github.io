@@ -52,6 +52,12 @@ header h1 {
 
 
 
+
+
+.middle p {
+    padding-left:.3em;
+    padding-right: .3em;
+}
 .head p {
     margin: auto;
     text-align: center;
@@ -93,5 +99,4 @@ header h1 {
 
 #right {
     font-size: 30px;
-    color: grey;
 }

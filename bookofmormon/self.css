@@ -53,6 +53,11 @@ header h1 {
 
 
 
+.middle p {
+    padding-left:.3em;
+    padding-right: .3em;
+}
+
 
 .head p {
     margin:auto;
