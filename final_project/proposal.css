@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 @import url('https://fonts.googleapis.com/css?family=Mogra');
+
 @media screen and (min-width: 50em) {
     .header span:nth-of-type(even) {
         color: deepskyblue;
@@ -99,9 +100,9 @@
     }
     footer {
         background-color: darkgrey;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        font-size: 20px;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        font-size: 22px;
     }
     .bottom_box {
         display: flex;
@@ -117,8 +118,8 @@
     .bottom p {
         margin: auto;
         text-align: center;
-        font-size: 35px;
-        margin-top: .2em;
+        font-size: 40px;
+        margin-top: .1em;
     }
     .foot {
         display: flex;
@@ -371,7 +372,7 @@ a:hover {
         width: 40%;
     }
     .foot_box p {
-        font-size: 19px
+        font-size: 17px
     }
     footer {
         background-color: darkgrey;
@@ -409,4 +410,16 @@ a:hover {
         background-size: cover;
         margin-bottom: 3em;
     }
+}
+
+.foot_box a {
+    text-decoration: none;
+}
+
+.bottom p {
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.foot p {
+    font-family: 'Cormorant Unicase', serif;
 }

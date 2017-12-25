@@ -83,6 +83,8 @@ header h1 {
 #abajo {
     color: white;
     font-family: 'Supermercado One', cursive;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
 
