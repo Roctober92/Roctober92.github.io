@@ -59,6 +59,6 @@ napolitana.onclick = function () {
 }
 
 sandwich.onclick = function () {
-    style_pic.style.backgroundImage = "url('/final_project/linkspages/photos/sandwhich.jpg')";
+    style_pic.style.backgroundImage = "url('mila_pics/sand_mila.png')";
     document.body.style.backgroundSize = "cover";
 }

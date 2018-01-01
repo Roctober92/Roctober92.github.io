@@ -25,7 +25,7 @@
     .desc {
         border: 0px solid black;
         margin-top: -1.3em;
-        height: 70px;
+        height: 90px;
         background-color: black;
     }
 
@@ -41,7 +41,7 @@
     }
 
     #meat {
-        margin-top: 11em;
+        margin-top: 13em;
     }
 
     #sides {
@@ -457,7 +457,7 @@
     .pic {
         margin-top: 1em;
         border: 2px solid black;
-        height: 320px;
+        height: 370px;
         width: 45%;
         margin-left: 22em;
     }
