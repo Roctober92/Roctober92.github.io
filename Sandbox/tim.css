@@ -1,0 +1,18 @@
+header p {
+    font-size: 40px;
+}
+
+.box {
+    border: 3px dotted green;
+    width: 20%;
+}
+
+#first {
+    color: red;
+}
+
+
+#try {
+    color: green;
+    font-size: 80px;
+}

@@ -1,4 +1,10 @@
-var first_left = ['Photo', 'Info', 'Life Lesson', 'Childhood Memory', 'Marriage Advice', 'If 2nd life, what to do', 'Question 5'];
+// GMA: 2nd life geologist, environmentalist
+// GMA childhood memory: Dad on fridays asking what they wanted for dinner, he bought on Fridays, special because he wasn't alive long
+// GMA Marriage Advice: Trust in partner, looking forward to future together, when to shut your mouth and walk away when there is a difference
+// GMA Life lesson: Appreciate Earth, remember it's a gift from God, don't take life for granted
+// GMA to be remembered: A happy and adventerous person, a person who you can talk to and give advice, GMA who you know will always love you for who you are, always be there for you, if you needed her
+
+var first_left = ['Photo', 'Info', 'Life Lesson', 'Childhood Memory', 'Marriage Advice', 'If 2nd life, what to do', 'To Be Remembered'];
 var classes = ['one', 'two', 'three', 'four'];
 var names = ['Edith Holzhauser', 'Patricia Stofko Wolfe', 'Eugene Joseph Wolfe', 'Richard Gail Bartholomew'];
 
@@ -87,9 +93,9 @@ function display() {
                     $("." + classes[1]).css("backgroundImage", "none");
                     $("." + classes[1]).append('<ul></ul>');
                     $("." + classes[1] + " ul").append('<li><strong>Married: </strong> Marriage Date</li>');
-                    $("." + classes[1] + " ul").append('<li><strong>Birth Date: </strong> Birth Date</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Birth Date: </strong> 27 NOV 1943, Newport AR</li>');
                     $("." + classes[1] + " ul").append('<li><strong>Death Date: </strong> None</li>');
-                    $("." + classes[1] + " ul").append('<li><strong>Occupation: </strong> Housewife, Remmington, CPA</li>');
+                    $("." + classes[1] + " ul").append('<li><strong>Occupation: </strong> Housewife, Accountant</li>');
                     $("." + classes[1] + " ul li").css("margin-bottom", "2em");
                     $("." + classes[1] + " ul li").css("font-size", "30px");
                 }

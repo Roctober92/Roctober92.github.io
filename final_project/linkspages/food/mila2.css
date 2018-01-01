@@ -1,0 +1,505 @@
+@media screen and (max-width: 40em) {
+    .top_strip {
+        height: 90px;
+        width: 100%;
+        background-color: deepskyblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .top_title {
+        margin-top: -.6em;
+        color: aliceblue;
+        font-size: 27px;
+        letter-spacing: 4px;
+    }
+
+    .top_img {
+        margin-top: 1.5em;
+    }
+
+    .desc {
+        border: 0px solid black;
+        margin-top: -1.3em;
+        height: 70px;
+        background-color: black;
+    }
+
+    .desc p {
+        color: white;
+        text-align: center;
+        font-size: 20px
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+    }
+
+    #meat {
+        margin-top: 11em;
+    }
+
+    #sides {
+        margin-top: 4em;
+    }
+
+    .title {
+        border: 0px solid black;
+        border-radius: 10px;
+        height: 50px;
+        background-color: goldenrod;
+    }
+
+    .title h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    #meat_pic {
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: cover;
+    }
+
+    #side_pic {
+        background-image: url(/final_project/linkspages/photos/papas.jpg);
+        background-size: cover;
+    }
+
+    #style_pic {
+        background-image: url(/final_project/linkspages/photos/pmila.jpg);
+        background-size: cover;
+    }
+
+    .pic {
+        margin-top: 1em;
+        border: 2px solid black;
+        height: 300px;
+    }
+
+    .buttons {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #mashies {
+        margin-top: 2em;
+    }
+
+    #beef {
+        margin-top: 2em;
+    }
+
+    #salad {
+        margin-top: 3em
+    }
+
+    #fish {
+        margin-top: 2em;
+    }
+
+    #plain p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 25px;
+        margin-top: .6em
+    }
+
+    #napolitana p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 1.1em;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 55em) {
+    .top_strip {
+        height: 90px;
+        width: 100%;
+        background-color: deepskyblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .top_title {
+        margin-top: -1.5em;
+        color: aliceblue;
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .top_img {
+        margin-top: 1.5em;
+    }
+
+    .desc {
+        border: 0px solid black;
+        margin-top: -1.6em;
+        height: 70px;
+        background-color: black;
+    }
+
+    .desc p {
+        margin-top: 1em;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    #meat {
+        margin-top: 11em;
+    }
+
+    #sides {
+        margin-top: 2em;
+    }
+
+    .title {
+        border: 0px solid black;
+        border-radius: 10px;
+        height: 50px;
+        background-color: goldenrod;
+    }
+
+    .title h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    #meat_pic {
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: cover;
+    }
+
+    #side_pic {
+        background-image: url(/final_project/linkspages/photos/papas.jpg);
+        background-size: cover;
+    }
+
+    #style_pic {
+        background-image: url(/final_project/linkspages/photos/pmila.jpg);
+        background-size: cover;
+    }
+
+    .pic {
+        margin-top: 1em;
+        border: 2px solid black;
+        height: 270px;
+        width: 70%;
+        margin-left: 7em;
+    }
+
+    .buttons {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #mashies {
+        margin-top: 2em;
+    }
+
+    #salad {
+        margin-top: 3em
+    }
+
+    #fish {
+        margin-top: 4em;
+    }
+
+    #chicken {
+        margin-top: 2em;
+    }
+
+    #beef {
+        margin-top: 3em;
+    }
+
+    #plain p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 35px;
+        margin-top: .6em
+    }
+
+    #napolitana p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 1.1em;
+    }
+}
+
+
+@media screen and (min-width: 55em) and (max-width: 70em) {
+    .top_strip {
+        height: 90px;
+        width: 100%;
+        background-color: deepskyblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .top_title {
+        margin-top: -1.5em;
+        color: aliceblue;
+        font-size: 43px;
+        letter-spacing: 4px;
+    }
+
+    .top_img {
+        margin-top: 1.5em;
+    }
+
+    .desc {
+        border: 0px solid black;
+        margin-top: -1.6em;
+        height: 40px;
+        background-color: black;
+    }
+
+    .desc p {
+        margin-top: 1em;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    #meat {
+        margin-top: 9em;
+    }
+
+    #sides {
+        margin-top: 2em;
+    }
+
+    .title {
+        border: 0px solid black;
+        border-radius: 10px;
+        height: 50px;
+        background-color: goldenrod;
+    }
+
+    .title h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    #meat_pic {
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: cover;
+    }
+
+    #side_pic {
+        background-image: url(/final_project/linkspages/photos/papas.jpg);
+        background-size: cover;
+    }
+
+    #style_pic {
+        background-image: url(/final_project/linkspages/photos/pmila.jpg);
+        background-size: cover;
+    }
+
+    .pic {
+        margin-top: 1em;
+        border: 2px solid black;
+        height: 350px;
+        width: 70%;
+        margin-left: 9em;
+    }
+
+    .buttons {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #mashies {
+        margin-top: 2em;
+    }
+
+    #salad {
+        margin-top: 3em
+    }
+
+    #fish {
+        margin-top: 2em;
+    }
+
+    #beef {
+        margin-top: 1em;
+    }
+
+    #plain p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 35px;
+        margin-top: .6em
+    }
+
+    #napolitana p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 1.1em;
+    }
+}
+
+
+@media screen and (min-width: 70em) {
+    .top_strip {
+        height: 120px;
+        width: 100%;
+        background-color: deepskyblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .top_title {
+        margin-top: -1.5em;
+        color: aliceblue;
+        font-size: 53px;
+        letter-spacing: 4px;
+    }
+
+    .top_img {
+        margin-top: .8em;
+    }
+
+    .desc {
+        border: 0px solid black;
+        margin-top: -1.6em;
+        height: 65px;
+        background-color: black;
+        padding-top: .1em;
+    }
+
+    .desc p {
+        margin-top: 1em;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    #meat {
+        margin-top: 11em;
+    }
+
+    #sides {
+        margin-top: 2em;
+    }
+
+    .title {
+        border: 0px solid black;
+        border-radius: 10px;
+        height: 50px;
+        background-color: goldenrod;
+    }
+
+    .title h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    #meat_pic {
+        background-image: url("/final_project/linkspages/photos/pmila.jpg");
+        background-size: cover;
+    }
+
+    #side_pic {
+        background-image: url(/final_project/linkspages/photos/papas.jpg);
+        background-size: cover;
+    }
+
+    #style_pic {
+        background-image: url(/final_project/linkspages/photos/pmila.jpg);
+        background-size: cover;
+    }
+
+    .pic {
+        margin-top: 1em;
+        border: 2px solid black;
+        height: 320px;
+        width: 45%;
+        margin-left: 22em;
+    }
+
+    .buttons {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #mashies {
+        margin-top: 2em;
+    }
+
+    #salad {
+        margin-top: 3em
+    }
+
+    #fish {
+        margin-top: 2em;
+    }
+
+
+    #beef {
+        margin-top: 1em;
+    }
+
+    #plain p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 35px;
+        margin-top: .6em;
+    }
+
+    #napolitana p {
+        margin-top: auto;
+        text-align: center;
+        font-size: 27px;
+        margin-top: 1.1em;
+    }
+}
+
+
+
+
+
+
