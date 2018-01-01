@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Mogra');
 @media screen and (max-width: 40em) {
     .top_strip {
         height: 90px;
@@ -9,9 +12,9 @@
     }
 
     .top_title {
-        margin-top: -.6em;
+        margin-top: -1.3em;
         color: aliceblue;
-        font-size: 27px;
+        font-size: 30px;
         letter-spacing: 4px;
     }
 
@@ -129,7 +132,7 @@
     }
 
     .top_title {
-        margin-top: -1.5em;
+        margin-top: -1.8em;
         color: aliceblue;
         font-size: 40px;
         letter-spacing: 4px;
@@ -142,7 +145,7 @@
     .desc {
         border: 0px solid black;
         margin-top: -1.6em;
-        height: 70px;
+        height: 90px;
         background-color: black;
     }
 
@@ -160,7 +163,7 @@
     }
 
     #meat {
-        margin-top: 11em;
+        margin-top: 12em;
     }
 
     #sides {
@@ -258,7 +261,7 @@
     }
 
     .top_title {
-        margin-top: -1.5em;
+        margin-top: -1.8em;
         color: aliceblue;
         font-size: 43px;
         letter-spacing: 4px;
@@ -374,7 +377,7 @@
 
 @media screen and (min-width: 70em) {
     .top_strip {
-        height: 120px;
+        height: 140px;
         width: 100%;
         background-color: deepskyblue;
         display: flex;
@@ -383,7 +386,7 @@
     }
 
     .top_title {
-        margin-top: -1.5em;
+        margin-top: -1.7em;
         color: aliceblue;
         font-size: 53px;
         letter-spacing: 4px;
@@ -396,7 +399,7 @@
     .desc {
         border: 0px solid black;
         margin-top: -1.6em;
-        height: 65px;
+        height: 85px;
         background-color: black;
         padding-top: .1em;
     }
@@ -415,7 +418,7 @@
     }
 
     #meat {
-        margin-top: 11em;
+        margin-top: 14em;
     }
 
     #sides {
@@ -498,8 +501,16 @@
     }
 }
 
+.top_title {
+    font-family: 'Kurale', serif;
+}
 
+.desc p {
+    font-family: 'Sriracha', cursive;
+}
 
-
+.title h2 {
+    font-family: 'Mogra', cursive;
+}
 
 
