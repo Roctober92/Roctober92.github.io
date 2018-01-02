@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
 @media screen and (min-width: 50em) {
     img {
         transition: transform .5s;
@@ -57,7 +58,7 @@
         margin: auto;
         text-align: center;
         color: blue;
-        font-size: 30px;
+        font-size: 42px;
     }
     .asado {
         background-position: bottom;
