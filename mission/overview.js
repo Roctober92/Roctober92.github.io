@@ -340,3 +340,29 @@ danny.onclick = function () {
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
 };
+
+var mirta = document.getElementById('mirta');
+mirta.style.transition = "transform .5s";
+$(mirta).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
+mirta.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/mirta.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
+
+var arron = document.getElementById('arron');
+arron.style.transition = "transform .5s";
+$(arron).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
+arron.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/arron.jpg')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
