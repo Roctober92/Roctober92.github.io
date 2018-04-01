@@ -1,0 +1,73 @@
+/* -----------------------------------------------------*/
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 260px;
+}
+
+
+/* -----------------------------------------------------*/
+
+.pic {
+    width: 30%;
+    height: 100%;
+}
+
+
+.desc {
+    width: 70%;
+    height: 100%;
+    background-color: beige;
+}
+
+
+
+/* -----------------------------------------------------*/
+
+
+.title {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+/* -----------------------------------------------------*/
+
+
+.desc ul {
+    list-style-type: square;
+}
+
+
+/* -----------------------------------------------------*/
+
+#abregu {
+    background-image: url(update_pics/abregu.jpg);
+    background-size: cover;
+}
+
+#bisping {
+    background-image: url(update_pics/bisping.jpg);
+    background-size: cover;
+}
+
+#prez {
+    background-image: url(update_pics/president.jpg);
+    background-size: cover;
+}
+
+
+/* -----------------------------------------------------*/
+
+#you {
+    font-size: 19px;
+}
+
+.desc li {
+    margin-bottom: .5em;
+}
