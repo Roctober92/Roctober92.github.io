@@ -366,3 +366,16 @@ arron.onclick = function () {
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
 };
+
+var maxi = document.getElementById('maxi');
+maxi.style.transition = "transform .5s";
+$(maxi).hover(function(){
+    $(this).css({transform: 'scale(1.1)'});
+}, function(){
+    $(this).css({transform: 'scale(1)'});
+});
+maxi.onclick = function () {
+    document.body.style.backgroundImage = "url('directory/martinez.png')";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundAttachment = "fixed";
+};
