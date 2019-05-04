@@ -1,0 +1,41 @@
+.top {
+    display: flex;
+    height: 300px;
+
+}
+#title {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    width: 100%;
+    height: 33%;
+}
+.name p {
+    text-align: center;
+    margin: auto;
+    margin-top: .6em;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+#ntop p{
+    margin-right: 4em;
+}
+#nbottom p{
+    margin-left: 4em;
+}
+
+#left {
+    background-image: url(pics/food.jpg);
+    width: 33%;
+    background-size: cover;
+
+}
+#title {
+    width: 33%;
+}
+#right {
+    background-image: url(pics/mate.jpg);
+    width: 33%;
+    background-size: cover;
+}
