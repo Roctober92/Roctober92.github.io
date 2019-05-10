@@ -1,0 +1,19 @@
+header h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 90px;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+}
+
+.video {
+    border: 3px solid black;
+    height: 400px;
+    width: 700px;
+}
+
+.vid_container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
