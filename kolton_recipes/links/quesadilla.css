@@ -12,10 +12,18 @@ header h1 {
 
 }
 
+
+/* Video */
 .video {
     border: 3px solid black;
     height: 400px;
     width: 700px;
+}
+
+.video p {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
 }
 
 .vid_container {
@@ -23,6 +31,7 @@ header h1 {
     align-content: center;
     justify-content: space-around;
 }
+
 
 /* Page title and home link pic*/
 header h1 {
