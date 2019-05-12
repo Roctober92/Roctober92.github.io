@@ -17,3 +17,39 @@ header h1 {
     align-content: center;
     justify-content: space-around;
 }
+
+/* Organizing two main text boxes*/
+
+.words_container {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100;
+}
+
+
+/* Organizing between title and descriptions*/
+
+.words_box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    border: 5px dotted black;
+}
+
+.bar {
+    border: 3px solid black;
+    width: 100%;
+    height: 1px;
+}
+
+/* Titles*/
+
+.title p {
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+}
