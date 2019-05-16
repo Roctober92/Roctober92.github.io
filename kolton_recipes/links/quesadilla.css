@@ -58,10 +58,7 @@ img {
 /* Organizing between title and descriptions*/
 
 .words_box {
-    display: flex;
-    flex-direction: column;
     width: 40%;
-    justify-content: space-around;
 }
 
 .bar {
