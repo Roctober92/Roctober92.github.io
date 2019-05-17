@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
-
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 
 header h1 {
     text-align: center;
@@ -45,6 +45,19 @@ img {
 #home:hover {
     transform: scale(1.3);
 }
+
+
+/* The note about side*/
+.note {
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+
 
 /* Organizing two main text boxes*/
 
