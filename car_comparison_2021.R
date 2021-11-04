@@ -124,7 +124,7 @@ all_prices %>%
   mutate(car = ifelse(!is.na(mpg), str_c(car, mpg, sep = ' - '), car)) %>% 
   ggplot(aes(x = car, y = cost, color = as.factor(energy_price))) + geom_point(size = 3) + facet_wrap(~mileage, nrow = 3)
 
-#####################
+w#####################
 # loan analysis
 #####################
 
